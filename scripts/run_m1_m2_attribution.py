@@ -327,17 +327,17 @@ def _write_m3_report(report: Dict[str, object]) -> Tuple[Path, Path]:
     out_md.write_text("\n".join(md_lines), encoding="utf-8")
 
     analysis = [
-        "# M1M2M3 运行分析（M3 阶段）",
+        "# M1/M2/M3 run notes (M3 stage)",
         "",
         f"- C1 intent_accuracy: {c1['intent_accuracy']}",
         f"- C3 intent_accuracy: {c3['intent_accuracy']}",
         f"- C3 profile_aligned_accuracy: {c3.get('profile_aligned_accuracy')} (n={c3.get('profile_aligned_n')})",
         "",
-        "## 结论（pilot）",
-        "- C3 在 PipelineConfig(enable_m3=True) 下自动串联 M1→M3→M2。",
-        "- 样本量较小，结论仅供阶段验收；扩样后重跑 attribution。",
+        "## Pilot notes",
+        "- C3 chains M1 → M3 → M2 when PipelineConfig(enable_m3=True).",
+        "- Sample size is small; rerun attribution before treating this as a final result.",
     ]
-    (out_dir / "m3_analysis_cn.md").write_text("\n".join(analysis), encoding="utf-8")
+    (out_dir / "m3_analysis.md").write_text("\n".join(analysis), encoding="utf-8")
     return out_json, out_md
 
 
