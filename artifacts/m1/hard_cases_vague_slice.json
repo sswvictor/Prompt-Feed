@@ -1,0 +1,187 @@
+{
+  "dataset": "data\\annotations\\m1_hard_cases.json",
+  "pipeline": {
+    "dataset": "data\\annotations\\m1_hard_cases.json",
+    "mode": "pipeline",
+    "intent_accuracy": 0.5882,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.0,
+    "slot_f1_temporal": 0.4118,
+    "slot_f1_urgency": 0.3529,
+    "slot_f1_location": 0.4706,
+    "slot_f1_macro": 0.4118,
+    "confusion_matrix": {
+      "wellness": {
+        "wellness": 4,
+        "beauty": 2
+      },
+      "fitness": {
+        "wellness": 1,
+        "fitness": 2
+      },
+      "beauty": {
+        "beauty": 3
+      },
+      "medical": {
+        "medical": 1,
+        "wellness": 1,
+        "fitness": 1
+      },
+      "ambiguous": {
+        "wellness": 1
+      },
+      "other": {
+        "beauty": 1
+      }
+    },
+    "error_cases": [
+      {
+        "text": "Need a place now but also this weekend, close to office",
+        "gold_service_category": "fitness",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "I am exhausted and need something quick near me right now",
+        "gold_service_category": "wellness",
+        "pred_service_category": "beauty"
+      },
+      {
+        "text": "Medical or wellness, not sure, but I need help now",
+        "gold_service_category": "medical",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "Looking for any center nearby for health check tomorrow morning",
+        "gold_service_category": "medical",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "Ambiguous: Medical or wellness, not sure, but I need help now",
+        "gold_service_category": "ambiguous",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "Need help now but also not urgent this weekend somehow",
+        "gold_service_category": "wellness",
+        "pred_service_category": "beauty"
+      },
+      {
+        "text": "Any quick service nearby, I'm not sure what I need",
+        "gold_service_category": "other",
+        "pred_service_category": "beauty"
+      }
+    ],
+    "by_ambiguity_bucket": {
+      "high": {
+        "count": 14,
+        "intent_accuracy": 0.5714,
+        "ambiguous_pred_rate": 0.0
+      },
+      "low": {
+        "count": 3,
+        "intent_accuracy": 0.6667,
+        "ambiguous_pred_rate": 0.0
+      }
+    }
+  },
+  "llm": {
+    "dataset": "data\\annotations\\m1_hard_cases.json",
+    "mode": "llm",
+    "intent_accuracy": 0.4118,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.0,
+    "slot_f1_temporal": 0.0588,
+    "slot_f1_urgency": 0.1176,
+    "slot_f1_location": 0.2941,
+    "slot_f1_macro": 0.1569,
+    "confusion_matrix": {
+      "wellness": {
+        "other": 4,
+        "wellness": 1,
+        "fitness": 1
+      },
+      "fitness": {
+        "other": 2,
+        "fitness": 1
+      },
+      "beauty": {
+        "other": 1,
+        "beauty": 2
+      },
+      "medical": {
+        "medical": 2,
+        "other": 1
+      },
+      "ambiguous": {
+        "medical": 1
+      },
+      "other": {
+        "other": 1
+      }
+    },
+    "error_cases": [
+      {
+        "text": "I don't know, maybe something for body and mood, tonight maybe, not too far",
+        "gold_service_category": "wellness",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "Need a place now but also this weekend, close to office",
+        "gold_service_category": "fitness",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "Skin issue but maybe just normal care tomorrow",
+        "gold_service_category": "beauty",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "I am exhausted and need something quick near me right now",
+        "gold_service_category": "wellness",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "Looking for any center nearby for health check tomorrow morning",
+        "gold_service_category": "medical",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "Ambiguous: Medical or wellness, not sure, but I need help now",
+        "gold_service_category": "ambiguous",
+        "pred_service_category": "medical"
+      },
+      {
+        "text": "I don't know, fitness or spa, maybe tonight or weekend",
+        "gold_service_category": "wellness",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "Something to unwind, not sure what, near me whenever",
+        "gold_service_category": "wellness",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "Gym or yoga or massage, I can't decide, asap",
+        "gold_service_category": "fitness",
+        "pred_service_category": "other"
+      },
+      {
+        "text": "Need help now but also not urgent this weekend somehow",
+        "gold_service_category": "wellness",
+        "pred_service_category": "other"
+      }
+    ],
+    "by_ambiguity_bucket": {
+      "high": {
+        "count": 14,
+        "intent_accuracy": 0.3571,
+        "ambiguous_pred_rate": 0.0
+      },
+      "low": {
+        "count": 3,
+        "intent_accuracy": 0.6667,
+        "ambiguous_pred_rate": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "session_date": "2026-07-11",
+  "day": 5,
+  "output": "data/annotations/m1_train_composite.json",
+  "total": 2074,
+  "per_class": {
+    "beauty": 400,
+    "dining": 400,
+    "fitness": 252,
+    "medical": 400,
+    "travel": 400,
+    "wellness": 222
+  },
+  "per_class_by_source_balanced": {
+    "beauty": { "in_domain": 50, "sgd": 350 },
+    "dining": { "augment": 80, "snips": 320 },
+    "fitness": { "in_domain": 50, "augment": 110, "lucid": 92 },
+    "medical": { "in_domain": 50, "hasd": 350 },
+    "travel": { "atis": 400 },
+    "wellness": { "in_domain": 50, "augment": 52, "lucid": 116, "sgd": 4 }
+  },
+  "balance_strategy": "cap",
+  "per_class_cap": 400,
+  "augmentation": {
+    "scripts": [
+      "scripts/augment_fitness_wellness.py",
+      "scripts/augment_dining_colloquial.py"
+    ],
+    "method": "seeded template + vague hard-case-style paraphrase",
+    "fitness_target": 120,
+    "wellness_target": 60,
+    "dining_colloquial_target": 80,
+    "integrated_in": "scripts/build_m1_composite_train.py"
+  },
+  "sources": {
+    "in_domain": 200,
+    "augment_raw": 260,
+    "augment_note": "fitness=120,wellness=60,dining_colloquial=80",
+    "lucid_raw": 424,
+    "snips_raw": 1973,
+    "atis_raw": 4978,
+    "hasd_raw": 1520,
+    "sgd_raw": 142640,
+    "lucid_note": "local:data/external/lucid/ml-lucid-datagen-main/lucid_v1.0/LUCID_data.json",
+    "snips_note": "hf_failed:HfUriError;fallback=github",
+    "atis_note": "hf:tuetschek/atis",
+    "hasd_note": "hf:andreaceto/hasd",
+    "sgd_note": "github:dstc8-schema-guided-dialogue files=181"
+  },
+  "label_priors_after_train": {
+    "medical": 0.190,
+    "travel": 0.196,
+    "beauty": 0.188,
+    "wellness": 0.112,
+    "fitness": 0.125,
+    "dining": 0.189
+  },
+  "eval_snapshot": {
+    "in_domain_m1_train_accuracy": 0.915,
+    "composite_all_accuracy": 0.9744,
+    "hard_cases_pipeline_accuracy": 0.5882,
+    "hard_cases_high_bucket_accuracy": 0.5,
+    "atis_travel_subset_accuracy": 0.9972,
+    "pytest_passed": 69,
+    "scenario_eval_C0_gold_accuracy": 0.6429,
+    "scenario_eval_C0_resolution_rate": 0.7143,
+    "scenario_eval_C1_gold_accuracy": 0.5,
+    "scenario_eval_C1_resolution_rate": 0.7143,
+    "scenario_eval_C1_clarify_rate": 0.8857,
+    "scenario_eval_mean_entropy_drop": 0.080178,
+    "dining_vague_C0_gold_match": true,
+    "dining_vague_C1_gold_match": false
+  },
+  "demo_smoke": {
+    "method": "pipeline replay of FF_SCENARIOS (3 scenarios)",
+    "scenarios_tested": ["vague_wellness", "conflict_time", "clear_fitness"],
+    "clear_fitness_converged": true,
+    "vague_wellness_final_category": "wellness",
+    "issues": [
+      "Streamlit UI not launched (no display); pipeline path verified"
+    ]
+  },
+  "blockers": [],
+  "doc_trail": "docs/session_log_2026-07-11_day5.md"
+}

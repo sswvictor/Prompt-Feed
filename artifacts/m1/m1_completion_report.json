@@ -1,0 +1,116 @@
+{
+  "pipeline_normal": {
+    "intent_accuracy": 0.8,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.0,
+    "slot_f1_temporal": 0.2,
+    "slot_f1_urgency": 0.0,
+    "slot_f1_location": 0.2,
+    "slot_f1_macro": 0.1333,
+    "confusion_matrix": {
+      "wellness": {
+        "wellness": 1
+      },
+      "fitness": {
+        "fitness": 1
+      },
+      "beauty": {
+        "beauty": 1
+      },
+      "medical": {
+        "medical": 1
+      },
+      "ambiguous": {
+        "wellness": 1
+      }
+    }
+  },
+  "llm_normal": {
+    "intent_accuracy": 1.0,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.2,
+    "slot_f1_temporal": 0.2,
+    "slot_f1_urgency": 0.0,
+    "slot_f1_location": 0.2,
+    "slot_f1_macro": 0.1333,
+    "confusion_matrix": {
+      "wellness": {
+        "wellness": 1
+      },
+      "fitness": {
+        "fitness": 1
+      },
+      "beauty": {
+        "beauty": 1
+      },
+      "medical": {
+        "medical": 1
+      },
+      "ambiguous": {
+        "ambiguous": 1
+      }
+    }
+  },
+  "pipeline_hard": {
+    "intent_accuracy": 0.8,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.0,
+    "slot_f1_temporal": 0.5,
+    "slot_f1_urgency": 0.4,
+    "slot_f1_location": 0.6,
+    "slot_f1_macro": 0.5,
+    "confusion_matrix": {
+      "wellness": {
+        "wellness": 3
+      },
+      "fitness": {
+        "wellness": 1,
+        "fitness": 1
+      },
+      "beauty": {
+        "beauty": 2
+      },
+      "medical": {
+        "medical": 2,
+        "wellness": 1
+      }
+    }
+  },
+  "llm_hard": {
+    "intent_accuracy": 0.5,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.5,
+    "slot_f1_temporal": 0.1,
+    "slot_f1_urgency": 0.1,
+    "slot_f1_location": 0.3,
+    "slot_f1_macro": 0.1667,
+    "confusion_matrix": {
+      "wellness": {
+        "ambiguous": 2,
+        "wellness": 1
+      },
+      "fitness": {
+        "ambiguous": 1,
+        "fitness": 1
+      },
+      "beauty": {
+        "ambiguous": 1,
+        "beauty": 1
+      },
+      "medical": {
+        "medical": 2,
+        "ambiguous": 1
+      }
+    }
+  },
+  "latency_pipeline": {
+    "mean_ms": 0.006373335296909015,
+    "p50_ms": 0.005700043402612209,
+    "p95_ms": 0.006599992047995329
+  },
+  "latency_llm": {
+    "mean_ms": 0.00212666733811299,
+    "p50_ms": 0.001900014467537403,
+    "p95_ms": 0.002200016751885414
+  }
+}

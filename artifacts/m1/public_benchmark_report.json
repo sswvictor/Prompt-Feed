@@ -1,0 +1,133 @@
+{
+  "benchmark": "data\\benchmarks\\atis_intent_mapped.json",
+  "mode": "pipeline",
+  "total": 4671,
+  "intent_accuracy": 0.9968,
+  "atis_travel_subset_accuracy": 0.997,
+  "in_domain_subset_accuracy": 0.8,
+  "confusion_matrix": {
+    "travel": {
+      "travel": 4652,
+      "beauty": 8,
+      "dining": 4,
+      "fitness": 2
+    },
+    "fitness": {
+      "fitness": 1
+    },
+    "wellness": {
+      "wellness": 1
+    },
+    "beauty": {
+      "beauty": 1
+    },
+    "medical": {
+      "medical": 1
+    },
+    "ambiguous": {
+      "wellness": 1
+    }
+  },
+  "by_source_intent": {
+    "abbreviation": {
+      "count": 110,
+      "accuracy": 0.9818
+    },
+    "aircraft": {
+      "count": 80,
+      "accuracy": 1.0
+    },
+    "aircraft+flight+flight_no": {
+      "count": 1,
+      "accuracy": 1.0
+    },
+    "airfare": {
+      "count": 406,
+      "accuracy": 1.0
+    },
+    "airfare+flight_time": {
+      "count": 1,
+      "accuracy": 1.0
+    },
+    "airline": {
+      "count": 149,
+      "accuracy": 1.0
+    },
+    "airline+flight_no": {
+      "count": 2,
+      "accuracy": 1.0
+    },
+    "airport": {
+      "count": 20,
+      "accuracy": 1.0
+    },
+    "arrival_time": {
+      "count": 2,
+      "accuracy": 1.0
+    },
+    "capacity": {
+      "count": 18,
+      "accuracy": 0.8333
+    },
+    "cheapest": {
+      "count": 1,
+      "accuracy": 1.0
+    },
+    "city": {
+      "count": 20,
+      "accuracy": 0.9
+    },
+    "departure_time": {
+      "count": 2,
+      "accuracy": 1.0
+    },
+    "distance": {
+      "count": 22,
+      "accuracy": 1.0
+    },
+    "flight": {
+      "count": 3430,
+      "accuracy": 0.9997
+    },
+    "flight+airfare": {
+      "count": 17,
+      "accuracy": 1.0
+    },
+    "flight_no": {
+      "count": 14,
+      "accuracy": 1.0
+    },
+    "flight_time": {
+      "count": 52,
+      "accuracy": 1.0
+    },
+    "ground_fare": {
+      "count": 17,
+      "accuracy": 1.0
+    },
+    "ground_service": {
+      "count": 237,
+      "accuracy": 0.9747
+    },
+    "ground_service+ground_fare": {
+      "count": 1,
+      "accuracy": 1.0
+    },
+    "in_domain": {
+      "count": 5,
+      "accuracy": 0.8
+    },
+    "meal": {
+      "count": 8,
+      "accuracy": 1.0
+    },
+    "quantity": {
+      "count": 49,
+      "accuracy": 1.0
+    },
+    "restriction": {
+      "count": 7,
+      "accuracy": 1.0
+    }
+  }
+}

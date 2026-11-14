@@ -1,0 +1,1176 @@
+{
+  "before_created_at": "2026-08-01T00:09:09.912397+00:00",
+  "after_created_at": "2026-08-01T00:36:42.578509+00:00",
+  "before_freeze": {
+    "converge_threshold": 0.55,
+    "hypothesis_max_size": 120,
+    "extractor_mode": "pipeline",
+    "config_path": "config.yaml",
+    "m2": {
+      "slot_evidence_power": 0.3,
+      "belief_power_decay": 0.8,
+      "belief_recency_alpha": 0.7,
+      "prior_reinjection": 0.15,
+      "top1_suggest_threshold": 0.4,
+      "high_entropy_ratio": 0.99,
+      "clarify_budget": 1,
+      "enable_domain_guards": false,
+      "enable_m1_voting": true,
+      "guard_confidence_cap": 0.85,
+      "vote_recency_decay": 0.75,
+      "enable_conflict_dampen": false,
+      "conflict_dampen_factor": 0.65
+    },
+    "hypothesis_category_counts": {
+      "fitness": 20,
+      "wellness": 20,
+      "beauty": 20,
+      "medical": 20,
+      "dining": 20,
+      "travel": 20
+    },
+    "note": "Sidecar metrics only; generative LLM not required for Table B1.",
+    "memory_augmented_seed": "mild gold-aligned category_counts (>=3) per scenario user_id"
+  },
+  "after_freeze": {
+    "converge_threshold": 0.55,
+    "hypothesis_max_size": 120,
+    "extractor_mode": "pipeline",
+    "config_path": "config.yaml",
+    "m2": {
+      "slot_evidence_power": 0.3,
+      "belief_power_decay": 0.8,
+      "belief_recency_alpha": 0.7,
+      "prior_reinjection": 0.15,
+      "top1_suggest_threshold": 0.4,
+      "high_entropy_ratio": 0.99,
+      "clarify_budget": 1,
+      "enable_domain_guards": false,
+      "enable_m1_voting": true,
+      "guard_confidence_cap": 0.85,
+      "vote_recency_decay": 0.75,
+      "enable_conflict_dampen": false,
+      "conflict_dampen_factor": 0.65
+    },
+    "hypothesis_category_counts": {
+      "fitness": 20,
+      "wellness": 20,
+      "beauty": 20,
+      "medical": 20,
+      "dining": 20,
+      "travel": 20
+    },
+    "note": "Sidecar metrics only; generative LLM not required for Table B1.",
+    "memory_augmented_seed": "mild gold-aligned category_counts (>=3) per scenario user_id"
+  },
+  "table_b1_delta": {
+    "LLM-only": {
+      "category_task_match": {
+        "before": 0.8571,
+        "after": 0.8095,
+        "delta": -0.0476
+      },
+      "last_m1_match_gold": {
+        "before": null,
+        "after": null,
+        "delta": null
+      },
+      "belief_matches_last_m1": {
+        "before": null,
+        "after": null,
+        "delta": null
+      },
+      "clarify_rate": {
+        "before": 0.1714,
+        "after": 0.1609,
+        "delta": -0.0105
+      },
+      "mean_entropy_drop": {
+        "before": 0.068827,
+        "after": 0.033537,
+        "delta": -0.0353
+      },
+      "mean_category_entropy_drop": {
+        "before": 0.0,
+        "after": 0.0,
+        "delta": 0.0
+      },
+      "resolution_rate": {
+        "before": 0.6429,
+        "after": 0.619,
+        "delta": -0.0239
+      },
+      "privacy_audit_pass_rate": {
+        "before": 1.0,
+        "after": 1.0,
+        "delta": 0.0
+      }
+    },
+    "Intention-conditioned": {
+      "category_task_match": {
+        "before": 0.8571,
+        "after": 0.7619,
+        "delta": -0.0952
+      },
+      "last_m1_match_gold": {
+        "before": 0.8571,
+        "after": 0.8095,
+        "delta": -0.0476
+      },
+      "belief_matches_last_m1": {
+        "before": 1.0,
+        "after": 0.9286,
+        "delta": -0.0714
+      },
+      "clarify_rate": {
+        "before": 0.2571,
+        "after": 0.3103,
+        "delta": 0.0532
+      },
+      "mean_entropy_drop": {
+        "before": 0.410523,
+        "after": 0.250512,
+        "delta": -0.16
+      },
+      "mean_category_entropy_drop": {
+        "before": 0.410252,
+        "after": 0.249618,
+        "delta": -0.1606
+      },
+      "resolution_rate": {
+        "before": 0.7143,
+        "after": 0.6667,
+        "delta": -0.0476
+      },
+      "privacy_audit_pass_rate": {
+        "before": 1.0,
+        "after": 1.0,
+        "delta": 0.0
+      }
+    },
+    "Memory-augmented": {
+      "category_task_match": {
+        "before": 0.9286,
+        "after": 0.8333,
+        "delta": -0.0953
+      },
+      "last_m1_match_gold": {
+        "before": 0.8571,
+        "after": 0.8095,
+        "delta": -0.0476
+      },
+      "belief_matches_last_m1": {
+        "before": 0.9286,
+        "after": 0.9048,
+        "delta": -0.0238
+      },
+      "clarify_rate": {
+        "before": 0.1714,
+        "after": 0.2299,
+        "delta": 0.0585
+      },
+      "mean_entropy_drop": {
+        "before": 0.381309,
+        "after": 0.21938,
+        "delta": -0.1619
+      },
+      "mean_category_entropy_drop": {
+        "before": 0.397861,
+        "after": 0.231555,
+        "delta": -0.1663
+      },
+      "resolution_rate": {
+        "before": 0.8571,
+        "after": 0.7381,
+        "delta": -0.119
+      },
+      "privacy_audit_pass_rate": {
+        "before": 1.0,
+        "after": 1.0,
+        "delta": 0.0
+      }
+    }
+  },
+  "nail_scenarios": [
+    {
+      "scenario_id": "dining_vague_then_specific",
+      "Intention-conditioned": {
+        "before": {
+          "gold": "dining",
+          "pred": "dining",
+          "match": true,
+          "last_m1": "dining",
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "dining",
+          "pred": "dining",
+          "match": true,
+          "last_m1": "dining",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        }
+      },
+      "Memory-augmented": {
+        "before": {
+          "gold": "dining",
+          "pred": "dining",
+          "match": true,
+          "last_m1": "dining",
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "dining",
+          "pred": "dining",
+          "match": true,
+          "last_m1": "dining",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "travel_flight_vague",
+      "Intention-conditioned": {
+        "before": {
+          "gold": "travel",
+          "pred": "travel",
+          "match": true,
+          "last_m1": "travel",
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "travel",
+          "pred": "travel",
+          "match": true,
+          "last_m1": "travel",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        }
+      },
+      "Memory-augmented": {
+        "before": {
+          "gold": "travel",
+          "pred": "travel",
+          "match": true,
+          "last_m1": "travel",
+          "policy": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "travel",
+          "pred": "travel",
+          "match": true,
+          "last_m1": "travel",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "medical_wellness_checkup",
+      "Intention-conditioned": {
+        "before": {
+          "gold": "medical",
+          "pred": "medical",
+          "match": true,
+          "last_m1": "medical",
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "medical",
+          "pred": "medical",
+          "match": true,
+          "last_m1": "medical",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        }
+      },
+      "Memory-augmented": {
+        "before": {
+          "gold": "medical",
+          "pred": "medical",
+          "match": true,
+          "last_m1": "medical",
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "medical",
+          "pred": "medical",
+          "match": true,
+          "last_m1": "medical",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "vague_wellness_weekend",
+      "Intention-conditioned": {
+        "before": {
+          "gold": "wellness",
+          "pred": "dining",
+          "match": false,
+          "last_m1": "dining",
+          "policy": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "wellness",
+          "pred": "dining",
+          "match": false,
+          "last_m1": "dining",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ]
+        }
+      },
+      "Memory-augmented": {
+        "before": {
+          "gold": "wellness",
+          "pred": "dining",
+          "match": false,
+          "last_m1": "dining",
+          "policy": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ]
+        },
+        "after": {
+          "gold": "wellness",
+          "pred": "dining",
+          "match": false,
+          "last_m1": "dining",
+          "belief_matches_last_m1": true,
+          "policy": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ]
+        }
+      }
+    }
+  ],
+  "intention_conditioned_scenario_flips": [
+    {
+      "scenario_id": "beauty_brows_lash",
+      "gold": "beauty",
+      "before_pred": null,
+      "after_pred": "beauty",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "beauty",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "beauty_facial_clear",
+      "gold": "beauty",
+      "before_pred": null,
+      "after_pred": "beauty",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "beauty",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "beauty_makeup_event",
+      "gold": "beauty",
+      "before_pred": null,
+      "after_pred": "beauty",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "beauty",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "beauty_nail_weekend",
+      "gold": "beauty",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "beauty_salon_hair",
+      "gold": "beauty",
+      "before_pred": null,
+      "after_pred": "beauty",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "beauty",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "beauty_skin_uncertain",
+      "gold": "beauty",
+      "before_pred": "beauty",
+      "after_pred": "beauty",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "beauty",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "beauty_vs_medical_skin",
+      "gold": "beauty",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "clear_fitness_single",
+      "gold": "fitness",
+      "before_pred": "fitness",
+      "after_pred": "fitness",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": 0,
+      "after_clarify": 0,
+      "before_policy": [
+        "suggest"
+      ],
+      "after_policy": [
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "conflict_time_fitness",
+      "gold": "fitness",
+      "before_pred": "fitness",
+      "after_pred": "fitness",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "dining_brunch_weekend",
+      "gold": "dining",
+      "before_pred": null,
+      "after_pred": "wellness",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": false,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "dining_budget_lunch",
+      "gold": "dining",
+      "before_pred": "dining",
+      "after_pred": "dining",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "suggest",
+        "clarify"
+      ],
+      "after_policy": [
+        "suggest",
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "dining_dinner_date",
+      "gold": "dining",
+      "before_pred": null,
+      "after_pred": "dining",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "dining_hungry_takeout",
+      "gold": "dining",
+      "before_pred": null,
+      "after_pred": "dining",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "dining_ramen_night",
+      "gold": "dining",
+      "before_pred": null,
+      "after_pred": "dining",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "dining_vague_then_specific",
+      "gold": "dining",
+      "before_pred": "dining",
+      "after_pred": "dining",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "dining_vs_wellness_food",
+      "gold": "dining",
+      "before_pred": null,
+      "after_pred": "wellness",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": false,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "exhausted_wellness_urgent",
+      "gold": "wellness",
+      "before_pred": "fitness",
+      "after_pred": "fitness",
+      "before_match": false,
+      "after_match": false,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "fitness_hiit_evening",
+      "gold": "fitness",
+      "before_pred": null,
+      "after_pred": "fitness",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "fitness_pt_session",
+      "gold": "fitness",
+      "before_pred": null,
+      "after_pred": "fitness",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "fitness_strength_morning",
+      "gold": "fitness",
+      "before_pred": null,
+      "after_pred": "fitness",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "fitness_wellness_yoga_spa",
+      "gold": "fitness",
+      "before_pred": "fitness",
+      "after_pred": "fitness",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "gym_yoga_massage_conflict",
+      "gold": "fitness",
+      "before_pred": "fitness",
+      "after_pred": "fitness",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": 0,
+      "after_clarify": 0,
+      "before_policy": [
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "medical_gp_followup",
+      "gold": "medical",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "medical_lab_bloodwork",
+      "gold": "medical",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "medical_specialist_referral",
+      "gold": "medical",
+      "before_pred": null,
+      "after_pred": "wellness",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "wellness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "medical_urgent_care",
+      "gold": "medical",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "medical_vaccination",
+      "gold": "medical",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "medical_wellness_ambiguous",
+      "gold": "medical",
+      "before_pred": "medical",
+      "after_pred": "medical",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "suggest",
+        "clarify",
+        "suggest"
+      ],
+      "after_policy": [
+        "suggest",
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "medical_wellness_checkup",
+      "gold": "medical",
+      "before_pred": "medical",
+      "after_pred": "medical",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "premium_spa_afternoon",
+      "gold": "wellness",
+      "before_pred": "wellness",
+      "after_pred": "wellness",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "wellness",
+      "after_belief_eq_m1": true,
+      "before_clarify": 0,
+      "after_clarify": 0,
+      "before_policy": [
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "travel_airport_transfer",
+      "gold": "travel",
+      "before_pred": null,
+      "after_pred": "travel",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "travel",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "travel_flight_vague",
+      "gold": "travel",
+      "before_pred": "travel",
+      "after_pred": "travel",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "travel",
+      "after_belief_eq_m1": true,
+      "before_clarify": 1,
+      "after_clarify": 1,
+      "before_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "clarify",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "travel_hotel_combo",
+      "gold": "travel",
+      "before_pred": "travel",
+      "after_pred": "travel",
+      "before_match": true,
+      "after_match": true,
+      "after_last_m1": "travel",
+      "after_belief_eq_m1": true,
+      "before_clarify": 0,
+      "after_clarify": 0,
+      "before_policy": [
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "travel_hotel_only",
+      "gold": "travel",
+      "before_pred": null,
+      "after_pred": "travel",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "travel",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "travel_vacation_vague",
+      "gold": "travel",
+      "before_pred": null,
+      "after_pred": "travel",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "travel",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "travel_vs_dining_trip",
+      "gold": "travel",
+      "before_pred": null,
+      "after_pred": "medical",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "medical",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "travel_weekend_getaway",
+      "gold": "travel",
+      "before_pred": null,
+      "after_pred": "fitness",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "travel",
+      "after_belief_eq_m1": false,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "clarify"
+      ]
+    },
+    {
+      "scenario_id": "vague_wellness_weekend",
+      "gold": "wellness",
+      "before_pred": "dining",
+      "after_pred": "dining",
+      "before_match": false,
+      "after_match": false,
+      "after_last_m1": "dining",
+      "after_belief_eq_m1": true,
+      "before_clarify": 0,
+      "after_clarify": 0,
+      "before_policy": [
+        "suggest",
+        "suggest",
+        "suggest"
+      ],
+      "after_policy": [
+        "suggest",
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "wellness_hot_stone",
+      "gold": "wellness",
+      "before_pred": null,
+      "after_pred": "wellness",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "wellness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "wellness_massage_clear",
+      "gold": "wellness",
+      "before_pred": null,
+      "after_pred": "wellness",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "wellness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "wellness_sauna_relax",
+      "gold": "wellness",
+      "before_pred": null,
+      "after_pred": "fitness",
+      "before_match": null,
+      "after_match": false,
+      "after_last_m1": "fitness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 0,
+      "before_policy": null,
+      "after_policy": [
+        "suggest",
+        "suggest"
+      ]
+    },
+    {
+      "scenario_id": "wellness_vs_fitness_recover",
+      "gold": "wellness",
+      "before_pred": null,
+      "after_pred": "wellness",
+      "before_match": null,
+      "after_match": true,
+      "after_last_m1": "wellness",
+      "after_belief_eq_m1": true,
+      "before_clarify": null,
+      "after_clarify": 1,
+      "before_policy": null,
+      "after_policy": [
+        "clarify",
+        "suggest"
+      ]
+    }
+  ]
+}

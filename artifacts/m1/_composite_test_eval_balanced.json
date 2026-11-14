@@ -1,0 +1,2105 @@
+[
+  {
+    "text": "I like a salon in San Jose.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to reserve two seats to eat at in Salina, Alabama.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to find a nice salon in Foster City.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "i 'm interested in round trip flights from boston to washington",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "could you show me all weekday flights from phoenix to denver",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Is the salon unisex? Where is it located?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find city center beauty clinic tomorrow evening",
+    "service_category": "beauty",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book weekend recovery massage in downtown",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Taylor's availability for a internship interview this week.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to go to the popular pub at ten PM",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "now cancel my appointment regarding my project with Ms. Mitchell .",
+    "service_category": "medical",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to talk through Messina .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule budget beauty session this weekend",
+    "service_category": "beauty",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Lets take me, cherry and tracie to a Noyack bar",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Could you help me find a unisex salon in Morgan hill too?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for Red Square on aug. the 9th",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for six at Bear Hotel in 5 seconds",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need help finding a salon please.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Get rid _ appointment #261071 .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "released on July 21st.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book regular medical follow-up this weekend afternoon",
+    "service_category": "medical",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a restaurant for nine with wifi",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a quick recovery session after work",
+    "service_category": "wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick",
+      "relaxing"
+    ]
+  },
+  {
+    "text": "are there any flights from denver to pittsburgh with stops in atlanta",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what do you have from philadelphia to dallas on saturday morning",
+    "service_category": "travel",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make reservations for me at a taverna in Hong Kong",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "okay i want a flight originating in denver going to pittsburgh",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for 4 in California",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "tell me about flights on american airlines from dallas to san francisco on june twenty ninth",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what are the cheapest flights from denver to pittsburgh that stop in atlanta",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot at the top-rated pub in Garner",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a health consultation this morning",
+    "service_category": "medical",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "each lab session with Morgan , booking #081504 , needs to be cancelled.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "The meeting #894207 is ;",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me the continental flights leaving chicago early saturday morning",
+    "service_category": "travel",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a salon in Concord.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a ricevimento studenti with Dott.ssa Valentina Bellini as soon is possible.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a different time for my meeting . Dr. Wilson ?",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "which delta flights depart from san francisco heading toward boston after 12 noon",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I am looking for a salon in Redwood City.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Yes that is fine. Is it a Unisex salon?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "we would like to reschedule.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "A salon in berkeley.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to schedule my thesis defense with Donati.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Will you help me find a salon to go to?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what ground transportation is available in charlotte",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "list all flights leaving denver on continental on sunday after 2134",
+    "service_category": "travel",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot at a sushis diner in Minnesota",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i am looking for a salon in san francisco",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a restaurant one minute from now that's highly rated",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you get me seating for a party of 4",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book me a restaurant for 4 members at Beaman Federated States Of Micronesia in one minute",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you locate me a unisex salon please?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need weekend salon slot nearby",
+    "service_category": "beauty",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd need to set a meeting time.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a close by brasserie in NC.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "This is a cancellation for my appointment with Green.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need beauty treatment nearby",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me book a campus tour with Evans.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to see Dr. Wilson .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "That is good. Can you tell me the average rating of this salon?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need a table in Serbia and Montenegro on Apr. 16 for a party of seven",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me the flights from newark new jersey to ontario international next saturday",
+    "service_category": "travel",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule spa appointment this weekend morning",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what are fare codes qw and qx",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like to book a flight for may twenty sixth going from tampa to milwaukee a direct flight if possible",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me all the flights out of boston today",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant for 2 at top-rated Hoonah TN",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like to see the flights available from pittsburgh to san francisco for monday",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Kenny Le Salon sounds good to me. I want to book an appointment for the 5th of March at 10:15 in the morning. See if that's open.",
+    "service_category": "beauty",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "List all files client call times.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Yes, that sounds good. I would like to book an appointment at the salon, please.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Cancel the link with Mancini regarding my thesis, ID #538465 .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for jasmine, jeannie and leta",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what flights are provided by delta airlines",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what flights are available between baltimore and boston on august twelfth",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any beauty salon in city center this afternoon",
+    "service_category": "beauty",
+    "temporal_preference": "afternoon",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like ta see Ms. Davis at a different time.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Could you find me a salon?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need affordable health check tomorrow",
+    "service_category": "medical",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "I want to take my bf and I to get some pain perdu from a food truck",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I will be free from my work on March 12th. Is there an open space at five pm?",
+    "service_category": "wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a weekend spa near me for relaxation",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "earliest flight on american airlines from washington dc to san francisco",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what does the fare code qx mean",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Availability of Leone for a ;",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me the airlines that fly from denver to san francisco",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to book an appointment at the salon that day",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is your least expensive fare between atlanta and boston",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what are the flights from cleveland to indianapolis on wednesday may twelfth on either twa delta or continental",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need urgent beauty touch-up now",
+    "service_category": "beauty",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Talk to Nowak.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to book the best southeastern brazilian food court",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book an appointment for me.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I might like to change my appointment, ID #693909 .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I have to cancel my meeting.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for 7 at a popular bistro distant from Kremmling",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book Coney I-Lander for 10 people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a unisex salon in San Jose, please.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to cancel my consultation with Mancini.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find nearby recovery therapy ASAP",
+    "service_category": "wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "i 'd like to see all the flights with their fares from denver to atlanta",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to find a unisex salon",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me all flights from pittsburgh to dallas",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to visit a salon in Napa.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Will you find me a different salon in Pleasant Hill.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "What's the salon rated on average?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "give me information on flights from atlanta to washington dc leaving on thursday before 0900",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Is it a unisex salon and where can I contact them?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "List all openings for a registration appointment.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I can't make it to call #017187 .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "That works for me. Book me an appointment at the salon.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "ground transportation from airport in boston to downtown boston",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table at a brasserie far from my Livonia Av.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book fast workout option for tomorrow",
+    "service_category": "fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "\\ appointment #729731 .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book preventive screening this weekend morning",
+    "service_category": "medical",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need an appointment for Baker .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "all flights from montreal less than 150 dollars",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a bar that serves italian-american cuisine neighboring Wilson Av for one person.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to cancel my appointment #795492 with Mr. Adams |",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need premium wellness service tonight downtown",
+    "service_category": "wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "premium"
+    ]
+  },
+  {
+    "text": "what flights takeoff and land at general mitchell international",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for my granddaughter and I at the restaurant.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need affordable spa now",
+    "service_category": "wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "I'm looking to bring shawn, marguerite and della to a place to eat at near Rwanda.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Do you know of a salon in the area?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need ta postpone my session.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "okay can you tell me the earliest flight which leaves from philadelphia to dallas",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need high-energy workout urgently",
+    "service_category": "fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "This is a cancellation request for combining psychologist appointment (ID: #169618 ) with Bianchi .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is the cheapest round trip fare from pittsburgh to atlanta",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a table for one at a popular churrascaria for three weeks from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at an outdoor restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is the ground transportation from boston airport to boston downtown",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to make an impression",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table at SkyCity in Salado for me and hannah",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please find me a different salon, unisex, located in San Fran.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for 10 at Shopsins in Denmark on St. Patrick's Day",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book intense workout tonight in downtown",
+    "service_category": "fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "book a spot for my kids and I at a restaurant with frybread",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book budget spa treatment this afternoon",
+    "service_category": "wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book the Bobcat Bite.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Do you think you could help me find a new salon to go to?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like an american flight from toronto to san diego with a stopover in denver please",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me the flights from boston to san francisco leaving after 4 pm on friday",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in Kamrar for midday.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i want the list of daily flights from milwaukee to st. louis",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a masala bar on march 6, 2034",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find an example for a dissertation defense with Evans .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i want to fly from boston to baltimore",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like to book a flight from chicago into seattle on june first on continental airlines",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Locate a bakery in Rockport, Federated States Of Micronesia that serves olives",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table at an oyster bar that serves apple butter on Jul. 10th, 2028",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to reschedule.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Good to know, I want to book an appointment at the salon you found at three pm that day.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book after-lunch wellness treatment tomorrow",
+    "service_category": "wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "please show me fares from denver to san francisco",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "List all available appointment holders",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Look in Vallejo for a salon instead.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is the cheapest fare between boston and san francisco",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "My lab demonstration , booking #113852 starting with Santini is cancelled.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you locate a salon for me please?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "find a flight between denver and oakland the flight should leave in the afternoon and arrive near 5 pm the flight should also be nonstop",
+    "service_category": "travel",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me the most expensive one way flight from detroit to westchester county",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me all flights arriving to denver from baltimore oakland and boston",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'm looking to book a reservation in Aruba at a place nearby.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "saturday flights from las vegas to montreal",
+    "service_category": "travel",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to get reservations at a place close by for 6 people to eat in SC.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need to book a reservtion for a restaurant in Maryland for me and my half sister",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a popular bar in Chowchilla",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "What is the address of the salon? And what is their average rating?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a bar in Bonaparte Palau.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me ground transportation information for dallas fort worth",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please remember my reservation.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a quick wellness session now",
+    "service_category": "wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Need a calming wellness session tomorrow morning",
+    "service_category": "wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "I need a unisex salon in Benicia.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need a soothing body treatment this evening",
+    "service_category": "wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Is it a unisex salon? Can you get me their contact number?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to take a party of five today to a place in Colorado",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is the cheapest one way flight from atlanta to boston",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in seven in Fort McKinley",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "is there a flight leaving at 1505 from pittsburgh to baltimore on july twenty fifth 1991",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Yes, that sounds good. Can you give me the phone number? Is the salon unisex?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Will you look for another salon? Search for a unisex one in Windsor.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what 's the cheapest one way flight from oakland to washington dc",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you find me a salon in San Jose?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "1 am writing to reschedule my mock interview .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table at a restaurant in the Cayman Islands two hundred ninety six days from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what are the nonstop flights on america west or southwest air from kansas city to burbank on saturday may twenty two",
+    "service_category": "travel",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is the earliest flight flying from pittsburgh to atlanta on july fifth",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for 6 in Pilot Mound Palau on feb. the twenty-fourth",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "start with Fiore for a thesis defense rehearsal .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to find a salon in Palo Alto.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant for 7 in MN",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Yes that sounds good. Is the salon unisex, and what is its average rating?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "recall my meeting with Dott. Paolo Farina .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find parameters for a pre-defense meeting .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "does continental airlines fly from denver to san francisco",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Thank you for all.Book an appointment at 1 in the afternoon at the salon that you just found on that day.",
+    "service_category": "beauty",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for 8 in China 16 hours ten minutes and one second from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Calendar dates next month.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to get reservations at a top-rated restaurant in Arkansas.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a far brasserie that serves minestrone in PA for a party of 9 in 15 minutes",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to find a salon",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "need a table at a restaurant serving foie gras on halloween for two at Northern Mariana Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find me a salon in Gilroy.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find premium massage tomorrow morning",
+    "service_category": "wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "premium"
+    ]
+  },
+  {
+    "text": "Make a reservation for four at a pub in Sugarville.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "can you tell me the latest evening flight from atlanta to denver on july seventh",
+    "service_category": "travel",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a reservation for 3 people",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Thank you, I am grateful. Now I would like to make a reservation for the appointment at the salon you found earlier for that day.",
+    "service_category": "beauty",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find affordable spa and massage this week",
+    "service_category": "wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "book a food court for 5 serving african food",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Medical test booking tomorrow nearby",
+    "service_category": "medical",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like a flight as early as possible in the day leaving from boston and to denver",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "This is cool. Is the salon is unisex?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need relaxing spa this weekend",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "round trip flights from salt lake city to cincinnati nonstop flights if possible",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need urgent beauty cleanup before event",
+    "service_category": "beauty",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Find a premium spa package for Saturday",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": [
+      "premium"
+    ]
+  },
+  {
+    "text": "book a table for 7 at a churrascaria that is highly rated",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to have a client call.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule : departmental meeting .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "my niece and I want to visit a food court in Callicoon, Tennessee",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need quick medical advice now",
+    "service_category": "medical",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Find quick stress therapy now downtown",
+    "service_category": "wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "which airlines fly from toronto to san diego and have a stopover in denver",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what flights are available from boston to washington dc late the twenty fifth or early the twenty sixth",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "is there ground transportation between airport and downtown in boston",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a southeastern restaurant in Heard Island and McDonald Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Move : #797665 from Tuesday to Thursday.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Yes, I need to reserve an appointment at that salon o 1st of March",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "please want to reschedule booking #355543 .",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I won't be able to attend, so please continue",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a stuffed peppers serving bakery for 9 at Woodsfield VI",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for 1 at Thomas Hynes House.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Hi, could you help me find a salon in Foster City please?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I just moved to South San Francisco and need to find a salon. Could you help me with that?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Yes. it is good. On 1st of March, book an appointment with the salon at 3 o\"clock in the afternoon.",
+    "service_category": "beauty",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need clinic check this weekend afternoon",
+    "service_category": "medical",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Availability closed Villa on July 22nd.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you tell me where it is and if it's a unisex salon?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please cancel my lab session appointment Friday.",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "please list the flights from denver to phoenix",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like to travel from indianapolis to houston",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find me a unisex salon in San Fran.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like a flight between denver and san francisco leaving from denver in the afternoon and arriving at 5 pm it must be a nonstop flight",
+    "service_category": "travel",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "No, I would like to book an appointment at the salon at 6 pm on that day.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "restaurant in Niger for my mom and I",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at Old Dutch in 15 seconds in Northern Mariana Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant for Jul. 27",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "i would like to know some information on flights leaving philadelphia arriving in pittsburgh in the afternoon",
+    "service_category": "travel",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "The salon is named Great Clips in Blackhawk, Danville.",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "sounds good. Please can you schedule an appointment with this salon?",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what airlines go from atlanta to baltimore",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  }
+]

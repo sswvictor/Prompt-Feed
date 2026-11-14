@@ -1,0 +1,28 @@
+{
+  "fitness": {
+    "in_domain": 50,
+    "augment": 110,
+    "lucid": 92
+  },
+  "wellness": {
+    "in_domain": 50,
+    "augment": 52,
+    "lucid": 116,
+    "sgd": 4
+  },
+  "beauty": {
+    "in_domain": 50,
+    "sgd": 350
+  },
+  "medical": {
+    "in_domain": 50,
+    "hasd": 350
+  },
+  "dining": {
+    "augment": 80,
+    "snips": 320
+  },
+  "travel": {
+    "atis": 400
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "dataset": {
+    "total_samples": 22,
+    "sources": [
+      "m1_eval_samples",
+      "m1_hard_cases"
+    ]
+  },
+  "conditions": {
+    "C0_llm_only": {
+      "condition": "C0",
+      "extractor_mode": "llm",
+      "use_m2": false,
+      "use_m3": false,
+      "n": 22,
+      "intent_accuracy": 0.5,
+      "bucket_accuracy": {
+        "high": 0.3333,
+        "medium": 1.0,
+        "low": 0.75
+      },
+      "m2_metrics": {
+        "belief_entropy_drop_mean": 0.0,
+        "belief_entropy_drop_std": 0.0,
+        "top1_prob_gain_mean": 0.0,
+        "candidate_reduction_rate_mean": 0.981481
+      },
+      "error_taxonomy": {
+        "m1_category_mismatch": 11,
+        "m2_not_recovered": 0,
+        "ambiguous_input_error": 2
+      },
+      "error_samples": [
+        {
+          "text": "I need something but not sure what",
+          "gold": "ambiguous",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        },
+        {
+          "text": "I don't know, maybe something for body and mood, tonight maybe, not too far",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        },
+        {
+          "text": "Need a place now but also this weekend, close to office",
+          "gold": "fitness",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        },
+        {
+          "text": "Skin issue but maybe just normal care tomorrow",
+          "gold": "beauty",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        },
+        {
+          "text": "I am exhausted and need something quick near me right now",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "low"
+        },
+        {
+          "text": "Looking for any center nearby for health check tomorrow morning",
+          "gold": "medical",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        },
+        {
+          "text": "Ambiguous: Medical or wellness, not sure, but I need help now",
+          "gold": "ambiguous",
+          "m1_pred": "medical",
+          "final_pred": "medical",
+          "bucket": "high"
+        },
+        {
+          "text": "I don't know, fitness or spa, maybe tonight or weekend",
+          "gold": "wellness",
+          "m1_pred": "fitness",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Something to unwind, not sure what, near me whenever",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        },
+        {
+          "text": "Gym or yoga or massage, I can't decide, asap",
+          "gold": "fitness",
+          "m1_pred": "other",
+          "final_pred": "other",
+          "bucket": "high"
+        }
+      ]
+    },
+    "C1_pipeline_m2": {
+      "condition": "C1",
+      "extractor_mode": "pipeline",
+      "use_m2": true,
+      "use_m3": false,
+      "n": 22,
+      "intent_accuracy": 0.6364,
+      "bucket_accuracy": {
+        "high": 0.5333,
+        "medium": 1.0,
+        "low": 0.75
+      },
+      "m2_metrics": {
+        "belief_entropy_drop_mean": 0.472264,
+        "belief_entropy_drop_std": 0.336212,
+        "top1_prob_gain_mean": 0.007259,
+        "candidate_reduction_rate_mean": 0.981481
+      },
+      "error_taxonomy": {
+        "m1_category_mismatch": 8,
+        "m2_not_recovered": 8,
+        "ambiguous_input_error": 2
+      },
+      "error_samples": [
+        {
+          "text": "I need something but not sure what",
+          "gold": "ambiguous",
+          "m1_pred": "wellness",
+          "final_pred": "wellness",
+          "bucket": "high"
+        },
+        {
+          "text": "Need a place now but also this weekend, close to office",
+          "gold": "fitness",
+          "m1_pred": "wellness",
+          "final_pred": "wellness",
+          "bucket": "high"
+        },
+        {
+          "text": "I am exhausted and need something quick near me right now",
+          "gold": "wellness",
+          "m1_pred": "beauty",
+          "final_pred": "beauty",
+          "bucket": "low"
+        },
+        {
+          "text": "Medical or wellness, not sure, but I need help now",
+          "gold": "medical",
+          "m1_pred": "wellness",
+          "final_pred": "wellness",
+          "bucket": "high"
+        },
+        {
+          "text": "Looking for any center nearby for health check tomorrow morning",
+          "gold": "medical",
+          "m1_pred": "fitness",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Ambiguous: Medical or wellness, not sure, but I need help now",
+          "gold": "ambiguous",
+          "m1_pred": "wellness",
+          "final_pred": "wellness",
+          "bucket": "high"
+        },
+        {
+          "text": "Need help now but also not urgent this weekend somehow",
+          "gold": "wellness",
+          "m1_pred": "beauty",
+          "final_pred": "beauty",
+          "bucket": "high"
+        },
+        {
+          "text": "Any quick service nearby, I'm not sure what I need",
+          "gold": "other",
+          "m1_pred": "beauty",
+          "final_pred": "fitness",
+          "bucket": "high"
+        }
+      ]
+    },
+    "C2_llm_m2": {
+      "condition": "C2",
+      "extractor_mode": "llm",
+      "use_m2": true,
+      "use_m3": false,
+      "n": 22,
+      "intent_accuracy": 0.5455,
+      "bucket_accuracy": {
+        "high": 0.4,
+        "medium": 1.0,
+        "low": 0.75
+      },
+      "m2_metrics": {
+        "belief_entropy_drop_mean": 0.168741,
+        "belief_entropy_drop_std": 0.138455,
+        "top1_prob_gain_mean": 0.003147,
+        "candidate_reduction_rate_mean": 0.981481
+      },
+      "error_taxonomy": {
+        "m1_category_mismatch": 9,
+        "m2_not_recovered": 9,
+        "ambiguous_input_error": 2
+      },
+      "error_samples": [
+        {
+          "text": "I need something but not sure what",
+          "gold": "ambiguous",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "I don't know, maybe something for body and mood, tonight maybe, not too far",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Skin issue but maybe just normal care tomorrow",
+          "gold": "beauty",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "I am exhausted and need something quick near me right now",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "low"
+        },
+        {
+          "text": "Looking for any center nearby for health check tomorrow morning",
+          "gold": "medical",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Ambiguous: Medical or wellness, not sure, but I need help now",
+          "gold": "ambiguous",
+          "m1_pred": "medical",
+          "final_pred": "medical",
+          "bucket": "high"
+        },
+        {
+          "text": "I don't know, fitness or spa, maybe tonight or weekend",
+          "gold": "wellness",
+          "m1_pred": "fitness",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Something to unwind, not sure what, near me whenever",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Need help now but also not urgent this weekend somehow",
+          "gold": "wellness",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        },
+        {
+          "text": "Any quick service nearby, I'm not sure what I need",
+          "gold": "other",
+          "m1_pred": "other",
+          "final_pred": "fitness",
+          "bucket": "high"
+        }
+      ]
+    },
+    "C3_pipeline_m2_m3": {
+      "condition": "C3",
+      "extractor_mode": "pipeline",
+      "use_m2": true,
+      "use_m3": true,
+      "n": 22,
+      "intent_accuracy": 0.8636,
+      "profile_aligned_accuracy": 1.0,
+      "profile_aligned_n": 19,
+      "bucket_accuracy": {
+        "high": 0.8,
+        "medium": 1.0,
+        "low": 1.0
+      },
+      "m2_metrics": {
+        "belief_entropy_drop_mean": 0.533946,
+        "belief_entropy_drop_std": 0.456239,
+        "top1_prob_gain_mean": 0.009149,
+        "candidate_reduction_rate_mean": 0.981481
+      },
+      "error_taxonomy": {
+        "m1_category_mismatch": 3,
+        "m2_not_recovered": 3,
+        "ambiguous_input_error": 2
+      },
+      "error_samples": [
+        {
+          "text": "I need something but not sure what",
+          "gold": "ambiguous",
+          "m1_pred": "wellness",
+          "final_pred": "fitness",
+          "user_id": "persona_mixed_explorer",
+          "bucket": "high"
+        },
+        {
+          "text": "Ambiguous: Medical or wellness, not sure, but I need help now",
+          "gold": "ambiguous",
+          "m1_pred": "wellness",
+          "final_pred": "medical",
+          "user_id": "persona_medical_cautious",
+          "bucket": "high"
+        },
+        {
+          "text": "Any quick service nearby, I'm not sure what I need",
+          "gold": "other",
+          "m1_pred": "beauty",
+          "final_pred": "fitness",
+          "user_id": "persona_cold_start",
+          "bucket": "high"
+        }
+      ]
+    }
+  }
+}

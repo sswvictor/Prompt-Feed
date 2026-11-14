@@ -1,0 +1,66 @@
+[
+  {
+    "user_id": "persona_fitness_heavy",
+    "category_counts": { "fitness": 28, "wellness": 4, "beauty": 1, "medical": 2 },
+    "temporal_counts": { "morning": 12, "evening": 10, "asap": 8, "weekend_anytime": 5 },
+    "price_tier_counts": { "budget": 15, "mid": 12, "premium": 3 },
+    "last_updated": 1743465600,
+    "total_sessions": 35
+  },
+  {
+    "user_id": "persona_wellness_weekend",
+    "category_counts": { "wellness": 22, "beauty": 6, "fitness": 3, "medical": 1 },
+    "temporal_counts": { "weekend_anytime": 18, "afternoon": 8, "evening": 6 },
+    "price_tier_counts": { "mid": 14, "premium": 10, "budget": 4 },
+    "last_updated": 1743379200,
+    "total_sessions": 32
+  },
+  {
+    "user_id": "persona_beauty_budget",
+    "category_counts": { "beauty": 20, "wellness": 5, "fitness": 2, "medical": 0 },
+    "temporal_counts": { "evening": 14, "afternoon": 9, "morning": 4 },
+    "price_tier_counts": { "budget": 22, "mid": 5, "premium": 1 },
+    "last_updated": 1743292800,
+    "total_sessions": 27
+  },
+  {
+    "user_id": "persona_medical_cautious",
+    "category_counts": { "medical": 16, "wellness": 8, "fitness": 2, "beauty": 1 },
+    "temporal_counts": { "morning": 12, "afternoon": 10, "weekend_anytime": 5 },
+    "price_tier_counts": { "mid": 18, "premium": 6, "budget": 3 },
+    "last_updated": 1743206400,
+    "total_sessions": 27
+  },
+  {
+    "user_id": "persona_mixed_explorer",
+    "category_counts": { "fitness": 8, "wellness": 8, "beauty": 7, "medical": 7 },
+    "temporal_counts": { "morning": 6, "afternoon": 6, "evening": 6, "weekend_anytime": 6, "asap": 6 },
+    "price_tier_counts": { "budget": 8, "mid": 12, "premium": 8 },
+    "last_updated": 1743120000,
+    "total_sessions": 30
+  },
+  {
+    "user_id": "persona_premium_wellness",
+    "category_counts": { "wellness": 18, "beauty": 10, "fitness": 4, "medical": 2 },
+    "temporal_counts": { "evening": 12, "weekend_anytime": 14, "afternoon": 8 },
+    "price_tier_counts": { "premium": 24, "mid": 8, "budget": 2 },
+    "last_updated": 1743033600,
+    "total_sessions": 34
+  },
+  {
+    "user_id": "persona_urgent_fitness",
+    "category_counts": { "fitness": 24, "wellness": 3, "beauty": 2, "medical": 1 },
+    "temporal_counts": { "asap": 20, "evening": 6, "morning": 4 },
+    "price_tier_counts": { "budget": 10, "mid": 14, "premium": 6 },
+    "last_updated": 1742947200,
+    "total_sessions": 30
+  },
+  {
+    "user_id": "persona_cold_start",
+    "category_counts": {},
+    "temporal_counts": {},
+    "price_tier_counts": {},
+    "last_updated": 1742860800,
+    "total_sessions": 0
+  }
+]

@@ -1,0 +1,31 @@
+% Synced with ch3_method_draft.tex §3.2 — full paste block below.
+
+\section{Data}
+\label{sec:method-data}
+
+Training data must fit the six Fixmeapp booking categories without pretending that public corpora share that taxonomy.
+Weather queries, music commands, and clinical symptom talk may look related in a general assistant sense, yet they are not bookable personal services here; including them would add noise rather than signal.
+In-domain Fixmeapp-style examples alone are also too few and uneven, especially for dining, travel, fitness, and wellness.
+Together with the architectural choice in Section~\ref{sec:method-architecture} to resolve underspecification in multi-turn belief, this implies a clear plan: keep \texttt{ambiguous} out of training labels; start from domain seeds and only the public intents that map cleanly; then widen coverage where the mapping remains defensible; finally balance the mix and check it with resources that separate remapped public text from deliberately vague in-domain hard cases.
+Row counts, scripts, and full mapping tables are deferred to Chapter~\ref{ch:whatYouDid}.
+
+The first public layer privileges precision over coverage.
+ATIS~\cite{hemphill-etal-1990-atis} supplies travel queries, remapped as \texttt{travel} and retained as an external check for that class.
+SNIPS~\cite{coucke_snips_2018} contributes only restaurant-booking utterances to \texttt{dining}; its weather, music, and similar intents are skipped.
+Remaining classes lean on in-domain seeds until a second layer fills the gaps.
+Schema-Guided Dialogue~\cite{rastogi_sgd_2020} adds salon- and clinic-like service turns when the service name maps stably to beauty or medical, while media and messaging domains are ignored.
+The Hybrid Appointment Scheduling Dataset~\cite{hasd_hf} contributes healthcare schedule and cancel intents, not open medical chat.
+LUCID~\cite{stacey_lucid_2024} adds fitness and wellness booking-style turns extracted from user queries paired with system intents.
+If a class is still thin after deduplication, short template expansions from in-domain phrasing are allowed and labelled as such, so they never enter the hard-case evaluation set unnoticed.
+Symptom-triage corpora are not used for \texttt{medical}, because diagnosis dialogue is the wrong task for booking extraction.
+
+After merging, duplicates are removed and each class is capped (default four hundred examples), with in-domain rows preferred over public fills.
+The cap and source priority follow from an early dining-heavy SNIPS merge in which one abundant proxy dominated the class prior.
+Fixed-seed splits keep the build reproducible.
+Reliability is assessed rather than assumed: ATIS travel performance tests the travel mapping; held-out in-domain and hard-case slices test Fixmeapp-like and underspecified language; composite holdouts, when reported, describe the remapped mix and must not be interpreted as field performance on Fixmeapp users.
+These checks establish whether the structured front-end is usable as evidence for later stages; they do not answer RQ1 or RQ2.
+
+Dialogue-level evaluation does not use live Fixmeapp conversations.
+Scripted multi-turn scenarios instead cover the six categories and include vague openings, constraint revision, and topic change, with a session-level gold category hint.
+Vague input for RQ1 and RQ2 is therefore operationalised by controlled scenario design, not by assigning a vague label to every utterance.
+Public corpora are used under their research licences; real customer booking histories are not collected.

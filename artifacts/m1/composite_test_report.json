@@ -1,0 +1,111 @@
+{
+  "composite_test": {
+    "dataset": "artifacts\\m1\\_composite_test_eval.json",
+    "mode": "pipeline",
+    "intent_accuracy": 0.9758,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.0091,
+    "slot_f1_temporal": 0.0755,
+    "slot_f1_urgency": 0.0634,
+    "slot_f1_location": 0.1208,
+    "slot_f1_macro": 0.0866,
+    "confusion_matrix": {
+      "dining": {
+        "dining": 287
+      },
+      "wellness": {
+        "ambiguous": 2,
+        "dining": 1,
+        "beauty": 2,
+        "wellness": 7
+      },
+      "medical": {
+        "beauty": 1,
+        "medical": 8
+      },
+      "travel": {
+        "ambiguous": 1,
+        "travel": 4
+      },
+      "fitness": {
+        "fitness": 9,
+        "dining": 1
+      },
+      "beauty": {
+        "beauty": 8
+      }
+    },
+    "error_cases": [
+      {
+        "text": "Any wellness therapy in city center this weekend",
+        "gold_service_category": "wellness",
+        "pred_service_category": "ambiguous"
+      },
+      {
+        "text": "Find urgent healthcare appointment near office",
+        "gold_service_category": "medical",
+        "pred_service_category": "beauty"
+      },
+      {
+        "text": "list airports near baltimore",
+        "gold_service_category": "travel",
+        "pred_service_category": "ambiguous"
+      },
+      {
+        "text": "Can I get urgent spa booking in city center",
+        "gold_service_category": "wellness",
+        "pred_service_category": "dining"
+      },
+      {
+        "text": "Need relaxing body care this afternoon",
+        "gold_service_category": "wellness",
+        "pred_service_category": "beauty"
+      },
+      {
+        "text": "Book urgent workout in downtown now",
+        "gold_service_category": "fitness",
+        "pred_service_category": "dining"
+      },
+      {
+        "text": "Need post-work relaxation tomorrow evening",
+        "gold_service_category": "wellness",
+        "pred_service_category": "ambiguous"
+      },
+      {
+        "text": "Find gentle massage nearby this afternoon",
+        "gold_service_category": "wellness",
+        "pred_service_category": "beauty"
+      }
+    ]
+  },
+  "snips_dining_test_subset": {
+    "count": 287,
+    "intent_accuracy": 1.0
+  },
+  "per_class_recall_test": {
+    "dining": {
+      "count": 287,
+      "recall": 1.0
+    },
+    "wellness": {
+      "count": 12,
+      "recall": 0.5833
+    },
+    "medical": {
+      "count": 9,
+      "recall": 0.8889
+    },
+    "travel": {
+      "count": 5,
+      "recall": 0.8
+    },
+    "fitness": {
+      "count": 10,
+      "recall": 0.9
+    },
+    "beauty": {
+      "count": 8,
+      "recall": 1.0
+    }
+  }
+}

@@ -1,0 +1,53 @@
+# Pipeline hyperparameters (M2 / M3 / session).
+# Secrets never live here. Copy .env.example → .env for local keys.
+# Precedence: process environment > .env > this file.
+
+m2:
+  converge_threshold: 0.55
+  k_schedule:
+    0: 10
+    1: 6
+    2: 4
+    3: 3
+  feedback_boost: 1.5
+  feedback_decay: 0.8
+  slot_evidence_power: 0.30
+  belief_power_decay: 0.80
+  belief_recency_alpha: 0.70
+  prior_reinjection: 0.15
+  top1_suggest_threshold: 0.40
+  high_entropy_ratio: 0.99
+  clarify_budget: 1
+  enable_domain_guards: false
+  enable_m1_voting: true
+  guard_confidence_cap: 0.85
+  vote_recency_decay: 0.75
+  enable_conflict_dampen: false
+  conflict_dampen_factor: 0.65
+
+m3:
+  decay_half_life_days: 90
+  smoothing_alpha: 0.1
+  weight_when_ambiguous: 0.0
+  cold_start_uniform_weight: 1.0
+  retention_days: 180
+
+pipeline:
+  hypothesis_max_size: 120
+  extractor_mode: pipeline
+  memory_backend: inmemory
+  sqlite_path: data/memory/profiles.db
+
+sentiment:
+  enabled: true
+  negative_threshold: -0.3
+  consecutive_negative_turns: 2
+  top_category_penalty: 0.5
+  other_category_bonus: 1.1
+
+dialogue:
+  enable_gpt: true
+  model: gpt-4o-mini
+  max_history_turns: 6
+  gpt_router_fallback: true
+  inject_intention_block: true

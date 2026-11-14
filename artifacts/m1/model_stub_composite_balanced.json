@@ -1,0 +1,43 @@
+{
+  "config": {
+    "num_intents": 6,
+    "num_slot_labels": 16,
+    "backbone": "bert-base-uncased"
+  },
+  "train_size": 1192,
+  "val_size": 255,
+  "test_size": 257,
+  "train_distribution": {
+    "travel": 282,
+    "medical": 288,
+    "dining": 280,
+    "beauty": 276,
+    "wellness": 28,
+    "fitness": 38
+  },
+  "val_distribution": {
+    "travel": 57,
+    "medical": 56,
+    "dining": 60,
+    "beauty": 65,
+    "wellness": 8,
+    "fitness": 9
+  },
+  "test_distribution": {
+    "beauty": 59,
+    "dining": 60,
+    "travel": 61,
+    "wellness": 18,
+    "medical": 56,
+    "fitness": 3
+  },
+  "label_priors": {
+    "travel": 0.23657718120805368,
+    "medical": 0.24161073825503357,
+    "dining": 0.2348993288590604,
+    "beauty": 0.23154362416107382,
+    "wellness": 0.02348993288590604,
+    "fitness": 0.031879194630872486
+  },
+  "model_type": "multinomial_nb_intent + token_tag_slot"
+}

@@ -1,0 +1,186 @@
+% Paste into examplethesis.tex: replace from \chapter{Method or Methods}
+% through the content before \chapter{What you did} (keep \cleardoublepage).
+% Locked plan: Code/docs/plan_ch3_ch4.md §7 / §9.
+% No result numbers; no success hard-wiring; emotion almost silent.
+
+\chapter{Method or Methods}
+\label{ch:methods}
+
+This chapter describes how the degree project investigates the research questions while constructing a research prototype of a booking assistant.
+The work follows a design-enquiry approach: an inspectable modular artefact is built, and controlled comparisons are used to gather evidence for RQ1 and RQ2.
+The comparisons are exploratory; the method does not presuppose that any modular configuration will outperform a language-model-only baseline.
+Section~\ref{sec:method-architecture} presents the system architecture: overall stack, turn-level data flow, and layer-wise design.
+Section~\ref{sec:method-data} states the corpus-construction rationale, staged use of public datasets, balancing standards, and reliability checks.
+Section~\ref{sec:method-experimental} defines the experimental design.
+Section~\ref{sec:method-evaluation} states the evaluation framework, including condition names, metrics, analysis form, and validity limits.
+
+\section{System architecture}
+\label{sec:method-architecture}
+
+The architecture separates local intention tracking from surface language generation.
+Situational booking goals are maintained in a local sidecar; a large language model produces user-visible replies under a controlled prompt.
+Figure~\ref{fig:method-architecture} shows the layered organisation.
+On a task turn the utterance is mapped to a structured task variable (STV), an optional aggregate-memory module may supply a prior over bookable goals, a belief tracker updates a multi-turn posterior, dialogue control selects clarification, suggestion, or dual-track observation under topic change, and an intention prompt block assembled from allow-listed fields conditions the language model.
+Chitchat is routed separately and does not update belief.
+Section~\ref{sec:method-evaluation} defines comparative cuts on intention-block injection and on the memory prior; the layering itself is unchanged across conditions.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{figures/method_architecture.pdf}
+  \caption{Layered architecture of the booking-assistant prototype.
+  The local sidecar comprises STV extraction (M1), aggregate-memory priors (M3), belief tracking (M2), dialogue control, and packing of an intention prompt block.
+  The language model realises user-visible replies.
+  Aggregate profiles and raw identifiers remain outside the generative prompt.
+  Comparative cuts are defined in Section~\ref{sec:method-evaluation}.}
+  \label{fig:method-architecture}
+\end{figure}
+
+M1 maps each utterance to an STV that records a six-class service category (\texttt{fitness}, \texttt{wellness}, \texttt{beauty}, \texttt{medical}, \texttt{dining}, \texttt{travel}), soft constraints such as temporal preference and location, and a category confidence.
+The default extractor is a lightweight pipeline model trained on the composite corpus and loaded from a frozen artefact; an LLM-based extractor is retained only as an optional alternative.
+Importantly, M1 does not apply an automatic ambiguous gate that rewrites low-confidence predictions into a dialogue-driving \texttt{ambiguous} label.
+Underspecified input is therefore left for multi-turn belief updating rather than closed by a single-turn confidence threshold.
+
+When personalisation is enabled, M3 contributes only as a prior over goal hypotheses.
+The store retains aggregate counts for category, temporal preference, and price tier, converts them into a prior that is blended before the belief update, and uses a uniform prior when memory is disabled.
+Aggregates are written back at session end from the top hypothesis.
+User identifiers and aggregate profiles are withheld from the generative prompt, so memory influences generation only through the posterior summarised in the intention block.
+
+M2 represents booking goals as a posterior over a discrete hypothesis space whose factors include service category together with soft constraints such as time, location zone, and price tier.
+Each task turn updates this posterior with soft likelihoods dominated by category confidence, optionally strengthened by slot agreement.
+Entropy, top-1 mass, a short top-$K$ list, and a category-convergence flag are derived from the posterior and determine whether the surface policy clarifies or suggests.
+High residual uncertainty favours clarification; a sufficiently concentrated category mass favours suggestion.
+M1 clarification flags are not used as the primary policy trigger.
+
+Dialogue control operates on this belief state under two regimes.
+During topic tracking, a clarification protocol can present candidate categories and request confirmation before returning to suggestion.
+Under hard topic change, signalled for instance by explicit abandon or pivot phrases, the session opens a dual-track transition window in which the active belief may decay when unsupported while a candidate track accumulates evidence for the new topic, with surface policy typically remaining on observation until promotion, abort, or fallback clarification.
+The distinction separates refinement of an incomplete goal from replacement of the goal itself.
+
+After policy resolution, generation is conditioned on an intention prompt block that contains the current message, an STV summary, top hypotheses with weights, a compact belief-state summary, the dialogue policy, and the turn index, optionally together with a short recent-chat window for coherence.
+Identifiers, aggregate profiles, full raw STV histories, and the full belief vector remain local.
+Disabling intention conditioning yields the LLM-only comparative setting of Section~\ref{sec:method-evaluation}, in which the same generative model runs without that structured block.
+In all settings the language model does not update belief; inspectable intention state remains in the sidecar.
+
+\section{Data}
+\label{sec:method-data}
+
+Training data must fit the six Fixmeapp booking categories without pretending that public corpora share that taxonomy.
+Weather queries, music commands, and clinical symptom talk may look related in a general assistant sense, yet they are not bookable personal services here; including them would add noise rather than signal.
+In-domain Fixmeapp-style examples alone are also too few and uneven, especially for dining, travel, fitness, and wellness.
+Together with the architectural choice in Section~\ref{sec:method-architecture} to resolve underspecification in multi-turn belief, this implies a clear plan: keep \texttt{ambiguous} out of training labels; start from domain seeds and only the public intents that map cleanly; then widen coverage where the mapping remains defensible; finally balance the mix and check it with resources that separate remapped public text from deliberately vague in-domain hard cases.
+Row counts, scripts, and full mapping tables are deferred to Chapter~\ref{ch:whatYouDid}.
+
+The first public layer privileges precision over coverage.
+ATIS~\cite{hemphill-etal-1990-atis} supplies travel queries, remapped as \texttt{travel} and retained as an external check for that class.
+SNIPS~\cite{coucke_snips_2018} contributes only restaurant-booking utterances to \texttt{dining}; its weather, music, and similar intents are skipped.
+Remaining classes lean on in-domain seeds until a second layer fills the gaps.
+Schema-Guided Dialogue~\cite{rastogi_sgd_2020} adds salon- and clinic-like service turns when the service name maps stably to beauty or medical, while media and messaging domains are ignored.
+The Hybrid Appointment Scheduling Dataset~\cite{hasd_hf} contributes healthcare schedule and cancel intents, not open medical chat.
+LUCID~\cite{stacey_lucid_2024} adds fitness and wellness booking-style turns extracted from user queries paired with system intents.
+If a class is still thin after deduplication, short template expansions from in-domain phrasing are allowed and labelled as such, so they never enter the hard-case evaluation set unnoticed.
+Symptom-triage corpora are not used for \texttt{medical}, because diagnosis dialogue is the wrong task for booking extraction.
+
+After merging, duplicates are removed and each class is capped (default four hundred examples), with in-domain rows preferred over public fills.
+The cap and source priority follow from an early dining-heavy SNIPS merge in which one abundant proxy dominated the class prior.
+Fixed-seed splits keep the build reproducible.
+Reliability is assessed rather than assumed: ATIS travel performance tests the travel mapping; held-out in-domain and hard-case slices test Fixmeapp-like and underspecified language; composite holdouts, when reported, describe the remapped mix and must not be interpreted as field performance on Fixmeapp users.
+These checks establish whether the structured front-end is usable as evidence for later stages; they do not answer RQ1 or RQ2.
+
+Dialogue-level evaluation does not use live Fixmeapp conversations.
+Scripted multi-turn scenarios instead cover the six categories and include vague openings, constraint revision, and topic change, with a session-level gold category hint.
+Vague input for RQ1 and RQ2 is therefore operationalised by controlled scenario design, not by assigning a vague label to every utterance.
+Public corpora are used under their research licences; real customer booking histories are not collected.
+
+\section{Experimental design}
+\label{sec:method-experimental}
+
+Evidence is collected at three levels: component checks, multi-turn scenario replay, and condition contrasts for RQ1 and RQ2.
+The comparisons are exploratory; modular settings are not assumed to outperform the language-model-only baseline.
+Metrics and validity limits are defined in Section~\ref{sec:method-evaluation}.
+
+Component checks evaluate STV extraction on held-out in-domain data, hard cases, and mapped public subsets such as ATIS travel.
+They establish whether the structured front-end yields usable evidence for later stages and do not answer RQ1 or RQ2.
+
+Multi-turn scenario replay runs the scripted sessions of Section~\ref{sec:method-data} through belief updating and dialogue control.
+The observables are whether uncertainty narrows, when clarification is preferred over suggestion, and whether a session meets the resolution criterion in Section~\ref{sec:method-evaluation}.
+A secondary \textbf{STV-only} policy baseline (per-turn structured evidence without full multi-turn belief policy) may be reported for diagnosis; it is not a thesis-facing language-model condition.
+
+Condition contrasts reuse the same evaluation items under the settings in Table~\ref{tab:method-conditions}.
+Prose uses the thesis names; code identifiers are retained for reproducibility.
+RQ1 contrasts \textbf{LLM-only} with \textbf{Intention-conditioned}.
+RQ2 contrasts \textbf{Intention-conditioned} with \textbf{Memory-augmented}, where an aggregate prior is applied to belief while identifiers and aggregate profiles remain outside the generative prompt.
+A null or negative behavioural difference remains informative if the privacy constraint holds.
+
+\begin{table}[!ht]
+  \centering
+  \small
+  \caption{Comparative conditions (thesis names and code identifiers).}
+  \label{tab:method-conditions}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}lp{0.28\textwidth}p{0.42\textwidth}@{}}
+    \hline
+    \textbf{Thesis name} & \textbf{Code id} & \textbf{Difference} \\
+    \hline
+    LLM-only & \texttt{C0\_llm\_only} & No intention summary in the prompt \\
+    Intention-conditioned & \texttt{C1\_intention\_block} & Intention summary in the prompt \\
+    Memory-augmented & \texttt{C2\_m3\_prior} & As above, plus aggregate prior on belief \\
+    \hline
+  \end{tabular}
+\end{table}
+
+Runs use offline evaluation scripts and, when needed, an interactive prototype for qualitative inspection.
+Software entry points are those of the project repository; hardware is a standard development workstation.
+Decoding randomness is treated as a validity threat in Section~\ref{sec:method-evaluation}.
+
+\section{Evaluation framework}
+\label{sec:method-evaluation}
+
+The evaluation criteria are chosen by reference to prior task-oriented and clarification work: where a standard fits this prototype it is kept; where it does not fit, it is dropped or replaced; where the research questions require an extra check, it is added.
+Table~\ref{tab:method-metrics} makes those decisions explicit.
+
+Task-oriented evaluation in MultiWOZ asks whether the system reaches the user goal and how many turns it needs~\cite{budzianowski_multiwoz_2018}.
+That concern is kept here as category-level task match on shared items, which is the primary outcome for RQ1 and RQ2, together with turns to resolution as an efficiency process measure.
+Belief-state dialogue work treats posterior uncertainty as central to policy~\cite{young_pomdp_2013}, so entropy is kept to observe whether belief narrows under vague sessions.
+Clarification studies score the decision to ask rather than answer~\cite{aliannejadi_clarifying_2019,lin_ask-to-clarify_2025}, so clarify-versus-suggest rate is kept under underspecification.
+Intent accuracy from ATIS and SNIPS~\cite{hemphill-etal-1990-atis,coucke_snips_2018} is kept only as a front-end check and does not answer the research questions.
+
+Two common standards are not used.
+MultiWOZ Inform and Success assume API or database ground truth for booking completion~\cite{budzianowski_multiwoz_2018}; this prototype has no such backend, so those scores are replaced by category match rather than reported as Inform/Success.
+Human preference judgements, frequent in recent LLM dialogue papers, are also omitted because the study prioritises inspectable structural contrasts over subjective ranking of surface text.
+
+One check is added beyond standard TOD benchmarks.
+Those benchmarks do not ask whether aggregate memory is withheld from the generative model, yet RQ2 requires that constraint.
+A prompt privacy audit is therefore included, verifying that raw identifiers and serialised detailed profiles are absent from the intention block and generative input~\cite{staufer_name_audit_2026}.
+For RQ2 this audit is primary; a large personalisation gain is not required if the privacy constraint holds.
+
+\begin{table}[!ht]
+  \centering
+  \small
+  \caption{Evaluation criteria relative to established standards.}
+  \label{tab:method-metrics}
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{@{}p{0.26\textwidth}ccp{0.38\textwidth}@{}}
+    \hline
+    \textbf{Criterion} & \textbf{In prior work} & \textbf{In this study} & \textbf{Rationale} \\
+    \hline
+    Goal / task attainment & Yes & Retain & Primary RQ1/RQ2 outcome as category match~\cite{budzianowski_multiwoz_2018} \\
+    Turns / efficiency & Yes & Retain & Process measure: turns to resolution~\cite{budzianowski_multiwoz_2018} \\
+    Belief uncertainty & Yes & Retain & Process measure: posterior entropy~\cite{young_pomdp_2013} \\
+    Ask vs.\ answer & Yes & Retain & Process measure: clarify vs.\ suggest~\cite{aliannejadi_clarifying_2019} \\
+    Intent accuracy & Yes & Retain$^*$ & Front-end only~\cite{hemphill-etal-1990-atis,coucke_snips_2018} \\
+    Inform / Success & Yes & Omit & No booking API or DB ground truth \\
+    Human preference & Yes & Omit & Structural contrasts preferred \\
+    Prompt privacy audit & No & Introduce & Required by RQ2~\cite{staufer_name_audit_2026} \\
+    \hline
+  \end{tabular}\\[0.3em]
+  {\footnotesize $^*$Background evidence; not a substitute for condition contrasts.}
+\end{table}
+
+RQ1 contrasts \textbf{LLM-only} with \textbf{Intention-conditioned} on the kept behavioural quantities.
+RQ2 contrasts \textbf{Intention-conditioned} with \textbf{Memory-augmented} on the same quantities plus the privacy audit.
+Results appear as condition contrasts with brief notes on unstable cases.
+Reproducibility rests on fixed scripts, condition definitions, and versioned data.
+Limits include scripted scenarios, decoding variability, and public-corpus domain shift; STV-only diagnostics must not be read as LLM-only.
+Absence of improvement under modular settings remains a valid outcome.
+
+\cleardoublepage

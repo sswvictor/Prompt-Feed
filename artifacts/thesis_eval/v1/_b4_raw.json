@@ -1,0 +1,392 @@
+[
+  {
+    "condition": "LLM-only",
+    "scenario_id": "vague_wellness_weekend",
+    "gold": "wellness",
+    "pred": "beauty",
+    "entropy_drop": -0.737367,
+    "clarify_turns": 2,
+    "n_turns": 3,
+    "policy_sequence": [
+      "suggest",
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "wellness",
+      "beauty",
+      "beauty"
+    ],
+    "pred_path": [
+      "wellness",
+      "beauty",
+      "beauty"
+    ]
+  },
+  {
+    "condition": "LLM-only",
+    "scenario_id": "medical_wellness_ambiguous",
+    "gold": "medical",
+    "pred": "fitness",
+    "entropy_drop": 0.0764,
+    "clarify_turns": 0,
+    "n_turns": 3,
+    "policy_sequence": [
+      "suggest",
+      "suggest",
+      "suggest"
+    ],
+    "m1_path": [
+      "wellness",
+      "medical",
+      "fitness"
+    ],
+    "pred_path": [
+      "wellness",
+      "medical",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "LLM-only",
+    "scenario_id": "dining_budget_lunch",
+    "gold": "dining",
+    "pred": "wellness",
+    "entropy_drop": 0.301425,
+    "clarify_turns": 0,
+    "n_turns": 2,
+    "policy_sequence": [
+      "suggest",
+      "suggest"
+    ],
+    "m1_path": [
+      "fitness",
+      "wellness"
+    ],
+    "pred_path": [
+      "fitness",
+      "wellness"
+    ]
+  },
+  {
+    "condition": "LLM-only",
+    "scenario_id": "travel_hotel_combo",
+    "gold": "travel",
+    "pred": "wellness",
+    "entropy_drop": 0.025648,
+    "clarify_turns": 1,
+    "n_turns": 2,
+    "policy_sequence": [
+      "clarify",
+      "suggest"
+    ],
+    "m1_path": [
+      "dining",
+      "wellness"
+    ],
+    "pred_path": [
+      "dining",
+      "wellness"
+    ]
+  },
+  {
+    "condition": "LLM-only",
+    "scenario_id": "medical_wellness_checkup",
+    "gold": "medical",
+    "pred": "fitness",
+    "entropy_drop": -0.056419,
+    "clarify_turns": 0,
+    "n_turns": 3,
+    "policy_sequence": [
+      "suggest",
+      "suggest",
+      "suggest"
+    ],
+    "m1_path": [
+      "wellness",
+      "wellness",
+      "fitness"
+    ],
+    "pred_path": [
+      "wellness",
+      "wellness",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "vague_wellness_weekend",
+    "gold": "wellness",
+    "pred": "fitness",
+    "entropy_drop": -0.737367,
+    "clarify_turns": 2,
+    "n_turns": 3,
+    "policy_sequence": [
+      "suggest",
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "wellness",
+      "beauty",
+      "beauty"
+    ],
+    "pred_path": [
+      "wellness",
+      "fitness",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "medical_wellness_ambiguous",
+    "gold": "medical",
+    "pred": "fitness",
+    "entropy_drop": 0.0764,
+    "clarify_turns": 0,
+    "n_turns": 3,
+    "policy_sequence": [
+      "suggest",
+      "suggest",
+      "suggest"
+    ],
+    "m1_path": [
+      "wellness",
+      "medical",
+      "fitness"
+    ],
+    "pred_path": [
+      "wellness",
+      "medical",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "dining_vague_then_specific",
+    "gold": "dining",
+    "pred": "fitness",
+    "entropy_drop": 0.0,
+    "clarify_turns": 3,
+    "n_turns": 3,
+    "policy_sequence": [
+      "clarify",
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "dining",
+      "beauty",
+      "dining"
+    ],
+    "pred_path": [
+      "fitness",
+      "beauty",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "travel_flight_vague",
+    "gold": "travel",
+    "pred": "fitness",
+    "entropy_drop": -0.006122,
+    "clarify_turns": 3,
+    "n_turns": 3,
+    "policy_sequence": [
+      "clarify",
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "medical",
+      "travel",
+      "travel"
+    ],
+    "pred_path": [
+      "fitness",
+      "fitness",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "dining_budget_lunch",
+    "gold": "dining",
+    "pred": "wellness",
+    "entropy_drop": 0.301425,
+    "clarify_turns": 1,
+    "n_turns": 2,
+    "policy_sequence": [
+      "clarify",
+      "suggest"
+    ],
+    "m1_path": [
+      "fitness",
+      "wellness"
+    ],
+    "pred_path": [
+      "fitness",
+      "wellness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "travel_hotel_combo",
+    "gold": "travel",
+    "pred": "wellness",
+    "entropy_drop": 0.025648,
+    "clarify_turns": 2,
+    "n_turns": 2,
+    "policy_sequence": [
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "dining",
+      "wellness"
+    ],
+    "pred_path": [
+      "fitness",
+      "wellness"
+    ]
+  },
+  {
+    "condition": "Intention-conditioned",
+    "scenario_id": "medical_wellness_checkup",
+    "gold": "medical",
+    "pred": "fitness",
+    "entropy_drop": -0.056419,
+    "clarify_turns": 2,
+    "n_turns": 3,
+    "policy_sequence": [
+      "clarify",
+      "suggest",
+      "clarify"
+    ],
+    "m1_path": [
+      "wellness",
+      "wellness",
+      "fitness"
+    ],
+    "pred_path": [
+      "wellness",
+      "wellness",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Memory-augmented",
+    "scenario_id": "medical_wellness_ambiguous",
+    "gold": "medical",
+    "pred": "fitness",
+    "entropy_drop": -0.155074,
+    "clarify_turns": 0,
+    "n_turns": 3,
+    "policy_sequence": [
+      "suggest",
+      "suggest",
+      "suggest"
+    ],
+    "m1_path": [
+      "wellness",
+      "medical",
+      "fitness"
+    ],
+    "pred_path": [
+      "wellness",
+      "medical",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Memory-augmented",
+    "scenario_id": "dining_vague_then_specific",
+    "gold": "dining",
+    "pred": "fitness",
+    "entropy_drop": -0.0,
+    "clarify_turns": 3,
+    "n_turns": 3,
+    "policy_sequence": [
+      "clarify",
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "dining",
+      "beauty",
+      "dining"
+    ],
+    "pred_path": [
+      "fitness",
+      "beauty",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Memory-augmented",
+    "scenario_id": "travel_flight_vague",
+    "gold": "travel",
+    "pred": "fitness",
+    "entropy_drop": -0.006122,
+    "clarify_turns": 3,
+    "n_turns": 3,
+    "policy_sequence": [
+      "clarify",
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "medical",
+      "travel",
+      "travel"
+    ],
+    "pred_path": [
+      "fitness",
+      "fitness",
+      "fitness"
+    ]
+  },
+  {
+    "condition": "Memory-augmented",
+    "scenario_id": "dining_budget_lunch",
+    "gold": "dining",
+    "pred": "wellness",
+    "entropy_drop": 0.324945,
+    "clarify_turns": 1,
+    "n_turns": 2,
+    "policy_sequence": [
+      "clarify",
+      "suggest"
+    ],
+    "m1_path": [
+      "fitness",
+      "wellness"
+    ],
+    "pred_path": [
+      "fitness",
+      "wellness"
+    ]
+  },
+  {
+    "condition": "Memory-augmented",
+    "scenario_id": "travel_hotel_combo",
+    "gold": "travel",
+    "pred": "wellness",
+    "entropy_drop": 0.025648,
+    "clarify_turns": 2,
+    "n_turns": 2,
+    "policy_sequence": [
+      "clarify",
+      "clarify"
+    ],
+    "m1_path": [
+      "dining",
+      "wellness"
+    ],
+    "pred_path": [
+      "fitness",
+      "wellness"
+    ]
+  }
+]

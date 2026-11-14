@@ -1,0 +1,47 @@
+% Paste into Overleaf: Conclusions and Future work chapter.
+% Keep short; cross-ref Ch5/Ch6; no result dumps; no chapter-role meta.
+
+\chapter{Conclusions and Future work}
+\label{ch:conclusionsAndFutureWork}
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+This degree project produced a modular research prototype in which structured extraction, multi-turn belief tracking, privacy-restricted aggregate memory, and language-model generation are separated, and in which dialogue decisions are driven by an inspectable intention state.
+Relative to the goals in Section~\ref{sec:goals}, the architecture and evaluation apparatus were delivered; the research questions receive a mixed but determinate answer.
+
+For RQ1, explicit intention conditioning did not raise category task match over LLM-only operation on the reported scenarios.
+It did increase belief narrowing and clarification under underspecification (Sections~\ref{sec:results-rq1} and~\ref{sec:discussion-intention}).
+Robustness here is therefore better understood as controllable uncertainty handling than as higher final category accuracy.
+
+For RQ2, a local aggregate prior can improve match modestly while the prompt privacy audit remains satisfied (Sections~\ref{sec:results-rq2} and~\ref{sec:discussion-memory}).
+The privacy side of the claim is supported more strongly than the personalisation side, because the reported memory contrast uses a mild gold-aligned prior rather than priors learned from real booking histories.
+
+Taken together, the work supports a design stance in which the language model realises surface text and the sidecar keeps intention state, clarification policy, and data minimisation enforceable.
+It does not support the stronger claim that the modular path must dominate language-model-only decisions on category match.
+
+\section{Limitations}
+\label{sec:limitations}
+
+The study is bounded by the delimitations in Section~\ref{sec:delimitations} and by the measurement choices in Chapter~\ref{ch:methods}.
+Evaluation uses scripted multi-turn scenarios rather than live Fixmeapp traffic, and category match substitutes for booking completion in the absence of an API or database ground truth.
+Emotion enters only as a light dialogue signal, not as a validated affective module.
+The Memory-augmented contrast depends on how the prior is initialised; the reported seed is appropriate for ablation, not for claiming deployed personalisation.
+Front-end confusions among neighbouring service classes remain a ceiling on scenario-level gains.
+No large-scale user study or legal GDPR audit is claimed.
+
+\section{Future work}
+\label{sec:futureWork}
+
+Priority follow-ups are those already indicated by the residual errors and by Section~\ref{sec:discussion-improvements}: sharper separation among wellness, fitness, beauty, and medical evidence; clarification questions that target competing high-mass categories; and memory priors estimated from held-out interaction aggregates rather than gold-aligned seeds, under the same prompt allow-list.
+A separate track should score generative reply quality without folding it into the sidecar metrics.
+Closer to the host setting, limited pilot dialogues with Fixmeapp-style users would test whether the clarify--suggest policy remains acceptable outside scripted packages.
+
+\section{Reflections}
+\label{sec:reflections}
+
+The ethical centre of the project is data minimisation in a consumer booking assistant: personal identifiers and detailed preference profiles are kept out of the generative prompt, and personalisation---when used---acts only through a local prior and a compact intention summary.
+Making belief and policy explicit also makes failure modes inspectable, which matters when users speak vaguely and when neighbouring service classes share everyday vocabulary.
+Economically, the prototype is a design probe for Fixmeapp rather than a production cost study; socially, it aims at clearer booking help under incomplete requests without treating the language model as an unbounded user memory.
+Environmental impact is dominated by whatever generative backend is attached; the local stack itself is intentionally lightweight.
+These constraints shaped the architecture as much as accuracy targets did, and they should continue to bound any follow-on deployment.

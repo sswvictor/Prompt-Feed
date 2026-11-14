@@ -1,0 +1,41 @@
+% Paste into examplethesis.tex: replace from \chapter{Background} through the end of
+% the first major section (keep later placeholder sections until 2.2+ are written).
+% Cite keys map to Pre-Study References [1]--[6]. Comments note Pre-Study page anchors.
+
+\chapter{Background}
+\label{ch:background}
+
+This chapter reviews research that underpins task-oriented assistance under vague, multi-turn input: how systems detect and resolve underspecification, how they represent uncertainty without relying only on surface text, how they model open-ended goals, how memory can personalise behaviour under data-minimisation constraints, and how such systems are evaluated.
+The survey informs the modular design studied later in the thesis; detailed methods and experiments appear in subsequent chapters.
+
+The remainder of the chapter is organised as follows.
+First, active clarification under ambiguous instructions is reviewed.
+Subsequent sections cover internal uncertainty handling and belief-oriented reasoning; open-ended goal inference and proactive user modelling; memory-augmented personalisation under privacy constraints; and evaluation paradigms for multi-turn intention tracking.
+A closing summary synthesises remaining gaps and connects them to the research questions.
+
+\section{From vague intent parsing to active clarification}
+\label{sec:vague-clarification}
+% Pre-Study §2.1 (p.~2); Refs.\ [1]--[6]
+
+Traditional task-oriented pipelines often assume that users can state goals completely in a single utterance.
+Empirical studies of human--LLM interaction challenge that assumption: even when natural-language interfaces feel effortless, users frequently produce prompts that are structurally incomplete or semantically ambiguous~\cite{koyuturk_understanding_2025}.
+Under such conditions, treating each turn as a fully specified command is brittle; agents need mechanisms that recognise underspecification and decide whether to proceed, ask, or revise.
+
+One response in the recent literature is to make clarification an explicit capability rather than an incidental side effect of generation.
+Ask-to-Clarify, for example, introduces a detection stage that can interrupt execution when instructions are ambiguous and divert the dialogue into multi-turn clarification~\cite{lin_ask-to-clarify_2025}.
+Beyond deciding \emph{whether} to ask, the content of clarification questions also matters.
+Tang and Soulier~\cite{tang_clarifying_2025} show that prompting models to classify the type of ambiguity---for instance, distinguishing underspecification that calls for generalisation from cases that call for more precise constraints---before generating a query improves clarification relevance.
+Together, these lines of work argue that ambiguity should be treated as a first-class control signal in dialogue, not merely as noise around an otherwise complete intent label.
+
+Relying heavily on repeated clarification, however, carries documented costs.
+Continual follow-up questions increase interaction effort and can undermine usability even when each individual question is locally informative.
+Liu et~al.~\cite{liu_intent_2026} further report that large language models can degrade across turns when user constraints drift and intent alignment is lost---a failure mode they associate with multi-turn ``intent mismatch.''
+In other words, clarification is not free: poorly timed questions may both annoy the user and destabilise the model's own dialogue state.
+
+Cost-aware formulations therefore restrict when questions are asked.
+Ghose et~al.~\cite{ghose_open-ended_2025} propose a bidirectional inference model that weighs expected information gain against user disruption, so that questions are issued only when the anticipated reduction in uncertainty outweighs interruption cost.
+Fang et~al.~\cite{fang_uncertainty_2026} extend related ideas into a dual-mode joint planning setting, using dynamic programming to derive querying policies that trade off preference elicitation against interaction and verification costs.
+The shared implication is that semantic disambiguation and user comfort must be optimised jointly: an agent that always clarifies may resolve ambiguity, yet still fail as a practical assistant.
+
+Overall, the clarification literature establishes three linked requirements for systems that face vague booking-style requests: detect underspecification, generate type-appropriate questions when needed, and limit clarification by an explicit cost--benefit criterion.
+The next section turns from outward questioning to inward uncertainty representation---how agents can quantify and act on residual ambiguity without always asking the user.

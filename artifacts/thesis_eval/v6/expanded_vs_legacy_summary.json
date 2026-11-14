@@ -1,0 +1,159 @@
+{
+  "full_n42": {
+    "LLM-only": {
+      "n": 42,
+      "hits": 34,
+      "category_task_match": 0.8095,
+      "match_frac": "34/42",
+      "clarify_rate": 0.1609,
+      "mean_entropy_drop": 0.033537
+    },
+    "Intention-conditioned": {
+      "n": 42,
+      "hits": 32,
+      "category_task_match": 0.7619,
+      "match_frac": "32/42",
+      "clarify_rate": 0.3103,
+      "mean_entropy_drop": 0.250512
+    },
+    "Memory-augmented": {
+      "n": 42,
+      "hits": 35,
+      "category_task_match": 0.8333,
+      "match_frac": "35/42",
+      "clarify_rate": 0.2299,
+      "mean_entropy_drop": 0.21938
+    }
+  },
+  "legacy14_on_v6": {
+    "LLM-only": {
+      "n": 14,
+      "hits": 12,
+      "category_task_match": 0.8571,
+      "match_frac": "12/14",
+      "clarify_rate": 0.1714,
+      "mean_entropy_drop": 0.068827
+    },
+    "Intention-conditioned": {
+      "n": 14,
+      "hits": 12,
+      "category_task_match": 0.8571,
+      "match_frac": "12/14",
+      "clarify_rate": 0.2571,
+      "mean_entropy_drop": 0.410523
+    },
+    "Memory-augmented": {
+      "n": 14,
+      "hits": 13,
+      "category_task_match": 0.9286,
+      "match_frac": "13/14",
+      "clarify_rate": 0.1714,
+      "mean_entropy_drop": 0.381312
+    }
+  },
+  "new28_on_v6": {
+    "LLM-only": {
+      "n": 28,
+      "hits": 22,
+      "category_task_match": 0.7857,
+      "match_frac": "22/28",
+      "clarify_rate": 0.1538,
+      "mean_entropy_drop": 0.015893
+    },
+    "Intention-conditioned": {
+      "n": 28,
+      "hits": 20,
+      "category_task_match": 0.7143,
+      "match_frac": "20/28",
+      "clarify_rate": 0.3462,
+      "mean_entropy_drop": 0.170507
+    },
+    "Memory-augmented": {
+      "n": 28,
+      "hits": 22,
+      "category_task_match": 0.7857,
+      "match_frac": "22/28",
+      "clarify_rate": 0.2692,
+      "mean_entropy_drop": 0.138414
+    }
+  },
+  "v4_freeze_n14": {
+    "LLM-only": {
+      "category_task_match": 0.8571,
+      "clarify_rate": 0.1714,
+      "mean_entropy_drop": 0.068827
+    },
+    "Intention-conditioned": {
+      "category_task_match": 0.8571,
+      "clarify_rate": 0.2571,
+      "mean_entropy_drop": 0.410523
+    },
+    "Memory-augmented": {
+      "category_task_match": 0.9286,
+      "clarify_rate": 0.1714,
+      "mean_entropy_drop": 0.381309
+    }
+  },
+  "c1_misses_full": [
+    {
+      "scenario_id": "vague_wellness_weekend",
+      "pred": "dining",
+      "gold": "wellness",
+      "last_m1": "dining"
+    },
+    {
+      "scenario_id": "exhausted_wellness_urgent",
+      "pred": "fitness",
+      "gold": "wellness",
+      "last_m1": "fitness"
+    },
+    {
+      "scenario_id": "beauty_nail_weekend",
+      "pred": "medical",
+      "gold": "beauty",
+      "last_m1": "medical"
+    },
+    {
+      "scenario_id": "beauty_vs_medical_skin",
+      "pred": "medical",
+      "gold": "beauty",
+      "last_m1": "medical"
+    },
+    {
+      "scenario_id": "medical_specialist_referral",
+      "pred": "wellness",
+      "gold": "medical",
+      "last_m1": "wellness"
+    },
+    {
+      "scenario_id": "dining_brunch_weekend",
+      "pred": "wellness",
+      "gold": "dining",
+      "last_m1": "fitness"
+    },
+    {
+      "scenario_id": "dining_vs_wellness_food",
+      "pred": "wellness",
+      "gold": "dining",
+      "last_m1": "dining"
+    },
+    {
+      "scenario_id": "travel_weekend_getaway",
+      "pred": "fitness",
+      "gold": "travel",
+      "last_m1": "travel"
+    },
+    {
+      "scenario_id": "travel_vs_dining_trip",
+      "pred": "medical",
+      "gold": "travel",
+      "last_m1": "medical"
+    },
+    {
+      "scenario_id": "wellness_sauna_relax",
+      "pred": "fitness",
+      "gold": "wellness",
+      "last_m1": "fitness"
+    }
+  ]
+}

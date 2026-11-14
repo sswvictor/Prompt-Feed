@@ -1,0 +1,1017 @@
+[
+  {
+    "text": "Looking for GP office nearby for screening",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Prefer a calm spot this weekend, not too far away",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Want a relaxing spa nearby this afternoon",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Find a walk-in clinic for a quick medical check",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "doctor appointment for checkup, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Quick fitness session, gym preferred",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Urgent care clinic open now for a medical issue",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book training at the gym tonight",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any quick lunch spot nearby that is affordable",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book workout at the gym this weekend",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Dinner reservation tonight, nothing fancy",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Flying out Friday morning, need a hotel near the airport",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a checkup at a doctor this afternoon",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Hungry for Italian near me",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a hospital outpatient for a checkup tomorrow morning",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing spa nearby tonight",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe pizza near the office",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flights on next week, hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need to decompress with a spa visit, not dinner",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "flights on Friday morning, airport hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Planning a trip with hotel and transport next month",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Fitness class nearby, intense workout please",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Need a medical center for a consultation asap",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flight on this weekend, hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Unwind with a massage this weekend near me",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a checkup at a clinic asap",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flights on Friday morning, hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for a medical center nearby for checkup, not massage",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book lunch at a spot this weekend",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a gym slot for a quick training session",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Any clinic for checkup near the office tomorrow",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Hungry for Thai near me",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe pizza tonight",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a screening at a clinic tomorrow morning",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a flight and hotel for my trip",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "GP office appointment for health check, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "hospital outpatient appointment for checkup, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe Italian tonight",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book gym at the gym this weekend",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book quick lunch at a cafe this weekend",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Hotel near the airport plus a return flight",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Quick wellness session tonight to relax, not food",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Planning travel with hotel and flight",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flights on this weekend, airport hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe Thai tonight",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing massage nearby tonight",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing massage nearby this weekend",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for HIIT or gym, not wellness treatments",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "flight on next week, hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a screening at a clinic nearby",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "doctor appointment for health check, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa or massage to calm down this weekend",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flight on next week, airport hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any dinner spot nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Affordable meal spot for a quick lunch please",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Any dinner restaurant nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need to fly somewhere next week, hotel optional",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Looking for medical center nearby for health check",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa or massage to unwind tonight",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "clinic appointment for screening, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Wellness massage tonight, nothing medical",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Spa or massage to calm down this afternoon",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a health check at a hospital outpatient next week",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flights on next week, airport hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "I need travel options to get somewhere next week",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Spa or massage to unwind this weekend",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe Thai food or sushi tomorrow afternoon",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Spa or massage to unwind this afternoon",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa or massage to calm down tonight",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Airport transfer and hotel booking for my trip",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a physical exam at a hospital outpatient tomorrow morning",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a medical center for a consultation tomorrow morning",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flights on this weekend, hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe pizza this weekend",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Food reservation for two, sushi place if possible",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "See a doctor about my symptoms, not spa therapy",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "hospital outpatient appointment for health check, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book HIIT at the gym tonight",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Let's do a weekend workout session instead",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Need a medical center for a physical exam this afternoon",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Hungry for ramen near me",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book training at the gym tomorrow morning",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "I want a clinical checkup rather than a wellness retreat",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Exhausted after work, book a massage nearby asap",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "GP office appointment for checkup, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for GP office nearby for consultation",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a casual restaurant for lunch downtown",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "training session tonight, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "A relaxing weekend plan to help me unwind would help",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "workout session tomorrow morning, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for doctor nearby for health check",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "hospital outpatient appointment for physical exam, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book lunch at a spot tonight",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Feeling exhausted, want a calm spa session nearby",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Craving noodles or Thai, any dining options nearby",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "training session tomorrow morning, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Grab a bite, maybe sushi, tomorrow afternoon",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Want a relaxing spa nearby this weekend",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "medical center appointment for screening, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing wellness session nearby this afternoon",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any brunch bistro nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book training at the gym this weekend",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Workout first; yoga only if it is fitness focused",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book lab tests at the medical center this afternoon",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a physical exam at a clinic asap",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for hospital outpatient nearby for screening",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Planning travel with airport hotel and flight",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need somewhere to eat lunch close to the office",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "hospital outpatient appointment for screening, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Actually I want a proper workout, not a massage",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "flight on Friday morning, hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "clinic appointment for health check, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a proper training, skip spa",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any quick lunch bistro nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flight on Friday morning, airport hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe Thai near the office",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing wellness session nearby this weekend",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book dinner at a restaurant near the office",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "I need exercise today, not relaxation spa",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Maybe ramen this weekend",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a GP office for a checkup this afternoon",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing massage nearby this afternoon",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a GP office for a checkup nearby",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any brunch cafe nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa or massage to relax this weekend",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for clinic nearby for physical exam",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Feeling drained, spa or gentle massage please",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a clinic slot tomorrow morning for a health checkup",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Hungry for noodles near me",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a doctor appointment, skip the retreat options",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book workout at the gym tomorrow morning",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "A calm unwind session this weekend sounds perfect",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Personal training at the gym this evening",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "clinic appointment for consultation, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any dinner bistro nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a consultation at a hospital outpatient nearby",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "I need something relaxing like a spa or massage",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book quick lunch at a cafe tomorrow afternoon",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a physical exam at a doctor asap",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a health check at a medical center tomorrow morning",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a doctor for a physical exam next week",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book gym at the gym tonight",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "I want Italian dinner, not a workout",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book brunch at a restaurant this weekend",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa or massage to relax this afternoon",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a checkup at a GP office this afternoon",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "training session this weekend, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a proper gym, skip spa",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any brunch restaurant nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Hungry for sushi near me",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book dinner at a cafe tomorrow afternoon",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Hospital outpatient booking for bloodwork next week",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book lunch at a cafe near the office",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Vacation travel booking, not a restaurant",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Looking for medical center nearby for consultation",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book lunch at a spot tomorrow afternoon",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Want a relaxing wellness session nearby tonight",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a screening at a clinic this afternoon",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe noodles tomorrow afternoon",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a flight and hotel package for vacation",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "workout session tonight, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a consultation at a hospital outpatient asap",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Any quick lunch spot nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Maybe Italian near the office",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Hungry for pizza or ramen near me tonight",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "GP office appointment for physical exam, not spa",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Trip planning: flights first, then lodging",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Looking for clinic nearby for health check",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "GP appointment please, this is medical not wellness",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a consultation at a clinic asap",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a proper HIIT, skip spa",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Schedule an annual physical with a physician",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a relaxing spa, not a clinic checkup",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a flights and hotel for my trip",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "gym session this weekend, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "gym session tonight, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "gym session tomorrow morning, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking at flights for a weekend getaway",
+    "service_category": "travel",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Looking for clinic nearby for consultation",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a proper workout, skip spa",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book quick lunch at a bistro near the office",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book a flights and airport hotel for my trip",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Gym session this weekend, skip the spa",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Planning travel with airport hotel and flights",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book lunch at a cafe tonight",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Feeling wiped out, need a calming spa nearby soon",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Health screening at a clinic, not a wellness package",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Medical consultation downtown, routine checkup",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book a flight and airport hotel for my trip",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "HIIT session tomorrow morning, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "workout session this weekend, not massage",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Book workout at the gym tonight",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "I need a doctor visit for a routine checkup, not a spa day",
+    "service_category": "medical",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Need a medical center for a checkup tomorrow morning",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa afternoon to unwind, gentle massage preferred",
+    "service_category": "wellness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Any lunch spot nearby, affordable",
+    "service_category": "dining",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Planning travel with hotel and flights",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a place for exercise now and also this weekend near office",
+    "service_category": "fitness",
+    "source": "confusion_seed"
+  },
+  {
+    "text": "Book HIIT at the gym this weekend",
+    "service_category": "fitness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Need a medical center for a consultation nearby",
+    "service_category": "medical",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "flight on this weekend, airport hotel near airport",
+    "service_category": "travel",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Spa or massage to relax tonight",
+    "service_category": "wellness",
+    "source": "confusion_augment"
+  },
+  {
+    "text": "Looking for a cafe or bistro for brunch this weekend",
+    "service_category": "dining",
+    "source": "confusion_seed"
+  }
+]

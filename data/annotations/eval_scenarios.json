@@ -1,0 +1,254 @@
+[
+  {
+    "scenario_id": "vague_wellness_weekend",
+    "description": "User starts vague about body/mood, narrows to weekend wellness nearby",
+    "user_id": "persona_wellness_weekend",
+    "gold_category": "wellness",
+    "turns": [
+      {
+        "text": "I don't know, maybe something for body and mood, tonight maybe",
+        "gold_hints": {"service_category": "wellness", "temporal_preference": "evening"}
+      },
+      {
+        "text": "Actually weekend, and not too far",
+        "gold_hints": {"service_category": "wellness", "temporal_preference": "weekend", "location_context": "nearby"}
+      },
+      {
+        "text": "Something relaxing is fine",
+        "gold_hints": {"service_category": "wellness", "sentiment_tags": ["relaxing"]}
+      }
+    ]
+  },
+  {
+    "scenario_id": "conflict_time_fitness",
+    "description": "Temporal conflict resolves toward weekend fitness near office",
+    "user_id": "persona_urgent_fitness",
+    "gold_category": "fitness",
+    "turns": [
+      {
+        "text": "Need a place now but also this weekend, close to office",
+        "gold_hints": {"service_category": "fitness", "urgency_level": "high", "location_context": "city_center"}
+      },
+      {
+        "text": "Let's do weekend instead",
+        "gold_hints": {"service_category": "fitness", "temporal_preference": "weekend"}
+      },
+      {
+        "text": "Fitness or wellness, quick session",
+        "gold_hints": {"service_category": "fitness", "sentiment_tags": ["quick"]}
+      }
+    ]
+  },
+  {
+    "scenario_id": "clear_fitness_single",
+    "description": "Low-ambiguity single-turn fitness booking",
+    "user_id": "persona_fitness_heavy",
+    "gold_category": "fitness",
+    "turns": [
+      {
+        "text": "Book a quick workout class nearby tonight",
+        "gold_hints": {"service_category": "fitness", "temporal_preference": "evening", "location_context": "nearby", "urgency_level": "high"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "beauty_skin_uncertain",
+    "description": "Skin concern gradually clarified as beauty care",
+    "user_id": "persona_beauty_budget",
+    "gold_category": "beauty",
+    "turns": [
+      {
+        "text": "Skin issue but maybe just normal care tomorrow",
+        "gold_hints": {"service_category": "beauty", "temporal_preference": "tomorrow"}
+      },
+      {
+        "text": "Beauty or medical for skin, maybe, don't know yet",
+        "gold_hints": {"service_category": "beauty"}
+      },
+      {
+        "text": "Need urgent beauty fix before event tonight near me",
+        "gold_hints": {"service_category": "beauty", "temporal_preference": "evening", "urgency_level": "high", "location_context": "nearby"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_wellness_ambiguous",
+    "description": "Medical vs wellness ambiguity resolved toward medical check",
+    "user_id": "persona_medical_cautious",
+    "gold_category": "medical",
+    "turns": [
+      {
+        "text": "Medical or wellness, not sure, but I need help now",
+        "gold_hints": {"service_category": "medical", "urgency_level": "high"}
+      },
+      {
+        "text": "Not urgent doctor check, maybe this weekend downtown",
+        "gold_hints": {"service_category": "medical", "temporal_preference": "weekend", "location_context": "city_center", "urgency_level": "low"}
+      },
+      {
+        "text": "Looking for any center nearby for health check tomorrow morning",
+        "gold_hints": {"service_category": "medical", "temporal_preference": "morning", "location_context": "nearby"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "dining_vague_then_specific",
+    "description": "Vague food craving narrows to restaurant reservation",
+    "user_id": "persona_mixed_explorer",
+    "gold_category": "dining",
+    "turns": [
+      {
+        "text": "I'm hungry, not sure what, maybe somewhere nice tonight",
+        "gold_hints": {"service_category": "dining", "temporal_preference": "evening"}
+      },
+      {
+        "text": "Actually Italian, downtown if possible",
+        "gold_hints": {"service_category": "dining", "location_context": "city_center"}
+      },
+      {
+        "text": "Book a table for two this Saturday evening",
+        "gold_hints": {"service_category": "dining", "temporal_preference": "weekend"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "travel_flight_vague",
+    "description": "Travel intent emerges from vague trip planning",
+    "user_id": "persona_cold_start",
+    "gold_category": "travel",
+    "turns": [
+      {
+        "text": "I need to get somewhere next week, not sure how yet",
+        "gold_hints": {"service_category": "travel"}
+      },
+      {
+        "text": "Probably a flight to Berlin, morning departure",
+        "gold_hints": {"service_category": "travel", "temporal_preference": "morning"}
+      },
+      {
+        "text": "Round trip, return Sunday evening",
+        "gold_hints": {"service_category": "travel", "temporal_preference": "evening"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "gym_yoga_massage_conflict",
+    "description": "Multi-category indecision between fitness and wellness",
+    "user_id": "persona_fitness_heavy",
+    "gold_category": "fitness",
+    "turns": [
+      {
+        "text": "Gym or yoga or massage, I can't decide, asap",
+        "gold_hints": {"service_category": "fitness", "urgency_level": "high"}
+      },
+      {
+        "text": "Can I do a workout tomorrow evening but cheap",
+        "gold_hints": {"service_category": "fitness", "temporal_preference": "evening", "sentiment_tags": ["affordable"]}
+      }
+    ]
+  },
+  {
+    "scenario_id": "premium_spa_afternoon",
+    "description": "Wellness spa with affordability constraint",
+    "user_id": "persona_premium_wellness",
+    "gold_category": "wellness",
+    "turns": [
+      {
+        "text": "Maybe downtown spa this afternoon, if affordable",
+        "gold_hints": {"service_category": "wellness", "temporal_preference": "afternoon", "location_context": "city_center", "sentiment_tags": ["affordable"]}
+      },
+      {
+        "text": "Something to unwind, not sure what, near me whenever",
+        "gold_hints": {"service_category": "wellness", "location_context": "nearby", "sentiment_tags": ["relaxing"]}
+      }
+    ]
+  },
+  {
+    "scenario_id": "exhausted_wellness_urgent",
+    "description": "High-urgency wellness after exhaustion cue",
+    "user_id": "persona_wellness_weekend",
+    "gold_category": "wellness",
+    "turns": [
+      {
+        "text": "I am exhausted and need something quick near me right now",
+        "gold_hints": {"service_category": "wellness", "urgency_level": "high", "location_context": "nearby", "sentiment_tags": ["quick", "relaxing"]}
+      },
+      {
+        "text": "I don't know, fitness or spa, maybe tonight or weekend",
+        "gold_hints": {"service_category": "wellness"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "dining_budget_lunch",
+    "description": "Budget-conscious lunch reservation",
+    "user_id": "persona_mixed_explorer",
+    "gold_category": "dining",
+    "turns": [
+      {
+        "text": "Any quick lunch spot nearby, affordable please",
+        "gold_hints": {"service_category": "dining", "location_context": "nearby", "sentiment_tags": ["affordable", "quick"]}
+      },
+      {
+        "text": "Maybe Thai or sushi, tomorrow afternoon",
+        "gold_hints": {"service_category": "dining", "temporal_preference": "afternoon"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "travel_hotel_combo",
+    "description": "Travel booking with hotel and timing details",
+    "user_id": "persona_cold_start",
+    "gold_category": "travel",
+    "turns": [
+      {
+        "text": "Planning a trip, hotel and transport, not sure when",
+        "gold_hints": {"service_category": "travel"}
+      },
+      {
+        "text": "Flying out Friday morning, hotel near airport",
+        "gold_hints": {"service_category": "travel", "temporal_preference": "morning", "location_context": "nearby"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "fitness_wellness_yoga_spa",
+    "description": "Fitness vs wellness yoga/spa confusion resolves to fitness workout",
+    "user_id": "persona_fitness_heavy",
+    "gold_category": "fitness",
+    "turns": [
+      {
+        "text": "Yoga or spa or gym, not sure, maybe this weekend",
+        "gold_hints": {"service_category": "fitness", "temporal_preference": "weekend"}
+      },
+      {
+        "text": "Actually I want a proper workout, not massage",
+        "gold_hints": {"service_category": "fitness", "sentiment_tags": ["quick"]}
+      },
+      {
+        "text": "Book a fitness class nearby tomorrow evening",
+        "gold_hints": {"service_category": "fitness", "temporal_preference": "evening", "location_context": "nearby"}
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_wellness_checkup",
+    "description": "Medical vs wellness boundary for health checkup",
+    "user_id": "persona_medical_cautious",
+    "gold_category": "medical",
+    "turns": [
+      {
+        "text": "Health check or wellness retreat, I'm not sure which I need",
+        "gold_hints": {"service_category": "medical"}
+      },
+      {
+        "text": "Doctor appointment for a routine checkup, not spa",
+        "gold_hints": {"service_category": "medical", "urgency_level": "medium"}
+      },
+      {
+        "text": "Any clinic nearby tomorrow morning for checkup",
+        "gold_hints": {"service_category": "medical", "temporal_preference": "morning", "location_context": "nearby"}
+      }
+    ]
+  }
+]

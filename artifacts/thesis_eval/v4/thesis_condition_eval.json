@@ -1,0 +1,3618 @@
+{
+  "created_at": "2026-08-01T00:09:09.912397+00:00",
+  "dataset": "data\\annotations\\eval_scenarios.json",
+  "extractor_mode": "pipeline",
+  "n_scenarios": 14,
+  "freeze": {
+    "converge_threshold": 0.55,
+    "hypothesis_max_size": 120,
+    "extractor_mode": "pipeline",
+    "config_path": "config.yaml",
+    "m2": {
+      "slot_evidence_power": 0.3,
+      "belief_power_decay": 0.8,
+      "belief_recency_alpha": 0.7,
+      "prior_reinjection": 0.15,
+      "top1_suggest_threshold": 0.4,
+      "high_entropy_ratio": 0.99,
+      "clarify_budget": 1,
+      "enable_domain_guards": false,
+      "enable_m1_voting": true,
+      "guard_confidence_cap": 0.85,
+      "vote_recency_decay": 0.75,
+      "enable_conflict_dampen": false,
+      "conflict_dampen_factor": 0.65
+    },
+    "hypothesis_category_counts": {
+      "fitness": 20,
+      "wellness": 20,
+      "beauty": 20,
+      "medical": 20,
+      "dining": 20,
+      "travel": 20
+    },
+    "note": "Sidecar metrics only; generative LLM not required for Table B1.",
+    "memory_augmented_seed": "mild gold-aligned category_counts (>=3) per scenario user_id"
+  },
+  "table_b1": {
+    "LLM-only": {
+      "n_scenarios": 14,
+      "category_task_match": 0.8571,
+      "last_m1_match_gold": null,
+      "belief_matches_last_m1": null,
+      "resolution_rate": 0.6429,
+      "mean_turns_to_resolution": 1.6667,
+      "mean_entropy_drop": 0.068827,
+      "mean_category_entropy_drop": 0.0,
+      "clarify_rate": 0.1714,
+      "suggest_rate": 0.8286,
+      "privacy_audit_pass_rate": 1.0
+    },
+    "Intention-conditioned": {
+      "n_scenarios": 14,
+      "category_task_match": 0.8571,
+      "last_m1_match_gold": 0.8571,
+      "belief_matches_last_m1": 1.0,
+      "resolution_rate": 0.7143,
+      "mean_turns_to_resolution": 1.7,
+      "mean_entropy_drop": 0.410523,
+      "mean_category_entropy_drop": 0.410252,
+      "clarify_rate": 0.2571,
+      "suggest_rate": 0.7429,
+      "privacy_audit_pass_rate": 1.0
+    },
+    "Memory-augmented": {
+      "n_scenarios": 14,
+      "category_task_match": 0.9286,
+      "last_m1_match_gold": 0.8571,
+      "belief_matches_last_m1": 0.9286,
+      "resolution_rate": 0.8571,
+      "mean_turns_to_resolution": 1.5833,
+      "mean_entropy_drop": 0.381309,
+      "mean_category_entropy_drop": 0.397861,
+      "clarify_rate": 0.1714,
+      "suggest_rate": 0.8286,
+      "privacy_audit_pass_rate": 1.0
+    }
+  },
+  "conditions": {
+    "LLM-only": {
+      "code_id": "C0_llm_only",
+      "aggregate": {
+        "n_scenarios": 14,
+        "category_task_match": 0.8571,
+        "last_m1_match_gold": null,
+        "belief_matches_last_m1": null,
+        "resolution_rate": 0.6429,
+        "mean_turns_to_resolution": 1.6667,
+        "mean_entropy_drop": 0.068827,
+        "mean_category_entropy_drop": 0.0,
+        "clarify_rate": 0.1714,
+        "suggest_rate": 0.8286,
+        "privacy_audit_pass_rate": 1.0
+      },
+      "scenarios": [
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "vague_wellness_weekend",
+          "gold_category": "wellness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I don't know, maybe something for body and mood, tonight maybe",
+              "m1_category": "dining",
+              "m1_confidence": 0.9641,
+              "posterior_entropy": 4.435498,
+              "top1_prob": 0.0292,
+              "converged": false,
+              "pred_category": "dining",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "evening"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually weekend, and not too far",
+              "m1_category": "wellness",
+              "m1_confidence": 0.6604,
+              "posterior_entropy": 4.770364,
+              "top1_prob": 0.0132,
+              "converged": false,
+              "pred_category": "wellness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "weekend",
+                "location_context": "nearby"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Something relaxing is fine",
+              "m1_category": "beauty",
+              "m1_confidence": 0.3595,
+              "posterior_entropy": 4.780619,
+              "top1_prob": 0.0088,
+              "converged": false,
+              "pred_category": "beauty",
+              "dialogue_policy": "clarify",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness",
+                "sentiment_tags": [
+                  "relaxing"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.435498,
+            4.770364,
+            4.780619
+          ],
+          "entropy_drop": -0.345122,
+          "turns_to_resolution": 1,
+          "final_pred_category": "beauty",
+          "gold_match": false,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "clarify"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "conflict_time_fitness",
+          "gold_category": "fitness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Need a place now but also this weekend, close to office",
+              "m1_category": "fitness",
+              "m1_confidence": 0.4889,
+              "posterior_entropy": 4.784112,
+              "top1_prob": 0.0093,
+              "converged": false,
+              "pred_category": "fitness",
+              "dialogue_policy": "clarify",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "urgency_level": "high",
+                "location_context": "city_center"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Let's do weekend instead",
+              "m1_category": "wellness",
+              "m1_confidence": 0.4789,
+              "posterior_entropy": 4.785984,
+              "top1_prob": 0.0093,
+              "converged": false,
+              "pred_category": "wellness",
+              "dialogue_policy": "clarify",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "weekend"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Fitness or wellness, quick session",
+              "m1_category": "fitness",
+              "m1_confidence": 0.5715,
+              "posterior_entropy": 4.7849,
+              "top1_prob": 0.0097,
+              "converged": false,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "sentiment_tags": [
+                  "quick"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.784112,
+            4.785984,
+            4.7849
+          ],
+          "entropy_drop": -0.000788,
+          "turns_to_resolution": null,
+          "final_pred_category": "fitness",
+          "gold_match": true,
+          "clarify_turns": 2,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "clarify",
+            "clarify",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "clear_fitness_single",
+          "gold_category": "fitness",
+          "n_turns": 1,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Book a quick workout class nearby tonight",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9995,
+              "posterior_entropy": 4.304909,
+              "top1_prob": 0.0331,
+              "converged": true,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "location_context": "nearby",
+                "urgency_level": "high"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.304909
+          ],
+          "entropy_drop": 0.0,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "beauty_skin_uncertain",
+          "gold_category": "beauty",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Skin issue but maybe just normal care tomorrow",
+              "m1_category": "beauty",
+              "m1_confidence": 0.393,
+              "posterior_entropy": 4.783293,
+              "top1_prob": 0.0087,
+              "converged": false,
+              "pred_category": "beauty",
+              "dialogue_policy": "clarify",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "beauty",
+                "temporal_preference": "tomorrow"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Beauty or medical for skin, maybe, don't know yet",
+              "m1_category": "beauty",
+              "m1_confidence": 0.5995,
+              "posterior_entropy": 4.778588,
+              "top1_prob": 0.0115,
+              "converged": false,
+              "pred_category": "beauty",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "beauty"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Need urgent beauty fix before event tonight near me",
+              "m1_category": "beauty",
+              "m1_confidence": 0.8361,
+              "posterior_entropy": 4.67263,
+              "top1_prob": 0.0205,
+              "converged": false,
+              "pred_category": "beauty",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "beauty",
+                "temporal_preference": "evening",
+                "urgency_level": "high",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.783293,
+            4.778588,
+            4.67263
+          ],
+          "entropy_drop": 0.110663,
+          "turns_to_resolution": null,
+          "final_pred_category": "beauty",
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "medical_wellness_ambiguous",
+          "gold_category": "medical",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Medical or wellness, not sure, but I need help now",
+              "m1_category": "wellness",
+              "m1_confidence": 0.9935,
+              "posterior_entropy": 4.328022,
+              "top1_prob": 0.0335,
+              "converged": true,
+              "pred_category": "wellness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "medical",
+                "urgency_level": "high"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Not urgent doctor check, maybe this weekend downtown",
+              "m1_category": "medical",
+              "m1_confidence": 0.8669,
+              "posterior_entropy": 4.636078,
+              "top1_prob": 0.0217,
+              "converged": false,
+              "pred_category": "medical",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "weekend",
+                "location_context": "city_center",
+                "urgency_level": "low"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Looking for any center nearby for health check tomorrow morning",
+              "m1_category": "medical",
+              "m1_confidence": 0.9746,
+              "posterior_entropy": 4.403093,
+              "top1_prob": 0.0286,
+              "converged": true,
+              "pred_category": "medical",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.328022,
+            4.636078,
+            4.403093
+          ],
+          "entropy_drop": -0.075071,
+          "turns_to_resolution": 1,
+          "final_pred_category": "medical",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "dining_vague_then_specific",
+          "gold_category": "dining",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I'm hungry, not sure what, maybe somewhere nice tonight",
+              "m1_category": "dining",
+              "m1_confidence": 0.8443,
+              "posterior_entropy": 4.665827,
+              "top1_prob": 0.0196,
+              "converged": false,
+              "pred_category": "dining",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "evening"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually Italian, downtown if possible",
+              "m1_category": "beauty",
+              "m1_confidence": 0.5875,
+              "posterior_entropy": 4.783487,
+              "top1_prob": 0.01,
+              "converged": false,
+              "pred_category": "beauty",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "dining",
+                "location_context": "city_center"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Book a table for two this Saturday evening",
+              "m1_category": "dining",
+              "m1_confidence": 0.8928,
+              "posterior_entropy": 4.600036,
+              "top1_prob": 0.0225,
+              "converged": false,
+              "pred_category": "dining",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "weekend"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.665827,
+            4.783487,
+            4.600036
+          ],
+          "entropy_drop": 0.065791,
+          "turns_to_resolution": null,
+          "final_pred_category": "dining",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "travel_flight_vague",
+          "gold_category": "travel",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I need to get somewhere next week, not sure how yet",
+              "m1_category": "medical",
+              "m1_confidence": 0.4239,
+              "posterior_entropy": 4.785257,
+              "top1_prob": 0.0086,
+              "converged": false,
+              "pred_category": "medical",
+              "dialogue_policy": "clarify",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "travel"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Probably a flight to Berlin, morning departure",
+              "m1_category": "travel",
+              "m1_confidence": 0.8862,
+              "posterior_entropy": 4.611387,
+              "top1_prob": 0.0209,
+              "converged": false,
+              "pred_category": "travel",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "morning"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Round trip, return Sunday evening",
+              "m1_category": "travel",
+              "m1_confidence": 0.9949,
+              "posterior_entropy": 4.325478,
+              "top1_prob": 0.0314,
+              "converged": true,
+              "pred_category": "travel",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "evening"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.785257,
+            4.611387,
+            4.325478
+          ],
+          "entropy_drop": 0.459779,
+          "turns_to_resolution": 3,
+          "final_pred_category": "travel",
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "gym_yoga_massage_conflict",
+          "gold_category": "fitness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Gym or yoga or massage, I can't decide, asap",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9836,
+              "posterior_entropy": 4.352313,
+              "top1_prob": 0.037,
+              "converged": true,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "urgency_level": "high"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Can I do a workout tomorrow evening but cheap",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9656,
+              "posterior_entropy": 4.43244,
+              "top1_prob": 0.0283,
+              "converged": false,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "sentiment_tags": [
+                  "affordable"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.352313,
+            4.43244
+          ],
+          "entropy_drop": -0.080127,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "premium_spa_afternoon",
+          "gold_category": "wellness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Maybe downtown spa this afternoon, if affordable",
+              "m1_category": "wellness",
+              "m1_confidence": 0.8799,
+              "posterior_entropy": 4.620556,
+              "top1_prob": 0.0212,
+              "converged": false,
+              "pred_category": "wellness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "afternoon",
+                "location_context": "city_center",
+                "sentiment_tags": [
+                  "affordable"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Something to unwind, not sure what, near me whenever",
+              "m1_category": "wellness",
+              "m1_confidence": 0.9664,
+              "posterior_entropy": 4.430103,
+              "top1_prob": 0.0279,
+              "converged": false,
+              "pred_category": "wellness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "relaxing"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.620556,
+            4.430103
+          ],
+          "entropy_drop": 0.190453,
+          "turns_to_resolution": 2,
+          "final_pred_category": "wellness",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "exhausted_wellness_urgent",
+          "gold_category": "wellness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I am exhausted and need something quick near me right now",
+              "m1_category": "dining",
+              "m1_confidence": 0.4999,
+              "posterior_entropy": 4.783513,
+              "top1_prob": 0.0095,
+              "converged": false,
+              "pred_category": "dining",
+              "dialogue_policy": "clarify",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness",
+                "urgency_level": "high",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "quick",
+                  "relaxing"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "I don't know, fitness or spa, maybe tonight or weekend",
+              "m1_category": "fitness",
+              "m1_confidence": 0.6506,
+              "posterior_entropy": 4.770928,
+              "top1_prob": 0.0125,
+              "converged": false,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "wellness"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.783513,
+            4.770928
+          ],
+          "entropy_drop": 0.012584,
+          "turns_to_resolution": null,
+          "final_pred_category": "fitness",
+          "gold_match": false,
+          "clarify_turns": 1,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "clarify",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "dining_budget_lunch",
+          "gold_category": "dining",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Any quick lunch spot nearby, affordable please",
+              "m1_category": "dining",
+              "m1_confidence": 0.9347,
+              "posterior_entropy": 4.517009,
+              "top1_prob": 0.0259,
+              "converged": false,
+              "pred_category": "dining",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "dining",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "affordable",
+                  "quick"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Maybe Thai or sushi, tomorrow afternoon",
+              "m1_category": "dining",
+              "m1_confidence": 0.5034,
+              "posterior_entropy": 4.787487,
+              "top1_prob": 0.0084,
+              "converged": false,
+              "pred_category": "dining",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "afternoon"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.517009,
+            4.787487
+          ],
+          "entropy_drop": -0.270478,
+          "turns_to_resolution": null,
+          "final_pred_category": "dining",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "travel_hotel_combo",
+          "gold_category": "travel",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Planning a trip, hotel and transport, not sure when",
+              "m1_category": "travel",
+              "m1_confidence": 0.9266,
+              "posterior_entropy": 4.536297,
+              "top1_prob": 0.0236,
+              "converged": false,
+              "pred_category": "travel",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "travel"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Flying out Friday morning, hotel near airport",
+              "m1_category": "travel",
+              "m1_confidence": 0.9982,
+              "posterior_entropy": 4.31175,
+              "top1_prob": 0.0311,
+              "converged": true,
+              "pred_category": "travel",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.536297,
+            4.31175
+          ],
+          "entropy_drop": 0.224547,
+          "turns_to_resolution": 2,
+          "final_pred_category": "travel",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "fitness_wellness_yoga_spa",
+          "gold_category": "fitness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Yoga or spa or gym, not sure, maybe this weekend",
+              "m1_category": "fitness",
+              "m1_confidence": 0.8304,
+              "posterior_entropy": 4.679591,
+              "top1_prob": 0.0202,
+              "converged": false,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "weekend"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually I want a proper workout, not massage",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9757,
+              "posterior_entropy": 4.399711,
+              "top1_prob": 0.0277,
+              "converged": true,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "sentiment_tags": [
+                  "quick"
+                ]
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Book a fitness class nearby tomorrow evening",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9991,
+              "posterior_entropy": 4.307005,
+              "top1_prob": 0.033,
+              "converged": true,
+              "pred_category": "fitness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.679591,
+            4.399711,
+            4.307005
+          ],
+          "entropy_drop": 0.372586,
+          "turns_to_resolution": 2,
+          "final_pred_category": "fitness",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        },
+        {
+          "condition": "LLM-only",
+          "code_id": "C0_llm_only",
+          "scenario_id": "medical_wellness_checkup",
+          "gold_category": "medical",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Health check or wellness retreat, I'm not sure which I need",
+              "m1_category": "wellness",
+              "m1_confidence": 0.5816,
+              "posterior_entropy": 4.784046,
+              "top1_prob": 0.0099,
+              "converged": false,
+              "pred_category": "wellness",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "medical"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Doctor appointment for a routine checkup, not spa",
+              "m1_category": "medical",
+              "m1_confidence": 0.9853,
+              "posterior_entropy": 4.364878,
+              "top1_prob": 0.0287,
+              "converged": true,
+              "pred_category": "medical",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "medical",
+                "urgency_level": "medium"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Any clinic nearby tomorrow morning for checkup",
+              "m1_category": "medical",
+              "m1_confidence": 0.9474,
+              "posterior_entropy": 4.485287,
+              "top1_prob": 0.0262,
+              "converged": false,
+              "pred_category": "medical",
+              "dialogue_policy": "suggest",
+              "privacy_pass": true,
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.784046,
+            4.364878,
+            4.485287
+          ],
+          "entropy_drop": 0.298759,
+          "turns_to_resolution": 2,
+          "final_pred_category": "medical",
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true
+        }
+      ]
+    },
+    "Intention-conditioned": {
+      "code_id": "C1_intention_block",
+      "aggregate": {
+        "n_scenarios": 14,
+        "category_task_match": 0.8571,
+        "last_m1_match_gold": 0.8571,
+        "belief_matches_last_m1": 1.0,
+        "resolution_rate": 0.7143,
+        "mean_turns_to_resolution": 1.7,
+        "mean_entropy_drop": 0.410523,
+        "mean_category_entropy_drop": 0.410252,
+        "clarify_rate": 0.2571,
+        "suggest_rate": 0.7429,
+        "privacy_audit_pass_rate": 1.0
+      },
+      "scenarios": [
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "vague_wellness_weekend",
+          "gold_category": "wellness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I don't know, maybe something for body and mood, tonight maybe",
+              "m1_category": "dining",
+              "m1_confidence": 0.9641,
+              "posterior_entropy": 4.435498,
+              "category_entropy": 1.442078,
+              "top1_prob": 0.0292,
+              "top1_category_prob": 0.5333,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "evening"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually weekend, and not too far",
+              "m1_category": "dining",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 4.092885,
+              "category_entropy": 1.097907,
+              "top1_prob": 0.0364,
+              "top1_category_prob": 0.6983,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "weekend",
+                "location_context": "nearby"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Something relaxing is fine",
+              "m1_category": "dining",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 3.860066,
+              "category_entropy": 0.864813,
+              "top1_prob": 0.0406,
+              "top1_category_prob": 0.7856,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "sentiment_tags": [
+                  "relaxing"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.435498,
+            4.092885,
+            3.860066
+          ],
+          "category_entropy_per_turn": [
+            1.442078,
+            1.097907,
+            0.864813
+          ],
+          "entropy_drop": 0.575432,
+          "category_entropy_drop": 0.577265,
+          "turns_to_resolution": 1,
+          "final_pred_category": "dining",
+          "last_m1_category": "dining",
+          "last_m1_match_gold": false,
+          "belief_matches_last_m1": true,
+          "gold_match": false,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "conflict_time_fitness",
+          "gold_category": "fitness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Need a place now but also this weekend, close to office",
+              "m1_category": "fitness",
+              "m1_confidence": 0.4889,
+              "posterior_entropy": 4.784112,
+              "category_entropy": 1.791706,
+              "top1_prob": 0.0093,
+              "top1_category_prob": 0.1674,
+              "converged": false,
+              "pred_category": "wellness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "urgency_level": "high",
+                "location_context": "city_center"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Let's do weekend instead",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 4.590621,
+              "category_entropy": 1.598462,
+              "top1_prob": 0.0254,
+              "top1_category_prob": 0.4317,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "weekend"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Fitness or wellness, quick session",
+              "m1_category": "fitness",
+              "m1_confidence": 0.5715,
+              "posterior_entropy": 4.645935,
+              "category_entropy": 1.652054,
+              "top1_prob": 0.022,
+              "top1_category_prob": 0.3887,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "sentiment_tags": [
+                  "quick"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.784112,
+            4.590621,
+            4.645935
+          ],
+          "category_entropy_per_turn": [
+            1.791706,
+            1.598462,
+            1.652054
+          ],
+          "entropy_drop": 0.138177,
+          "category_entropy_drop": 0.139652,
+          "turns_to_resolution": null,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "clear_fitness_single",
+          "gold_category": "fitness",
+          "n_turns": 1,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Book a quick workout class nearby tonight",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9995,
+              "posterior_entropy": 4.304909,
+              "category_entropy": 1.310377,
+              "top1_prob": 0.0331,
+              "top1_category_prob": 0.6032,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "location_context": "nearby",
+                "urgency_level": "high"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.304909
+          ],
+          "category_entropy_per_turn": [
+            1.310377
+          ],
+          "entropy_drop": 0.0,
+          "category_entropy_drop": 0.0,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "beauty_skin_uncertain",
+          "gold_category": "beauty",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Skin issue but maybe just normal care tomorrow",
+              "m1_category": "beauty",
+              "m1_confidence": 0.393,
+              "posterior_entropy": 4.783293,
+              "category_entropy": 1.787561,
+              "top1_prob": 0.0087,
+              "top1_category_prob": 0.1733,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "beauty",
+                "temporal_preference": "tomorrow"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Beauty or medical for skin, maybe, don't know yet",
+              "m1_category": "beauty",
+              "m1_confidence": 0.5995,
+              "posterior_entropy": 4.78346,
+              "category_entropy": 1.791317,
+              "top1_prob": 0.0099,
+              "top1_category_prob": 0.1779,
+              "converged": false,
+              "pred_category": "beauty",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "beauty"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Need urgent beauty fix before event tonight near me",
+              "m1_category": "beauty",
+              "m1_confidence": 0.8361,
+              "posterior_entropy": 4.653969,
+              "category_entropy": 1.666509,
+              "top1_prob": 0.0228,
+              "top1_category_prob": 0.3759,
+              "converged": false,
+              "pred_category": "beauty",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "beauty",
+                "temporal_preference": "evening",
+                "urgency_level": "high",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.783293,
+            4.78346,
+            4.653969
+          ],
+          "category_entropy_per_turn": [
+            1.787561,
+            1.791317,
+            1.666509
+          ],
+          "entropy_drop": 0.129324,
+          "category_entropy_drop": 0.121052,
+          "turns_to_resolution": null,
+          "final_pred_category": "beauty",
+          "last_m1_category": "beauty",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "medical_wellness_ambiguous",
+          "gold_category": "medical",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Medical or wellness, not sure, but I need help now",
+              "m1_category": "wellness",
+              "m1_confidence": 0.9935,
+              "posterior_entropy": 4.328022,
+              "category_entropy": 1.336352,
+              "top1_prob": 0.0335,
+              "top1_category_prob": 0.5902,
+              "converged": true,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "urgency_level": "high"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Not urgent doctor check, maybe this weekend downtown",
+              "m1_category": "medical",
+              "m1_confidence": 0.8669,
+              "posterior_entropy": 4.552972,
+              "category_entropy": 1.564935,
+              "top1_prob": 0.0214,
+              "top1_category_prob": 0.3651,
+              "converged": false,
+              "pred_category": "wellness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "weekend",
+                "location_context": "city_center",
+                "urgency_level": "low"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Looking for any center nearby for health check tomorrow morning",
+              "m1_category": "medical",
+              "m1_confidence": 0.9746,
+              "posterior_entropy": 4.148376,
+              "category_entropy": 1.157234,
+              "top1_prob": 0.0372,
+              "top1_category_prob": 0.6528,
+              "converged": true,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.328022,
+            4.552972,
+            4.148376
+          ],
+          "category_entropy_per_turn": [
+            1.336352,
+            1.564935,
+            1.157234
+          ],
+          "entropy_drop": 0.179645,
+          "category_entropy_drop": 0.179118,
+          "turns_to_resolution": 1,
+          "final_pred_category": "medical",
+          "last_m1_category": "medical",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "clarify",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "dining_vague_then_specific",
+          "gold_category": "dining",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I'm hungry, not sure what, maybe somewhere nice tonight",
+              "m1_category": "dining",
+              "m1_confidence": 0.8443,
+              "posterior_entropy": 4.665827,
+              "category_entropy": 1.670768,
+              "top1_prob": 0.0196,
+              "top1_category_prob": 0.372,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "evening"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually Italian, downtown if possible",
+              "m1_category": "dining",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 4.304557,
+              "category_entropy": 1.309258,
+              "top1_prob": 0.0314,
+              "top1_category_prob": 0.6037,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "location_context": "city_center"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Book a table for two this Saturday evening",
+              "m1_category": "dining",
+              "m1_confidence": 0.8928,
+              "posterior_entropy": 4.008886,
+              "category_entropy": 1.014976,
+              "top1_prob": 0.0395,
+              "top1_category_prob": 0.7311,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "weekend"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.665827,
+            4.304557,
+            4.008886
+          ],
+          "category_entropy_per_turn": [
+            1.670768,
+            1.309258,
+            1.014976
+          ],
+          "entropy_drop": 0.656941,
+          "category_entropy_drop": 0.655792,
+          "turns_to_resolution": 2,
+          "final_pred_category": "dining",
+          "last_m1_category": "dining",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "travel_flight_vague",
+          "gold_category": "travel",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I need to get somewhere next week, not sure how yet",
+              "m1_category": "medical",
+              "m1_confidence": 0.4239,
+              "posterior_entropy": 4.785257,
+              "category_entropy": 1.789525,
+              "top1_prob": 0.0086,
+              "top1_category_prob": 0.1715,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Probably a flight to Berlin, morning departure",
+              "m1_category": "travel",
+              "m1_confidence": 0.8862,
+              "posterior_entropy": 4.603636,
+              "category_entropy": 1.607904,
+              "top1_prob": 0.0212,
+              "top1_category_prob": 0.4239,
+              "converged": false,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "morning"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Round trip, return Sunday evening",
+              "m1_category": "travel",
+              "m1_confidence": 0.9949,
+              "posterior_entropy": 3.997183,
+              "category_entropy": 1.002187,
+              "top1_prob": 0.0388,
+              "top1_category_prob": 0.7359,
+              "converged": true,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "evening"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.785257,
+            4.603636,
+            3.997183
+          ],
+          "category_entropy_per_turn": [
+            1.789525,
+            1.607904,
+            1.002187
+          ],
+          "entropy_drop": 0.788075,
+          "category_entropy_drop": 0.787338,
+          "turns_to_resolution": 3,
+          "final_pred_category": "travel",
+          "last_m1_category": "travel",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "gym_yoga_massage_conflict",
+          "gold_category": "fitness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Gym or yoga or massage, I can't decide, asap",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9836,
+              "posterior_entropy": 4.352313,
+              "category_entropy": 1.375597,
+              "top1_prob": 0.037,
+              "top1_category_prob": 0.5699,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "urgency_level": "high"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Can I do a workout tomorrow evening but cheap",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9656,
+              "posterior_entropy": 3.898944,
+              "category_entropy": 0.913199,
+              "top1_prob": 0.0457,
+              "top1_category_prob": 0.7687,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "sentiment_tags": [
+                  "affordable"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.352313,
+            3.898944
+          ],
+          "category_entropy_per_turn": [
+            1.375597,
+            0.913199
+          ],
+          "entropy_drop": 0.453369,
+          "category_entropy_drop": 0.462398,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "premium_spa_afternoon",
+          "gold_category": "wellness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Maybe downtown spa this afternoon, if affordable",
+              "m1_category": "wellness",
+              "m1_confidence": 0.8799,
+              "posterior_entropy": 4.620556,
+              "category_entropy": 1.62517,
+              "top1_prob": 0.0212,
+              "top1_category_prob": 0.411,
+              "converged": false,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "afternoon",
+                "location_context": "city_center",
+                "sentiment_tags": [
+                  "affordable"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Something to unwind, not sure what, near me whenever",
+              "m1_category": "wellness",
+              "m1_confidence": 0.9664,
+              "posterior_entropy": 4.093685,
+              "category_entropy": 1.098631,
+              "top1_prob": 0.037,
+              "top1_category_prob": 0.698,
+              "converged": true,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "relaxing"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.620556,
+            4.093685
+          ],
+          "category_entropy_per_turn": [
+            1.62517,
+            1.098631
+          ],
+          "entropy_drop": 0.526871,
+          "category_entropy_drop": 0.526538,
+          "turns_to_resolution": 2,
+          "final_pred_category": "wellness",
+          "last_m1_category": "wellness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "exhausted_wellness_urgent",
+          "gold_category": "wellness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I am exhausted and need something quick near me right now",
+              "m1_category": "dining",
+              "m1_confidence": 0.4999,
+              "posterior_entropy": 4.783513,
+              "category_entropy": 1.791759,
+              "top1_prob": 0.0095,
+              "top1_category_prob": 0.1667,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "urgency_level": "high",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "quick",
+                  "relaxing"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "I don't know, fitness or spa, maybe tonight or weekend",
+              "m1_category": "fitness",
+              "m1_confidence": 0.6506,
+              "posterior_entropy": 4.765073,
+              "category_entropy": 1.778134,
+              "top1_prob": 0.0137,
+              "top1_category_prob": 0.231,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.783513,
+            4.765073
+          ],
+          "category_entropy_per_turn": [
+            1.791759,
+            1.778134
+          ],
+          "entropy_drop": 0.01844,
+          "category_entropy_drop": 0.013625,
+          "turns_to_resolution": null,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": false,
+          "belief_matches_last_m1": true,
+          "gold_match": false,
+          "clarify_turns": 1,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "clarify",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "dining_budget_lunch",
+          "gold_category": "dining",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Any quick lunch spot nearby, affordable please",
+              "m1_category": "dining",
+              "m1_confidence": 0.9347,
+              "posterior_entropy": 4.517009,
+              "category_entropy": 1.522058,
+              "top1_prob": 0.0259,
+              "top1_category_prob": 0.4847,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "affordable",
+                  "quick"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Maybe Thai or sushi, tomorrow afternoon",
+              "m1_category": "dining",
+              "m1_confidence": 0.5034,
+              "posterior_entropy": 4.651738,
+              "category_entropy": 1.656388,
+              "top1_prob": 0.0203,
+              "top1_category_prob": 0.3849,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "afternoon"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.517009,
+            4.651738
+          ],
+          "category_entropy_per_turn": [
+            1.522058,
+            1.656388
+          ],
+          "entropy_drop": -0.134729,
+          "category_entropy_drop": -0.134329,
+          "turns_to_resolution": null,
+          "final_pred_category": "dining",
+          "last_m1_category": "dining",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "suggest",
+            "clarify"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "travel_hotel_combo",
+          "gold_category": "travel",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Planning a trip, hotel and transport, not sure when",
+              "m1_category": "travel",
+              "m1_confidence": 0.9266,
+              "posterior_entropy": 4.536297,
+              "category_entropy": 1.540565,
+              "top1_prob": 0.0236,
+              "top1_category_prob": 0.4725,
+              "converged": false,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Flying out Friday morning, hotel near airport",
+              "m1_category": "travel",
+              "m1_confidence": 0.9982,
+              "posterior_entropy": 3.935741,
+              "category_entropy": 0.940457,
+              "top1_prob": 0.0392,
+              "top1_category_prob": 0.7589,
+              "converged": true,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.536297,
+            3.935741
+          ],
+          "category_entropy_per_turn": [
+            1.540565,
+            0.940457
+          ],
+          "entropy_drop": 0.600556,
+          "category_entropy_drop": 0.600109,
+          "turns_to_resolution": 2,
+          "final_pred_category": "travel",
+          "last_m1_category": "travel",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "fitness_wellness_yoga_spa",
+          "gold_category": "fitness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Yoga or spa or gym, not sure, maybe this weekend",
+              "m1_category": "fitness",
+              "m1_confidence": 0.8304,
+              "posterior_entropy": 4.679591,
+              "category_entropy": 1.685214,
+              "top1_prob": 0.0202,
+              "top1_category_prob": 0.3583,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "weekend"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually I want a proper workout, not massage",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9757,
+              "posterior_entropy": 4.130776,
+              "category_entropy": 1.135957,
+              "top1_prob": 0.0373,
+              "top1_category_prob": 0.6825,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "sentiment_tags": [
+                  "quick"
+                ]
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Book a fitness class nearby tomorrow evening",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9991,
+              "posterior_entropy": 3.699829,
+              "category_entropy": 0.705285,
+              "top1_prob": 0.0448,
+              "top1_category_prob": 0.8375,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.679591,
+            4.130776,
+            3.699829
+          ],
+          "category_entropy_per_turn": [
+            1.685214,
+            1.135957,
+            0.705285
+          ],
+          "entropy_drop": 0.979763,
+          "category_entropy_drop": 0.979929,
+          "turns_to_resolution": 2,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        },
+        {
+          "condition": "Intention-conditioned",
+          "code_id": "C1_intention_block",
+          "scenario_id": "medical_wellness_checkup",
+          "gold_category": "medical",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Health check or wellness retreat, I'm not sure which I need",
+              "m1_category": "wellness",
+              "m1_confidence": 0.5816,
+              "posterior_entropy": 4.784046,
+              "category_entropy": 1.788314,
+              "top1_prob": 0.0099,
+              "top1_category_prob": 0.1983,
+              "converged": false,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Doctor appointment for a routine checkup, not spa",
+              "m1_category": "medical",
+              "m1_confidence": 0.9853,
+              "posterior_entropy": 4.374566,
+              "category_entropy": 1.378833,
+              "top1_prob": 0.0284,
+              "top1_category_prob": 0.5677,
+              "converged": true,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "urgency_level": "medium"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Any clinic nearby tomorrow morning for checkup",
+              "m1_category": "medical",
+              "m1_confidence": 0.9474,
+              "posterior_entropy": 3.948584,
+              "category_entropy": 0.953279,
+              "top1_prob": 0.0389,
+              "top1_category_prob": 0.7541,
+              "converged": true,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.784046,
+            4.374566,
+            3.948584
+          ],
+          "category_entropy_per_turn": [
+            1.788314,
+            1.378833,
+            0.953279
+          ],
+          "entropy_drop": 0.835462,
+          "category_entropy_drop": 0.835035,
+          "turns_to_resolution": 2,
+          "final_pred_category": "medical",
+          "last_m1_category": "medical",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": false
+        }
+      ]
+    },
+    "Memory-augmented": {
+      "code_id": "C2_m3_prior",
+      "aggregate": {
+        "n_scenarios": 14,
+        "category_task_match": 0.9286,
+        "last_m1_match_gold": 0.8571,
+        "belief_matches_last_m1": 0.9286,
+        "resolution_rate": 0.8571,
+        "mean_turns_to_resolution": 1.5833,
+        "mean_entropy_drop": 0.381309,
+        "mean_category_entropy_drop": 0.397861,
+        "clarify_rate": 0.1714,
+        "suggest_rate": 0.8286,
+        "privacy_audit_pass_rate": 1.0
+      },
+      "scenarios": [
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "vague_wellness_weekend",
+          "gold_category": "wellness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I don't know, maybe something for body and mood, tonight maybe",
+              "m1_category": "dining",
+              "m1_confidence": 0.9641,
+              "posterior_entropy": 4.381096,
+              "category_entropy": 1.460864,
+              "top1_prob": 0.0402,
+              "top1_category_prob": 0.4843,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "evening"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually weekend, and not too far",
+              "m1_category": "dining",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 4.070727,
+              "category_entropy": 1.13523,
+              "top1_prob": 0.0577,
+              "top1_category_prob": 0.6712,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "weekend",
+                "location_context": "nearby"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Something relaxing is fine",
+              "m1_category": "dining",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 3.845705,
+              "category_entropy": 0.891642,
+              "top1_prob": 0.0607,
+              "top1_category_prob": 0.7712,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "sentiment_tags": [
+                  "relaxing"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.381096,
+            4.070727,
+            3.845705
+          ],
+          "category_entropy_per_turn": [
+            1.460864,
+            1.13523,
+            0.891642
+          ],
+          "entropy_drop": 0.535391,
+          "category_entropy_drop": 0.569221,
+          "turns_to_resolution": 2,
+          "final_pred_category": "dining",
+          "last_m1_category": "dining",
+          "last_m1_match_gold": false,
+          "belief_matches_last_m1": true,
+          "gold_match": false,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "conflict_time_fitness",
+          "gold_category": "fitness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Need a place now but also this weekend, close to office",
+              "m1_category": "fitness",
+              "m1_confidence": 0.4889,
+              "posterior_entropy": 4.576974,
+              "category_entropy": 1.658171,
+              "top1_prob": 0.0311,
+              "top1_category_prob": 0.3796,
+              "converged": false,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "urgency_level": "high",
+                "location_context": "city_center"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Let's do weekend instead",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 4.188317,
+              "category_entropy": 1.243944,
+              "top1_prob": 0.0469,
+              "top1_category_prob": 0.6341,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "weekend"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Fitness or wellness, quick session",
+              "m1_category": "fitness",
+              "m1_confidence": 0.5715,
+              "posterior_entropy": 4.340826,
+              "category_entropy": 1.382068,
+              "top1_prob": 0.0397,
+              "top1_category_prob": 0.5656,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "sentiment_tags": [
+                  "quick"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.576974,
+            4.188317,
+            4.340826
+          ],
+          "category_entropy_per_turn": [
+            1.658171,
+            1.243944,
+            1.382068
+          ],
+          "entropy_drop": 0.236148,
+          "category_entropy_drop": 0.276103,
+          "turns_to_resolution": 2,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "clear_fitness_single",
+          "gold_category": "fitness",
+          "n_turns": 1,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Book a quick workout class nearby tonight",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9995,
+              "posterior_entropy": 3.894568,
+              "category_entropy": 0.913746,
+              "top1_prob": 0.0499,
+              "top1_category_prob": 0.7674,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "location_context": "nearby",
+                "urgency_level": "high"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            3.894568
+          ],
+          "category_entropy_per_turn": [
+            0.913746
+          ],
+          "entropy_drop": 0.0,
+          "category_entropy_drop": 0.0,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "beauty_skin_uncertain",
+          "gold_category": "beauty",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Skin issue but maybe just normal care tomorrow",
+              "m1_category": "beauty",
+              "m1_confidence": 0.393,
+              "posterior_entropy": 4.627438,
+              "category_entropy": 1.723086,
+              "top1_prob": 0.0245,
+              "top1_category_prob": 0.3008,
+              "converged": false,
+              "pred_category": "beauty",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "beauty",
+                "temporal_preference": "tomorrow"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Beauty or medical for skin, maybe, don't know yet",
+              "m1_category": "beauty",
+              "m1_confidence": 0.5995,
+              "posterior_entropy": 4.625299,
+              "category_entropy": 1.693149,
+              "top1_prob": 0.0245,
+              "top1_category_prob": 0.341,
+              "converged": false,
+              "pred_category": "beauty",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "beauty"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Need urgent beauty fix before event tonight near me",
+              "m1_category": "beauty",
+              "m1_confidence": 0.8361,
+              "posterior_entropy": 4.355157,
+              "category_entropy": 1.41284,
+              "top1_prob": 0.04,
+              "top1_category_prob": 0.5472,
+              "converged": false,
+              "pred_category": "beauty",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "beauty",
+                "temporal_preference": "evening",
+                "urgency_level": "high",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.627438,
+            4.625299,
+            4.355157
+          ],
+          "category_entropy_per_turn": [
+            1.723086,
+            1.693149,
+            1.41284
+          ],
+          "entropy_drop": 0.272281,
+          "category_entropy_drop": 0.310246,
+          "turns_to_resolution": 3,
+          "final_pred_category": "beauty",
+          "last_m1_category": "beauty",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "medical_wellness_ambiguous",
+          "gold_category": "medical",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Medical or wellness, not sure, but I need help now",
+              "m1_category": "wellness",
+              "m1_confidence": 0.9935,
+              "posterior_entropy": 4.108864,
+              "category_entropy": 1.22075,
+              "top1_prob": 0.0536,
+              "top1_category_prob": 0.6298,
+              "converged": true,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "urgency_level": "high"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Not urgent doctor check, maybe this weekend downtown",
+              "m1_category": "medical",
+              "m1_confidence": 0.8669,
+              "posterior_entropy": 4.29434,
+              "category_entropy": 1.381606,
+              "top1_prob": 0.0344,
+              "top1_category_prob": 0.4196,
+              "converged": false,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "weekend",
+                "location_context": "city_center",
+                "urgency_level": "low"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Looking for any center nearby for health check tomorrow morning",
+              "m1_category": "medical",
+              "m1_confidence": 0.9746,
+              "posterior_entropy": 3.889292,
+              "category_entropy": 0.955908,
+              "top1_prob": 0.0572,
+              "top1_category_prob": 0.7289,
+              "converged": true,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.108864,
+            4.29434,
+            3.889292
+          ],
+          "category_entropy_per_turn": [
+            1.22075,
+            1.381606,
+            0.955908
+          ],
+          "entropy_drop": 0.219572,
+          "category_entropy_drop": 0.264842,
+          "turns_to_resolution": 1,
+          "final_pred_category": "medical",
+          "last_m1_category": "medical",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "dining_vague_then_specific",
+          "gold_category": "dining",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I'm hungry, not sure what, maybe somewhere nice tonight",
+              "m1_category": "dining",
+              "m1_confidence": 0.8443,
+              "posterior_entropy": 4.723972,
+              "category_entropy": 1.735455,
+              "top1_prob": 0.0176,
+              "top1_category_prob": 0.2991,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "evening"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually Italian, downtown if possible",
+              "m1_category": "dining",
+              "m1_confidence": 0.9,
+              "posterior_entropy": 4.407195,
+              "category_entropy": 1.416443,
+              "top1_prob": 0.0312,
+              "top1_category_prob": 0.5471,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "location_context": "city_center"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Book a table for two this Saturday evening",
+              "m1_category": "dining",
+              "m1_confidence": 0.8928,
+              "posterior_entropy": 4.091327,
+              "category_entropy": 1.100623,
+              "top1_prob": 0.0407,
+              "top1_category_prob": 0.6969,
+              "converged": true,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "weekend"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.723972,
+            4.407195,
+            4.091327
+          ],
+          "category_entropy_per_turn": [
+            1.735455,
+            1.416443,
+            1.100623
+          ],
+          "entropy_drop": 0.632646,
+          "category_entropy_drop": 0.634832,
+          "turns_to_resolution": 2,
+          "final_pred_category": "dining",
+          "last_m1_category": "dining",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "travel_flight_vague",
+          "gold_category": "travel",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I need to get somewhere next week, not sure how yet",
+              "m1_category": "medical",
+              "m1_confidence": 0.4239,
+              "posterior_entropy": 4.532598,
+              "category_entropy": 1.536865,
+              "top1_prob": 0.0237,
+              "top1_category_prob": 0.4741,
+              "converged": false,
+              "pred_category": "travel",
+              "belief_matches_m1": false,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Probably a flight to Berlin, morning departure",
+              "m1_category": "travel",
+              "m1_confidence": 0.8862,
+              "posterior_entropy": 4.133094,
+              "category_entropy": 1.137361,
+              "top1_prob": 0.0341,
+              "top1_category_prob": 0.6817,
+              "converged": true,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "morning"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Round trip, return Sunday evening",
+              "m1_category": "travel",
+              "m1_confidence": 0.9949,
+              "posterior_entropy": 3.685765,
+              "category_entropy": 0.69075,
+              "top1_prob": 0.0442,
+              "top1_category_prob": 0.8419,
+              "converged": true,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "evening"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.532598,
+            4.133094,
+            3.685765
+          ],
+          "category_entropy_per_turn": [
+            1.536865,
+            1.137361,
+            0.69075
+          ],
+          "entropy_drop": 0.846833,
+          "category_entropy_drop": 0.846116,
+          "turns_to_resolution": 2,
+          "final_pred_category": "travel",
+          "last_m1_category": "travel",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "gym_yoga_massage_conflict",
+          "gold_category": "fitness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Gym or yoga or massage, I can't decide, asap",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9836,
+              "posterior_entropy": 3.921801,
+              "category_entropy": 0.952425,
+              "top1_prob": 0.0509,
+              "top1_category_prob": 0.7534,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "urgency_level": "high"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Can I do a workout tomorrow evening but cheap",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9656,
+              "posterior_entropy": 3.627233,
+              "category_entropy": 0.647493,
+              "top1_prob": 0.0521,
+              "top1_category_prob": 0.8546,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "sentiment_tags": [
+                  "affordable"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            3.921801,
+            3.627233
+          ],
+          "category_entropy_per_turn": [
+            0.952425,
+            0.647493
+          ],
+          "entropy_drop": 0.294568,
+          "category_entropy_drop": 0.304932,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "premium_spa_afternoon",
+          "gold_category": "wellness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Maybe downtown spa this afternoon, if affordable",
+              "m1_category": "wellness",
+              "m1_confidence": 0.8799,
+              "posterior_entropy": 4.330556,
+              "category_entropy": 1.365193,
+              "top1_prob": 0.0385,
+              "top1_category_prob": 0.5696,
+              "converged": true,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "temporal_preference": "afternoon",
+                "location_context": "city_center",
+                "sentiment_tags": [
+                  "affordable"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Something to unwind, not sure what, near me whenever",
+              "m1_category": "wellness",
+              "m1_confidence": 0.9664,
+              "posterior_entropy": 3.860906,
+              "category_entropy": 0.887083,
+              "top1_prob": 0.052,
+              "top1_category_prob": 0.7766,
+              "converged": true,
+              "pred_category": "wellness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "relaxing"
+                ]
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.330556,
+            3.860906
+          ],
+          "category_entropy_per_turn": [
+            1.365193,
+            0.887083
+          ],
+          "entropy_drop": 0.46965,
+          "category_entropy_drop": 0.47811,
+          "turns_to_resolution": 1,
+          "final_pred_category": "wellness",
+          "last_m1_category": "wellness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "exhausted_wellness_urgent",
+          "gold_category": "wellness",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "I am exhausted and need something quick near me right now",
+              "m1_category": "dining",
+              "m1_confidence": 0.4999,
+              "posterior_entropy": 4.595211,
+              "category_entropy": 1.682657,
+              "top1_prob": 0.0315,
+              "top1_category_prob": 0.3513,
+              "converged": false,
+              "pred_category": "wellness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness",
+                "urgency_level": "high",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "quick",
+                  "relaxing"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "I don't know, fitness or spa, maybe tonight or weekend",
+              "m1_category": "fitness",
+              "m1_confidence": 0.6506,
+              "posterior_entropy": 4.646566,
+              "category_entropy": 1.724708,
+              "top1_prob": 0.0254,
+              "top1_category_prob": 0.2979,
+              "converged": false,
+              "pred_category": "wellness",
+              "belief_matches_m1": false,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "wellness"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.595211,
+            4.646566
+          ],
+          "category_entropy_per_turn": [
+            1.682657,
+            1.724708
+          ],
+          "entropy_drop": -0.051355,
+          "category_entropy_drop": -0.042051,
+          "turns_to_resolution": null,
+          "final_pred_category": "wellness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": false,
+          "belief_matches_last_m1": false,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "clarify",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "dining_budget_lunch",
+          "gold_category": "dining",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Any quick lunch spot nearby, affordable please",
+              "m1_category": "dining",
+              "m1_confidence": 0.9347,
+              "posterior_entropy": 4.613516,
+              "category_entropy": 1.622167,
+              "top1_prob": 0.0231,
+              "top1_category_prob": 0.4116,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "location_context": "nearby",
+                "sentiment_tags": [
+                  "affordable",
+                  "quick"
+                ]
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Maybe Thai or sushi, tomorrow afternoon",
+              "m1_category": "dining",
+              "m1_confidence": 0.5034,
+              "posterior_entropy": 4.703324,
+              "category_entropy": 1.710928,
+              "top1_prob": 0.0181,
+              "top1_category_prob": 0.3296,
+              "converged": false,
+              "pred_category": "dining",
+              "belief_matches_m1": true,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "dining",
+                "temporal_preference": "afternoon"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.613516,
+            4.703324
+          ],
+          "category_entropy_per_turn": [
+            1.622167,
+            1.710928
+          ],
+          "entropy_drop": -0.089808,
+          "category_entropy_drop": -0.08876,
+          "turns_to_resolution": null,
+          "final_pred_category": "dining",
+          "last_m1_category": "dining",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 1,
+          "policy_sequence": [
+            "suggest",
+            "clarify"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "travel_hotel_combo",
+          "gold_category": "travel",
+          "n_turns": 2,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Planning a trip, hotel and transport, not sure when",
+              "m1_category": "travel",
+              "m1_confidence": 0.9266,
+              "posterior_entropy": 3.970201,
+              "category_entropy": 0.974469,
+              "top1_prob": 0.0373,
+              "top1_category_prob": 0.7464,
+              "converged": true,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Flying out Friday morning, hotel near airport",
+              "m1_category": "travel",
+              "m1_confidence": 0.9982,
+              "posterior_entropy": 3.601529,
+              "category_entropy": 0.606227,
+              "top1_prob": 0.0447,
+              "top1_category_prob": 0.867,
+              "converged": true,
+              "pred_category": "travel",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "travel",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            3.970201,
+            3.601529
+          ],
+          "category_entropy_per_turn": [
+            0.974469,
+            0.606227
+          ],
+          "entropy_drop": 0.368672,
+          "category_entropy_drop": 0.368241,
+          "turns_to_resolution": 1,
+          "final_pred_category": "travel",
+          "last_m1_category": "travel",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "fitness_wellness_yoga_spa",
+          "gold_category": "fitness",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Yoga or spa or gym, not sure, maybe this weekend",
+              "m1_category": "fitness",
+              "m1_confidence": 0.8304,
+              "posterior_entropy": 4.244348,
+              "category_entropy": 1.254814,
+              "top1_prob": 0.0367,
+              "top1_category_prob": 0.6276,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "weekend"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Actually I want a proper workout, not massage",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9757,
+              "posterior_entropy": 3.782002,
+              "category_entropy": 0.79081,
+              "top1_prob": 0.0464,
+              "top1_category_prob": 0.8099,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "sentiment_tags": [
+                  "quick"
+                ]
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Book a fitness class nearby tomorrow evening",
+              "m1_category": "fitness",
+              "m1_confidence": 0.9991,
+              "posterior_entropy": 3.508504,
+              "category_entropy": 0.519485,
+              "top1_prob": 0.0541,
+              "top1_category_prob": 0.8909,
+              "converged": true,
+              "pred_category": "fitness",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 0,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "fitness",
+                "temporal_preference": "evening",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.244348,
+            3.782002,
+            3.508504
+          ],
+          "category_entropy_per_turn": [
+            1.254814,
+            0.79081,
+            0.519485
+          ],
+          "entropy_drop": 0.735843,
+          "category_entropy_drop": 0.735329,
+          "turns_to_resolution": 1,
+          "final_pred_category": "fitness",
+          "last_m1_category": "fitness",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 0,
+          "suggest_turns": 3,
+          "policy_sequence": [
+            "suggest",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        },
+        {
+          "condition": "Memory-augmented",
+          "code_id": "C2_m3_prior",
+          "scenario_id": "medical_wellness_checkup",
+          "gold_category": "medical",
+          "n_turns": 3,
+          "turns": [
+            {
+              "turn": 1,
+              "text": "Health check or wellness retreat, I'm not sure which I need",
+              "m1_category": "wellness",
+              "m1_confidence": 0.5816,
+              "posterior_entropy": 4.597672,
+              "category_entropy": 1.702004,
+              "top1_prob": 0.022,
+              "top1_category_prob": 0.2932,
+              "converged": false,
+              "pred_category": "medical",
+              "belief_matches_m1": false,
+              "dialogue_policy": "clarify",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical"
+              }
+            },
+            {
+              "turn": 2,
+              "text": "Doctor appointment for a routine checkup, not spa",
+              "m1_category": "medical",
+              "m1_confidence": 0.9853,
+              "posterior_entropy": 4.063634,
+              "category_entropy": 1.142156,
+              "top1_prob": 0.0486,
+              "top1_category_prob": 0.6749,
+              "converged": true,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "urgency_level": "medium"
+              }
+            },
+            {
+              "turn": 3,
+              "text": "Any clinic nearby tomorrow morning for checkup",
+              "m1_category": "medical",
+              "m1_confidence": 0.9474,
+              "posterior_entropy": 3.729789,
+              "category_entropy": 0.789107,
+              "top1_prob": 0.0574,
+              "top1_category_prob": 0.8095,
+              "converged": true,
+              "pred_category": "medical",
+              "belief_matches_m1": true,
+              "dialogue_policy": "suggest",
+              "clarify_turns_used": 1,
+              "privacy_pass": true,
+              "forbidden_hits": [],
+              "gold_hints": {
+                "service_category": "medical",
+                "temporal_preference": "morning",
+                "location_context": "nearby"
+              }
+            }
+          ],
+          "entropy_per_turn": [
+            4.597672,
+            4.063634,
+            3.729789
+          ],
+          "category_entropy_per_turn": [
+            1.702004,
+            1.142156,
+            0.789107
+          ],
+          "entropy_drop": 0.867883,
+          "category_entropy_drop": 0.912897,
+          "turns_to_resolution": 2,
+          "final_pred_category": "medical",
+          "last_m1_category": "medical",
+          "last_m1_match_gold": true,
+          "belief_matches_last_m1": true,
+          "gold_match": true,
+          "clarify_turns": 1,
+          "suggest_turns": 2,
+          "policy_sequence": [
+            "clarify",
+            "suggest",
+            "suggest"
+          ],
+          "privacy_pass_rate": 1,
+          "privacy_all_pass": true,
+          "m3_seeded_to_gold": true
+        }
+      ]
+    }
+  }
+}

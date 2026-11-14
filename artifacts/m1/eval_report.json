@@ -1,0 +1,62 @@
+{
+  "dataset": "data/annotations/m1_eval_samples.json",
+  "mode": "pipeline",
+  "intent_accuracy": 0.4,
+  "schema_valid_rate": 1.0,
+  "ambiguous_ratio": 0.0,
+  "slot_f1_temporal": 0.2,
+  "slot_f1_urgency": 0.2,
+  "slot_f1_location": 0.2,
+  "slot_f1_macro": 0.2,
+  "confusion_matrix": {
+    "wellness": {
+      "wellness": 1
+    },
+    "fitness": {
+      "dining": 1
+    },
+    "beauty": {
+      "beauty": 1
+    },
+    "medical": {
+      "dining": 1
+    },
+    "ambiguous": {
+      "dining": 1
+    }
+  },
+  "error_cases": [
+    {
+      "text": "I want a workout and fitness class",
+      "gold_service_category": "fitness",
+      "pred_service_category": "dining"
+    },
+    {
+      "text": "I need a doctor appointment urgently",
+      "gold_service_category": "medical",
+      "pred_service_category": "dining"
+    },
+    {
+      "text": "I need something but not sure what",
+      "gold_service_category": "ambiguous",
+      "pred_service_category": "dining"
+    }
+  ],
+  "by_ambiguity_bucket": {
+    "high": {
+      "count": 1,
+      "intent_accuracy": 0.0,
+      "ambiguous_pred_rate": 0.0
+    },
+    "low": {
+      "count": 1,
+      "intent_accuracy": 1.0,
+      "ambiguous_pred_rate": 0.0
+    },
+    "medium": {
+      "count": 3,
+      "intent_accuracy": 0.3333,
+      "ambiguous_pred_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+% Paste into Overleaf. Two sections; as-built only (no experiment history).
+
+\chapter{Design and Implementation}
+\label{ch:whatYouDid}
+
+This chapter records the as-built design of the booking-assistant prototype that realises the method of Chapter~\ref{ch:methods}.
+Figure~\ref{fig:method-architecture} and Sections~\ref{sec:method-experimental}--\ref{sec:method-evaluation} already fix the layering, conditions, and evaluation quantities; the account below states the corresponding parameters and construction choices.
+Empirical measurements are reported in Chapter~\ref{ch:resultsAndAnalysis}.
+
+\section{System design and parameters}
+\label{sec:construction-config}
+
+The prototype is a modular research system: a local intention-tracking stack conditions an optional cloud language-model surface.
+Structural defaults live in a project configuration, while credentials and machine-specific overrides come from the environment.
+The default structured-task-variable extractor is a frozen pipeline model trained on the composite corpus; a language-model extractor remains available as an optional alternative.
+User-visible replies are produced by a compact chat model when an API key is present, and by fixed English templates otherwise.
+The nested comparative conditions of Table~\ref{tab:method-conditions} are selected by configuration rather than by separate codebases: LLM-only turns off the multi-turn belief path for decision-making and omits the intention prompt block; Intention-conditioned keeps that path without the aggregate-memory prior; Memory-augmented enables the prior on the same path.
+Table~\ref{tab:construction-config} lists the main numerical and operational parameters of the implemented stack.
+
+\begin{table}[!ht]
+  \centering
+  \small
+  \caption{Selected system parameters of the implemented prototype.}
+  \label{tab:construction-config}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}p{0.34\textwidth}p{0.56\textwidth}@{}}
+    \hline
+    \textbf{Parameter} & \textbf{Value / role} \\
+    \hline
+    STV extractor & Frozen pipeline model; LLM extractor optional \\
+    Hypothesis space size & At most 120 discrete goal hypotheses (20 per category) \\
+    Category converge threshold & 0.55 \\
+    Top-$K$ schedule & 10, 6, 4, 3 on early turns \\
+    Clarification budget & At most one clarification act per session \\
+    Memory store & In-memory by default; optional persistent backend \\
+    Memory half-life / smoothing & 90 days; $\alpha = 0.1$ \\
+    Generative model & \texttt{gpt-4o-mini} when enabled \\
+    Recent-chat window & At most six turns \\
+    Intention prompt block & Present under Intention-conditioned and Memory-augmented; omitted under LLM-only \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Implementation}
+\label{sec:construction-implementation}
+
+The implemented stack comprises training and evaluation resources, local intention tracking, a privacy boundary on generation, and an offline evaluation apparatus used in Chapter~\ref{ch:resultsAndAnalysis}.
+
+Training resources follow the mapping policy of Section~\ref{sec:method-data}.
+Admitted utterances map to the six Fixmeapp categories, are deduplicated on normalised text, and are balanced toward a per-class cap of four hundred examples, with in-domain rows preferred when sources conflict.
+Seeded template augmentation for fitness, wellness, and colloquial dining is recorded as a separate source and kept out of the hard-case set; training labels omit \texttt{ambiguous}; seeded split manifests fix the train, validation, and test partitions.
+Table~\ref{tab:construction-corpus-counts} reports the class-by-source counts of the frozen v4 training mix used for the pipeline extractor: the Day-5 composite (per-class cap 400) plus the confusion-pair supplement.
+The public mappings are those already stated in the Method chapter---ATIS to \texttt{travel}, SNIPS restaurant booking to \texttt{dining}, HASD scheduling intents to \texttt{medical}, selected LUCID expressions to \texttt{fitness} and \texttt{wellness}, and stable SGD service turns to beauty or medical---and are not re-argued here.
+Dialogue-level evaluation resources are scripted multi-turn scenarios across the six categories, with vague openings, constraint revision, topic change, and a session-level gold category, as specified in Section~\ref{sec:method-data}; scenario utterances are kept out of the extractor training mix.
+
+\begin{table}[!ht]
+  \centering
+  \small
+  \caption{Frozen v4 training counts by category and source
+  (composite with per-class cap 400, plus confusion-pair supplement; $N=2264$).}
+  \label{tab:construction-corpus-counts}
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{@{}lrrrrrrr@{}}
+    \hline
+    \textbf{Category} & \textbf{Total} & \textbf{In-domain} & \textbf{Templates} & \textbf{LUCID} & \textbf{SNIPS} & \textbf{ATIS} & \textbf{Other} \\
+    \hline
+    beauty & 400 & 50 & --- & --- & --- & --- & 350 SGD \\
+    dining & 446 & --- & 80 & --- & 320 & --- & 46 Conf. \\
+    fitness & 281 & 50 & 110 & 92 & --- & --- & 29 Conf. \\
+    medical & 460 & 50 & --- & --- & --- & --- & 350 HASD + 60 Conf. \\
+    travel & 430 & --- & --- & --- & --- & 400 & 30 Conf. \\
+    wellness & 247 & 50 & 52 & 116 & --- & --- & 4 SGD + 25 Conf. \\
+    \hline
+    Total & 2264 & 200 & 242 & 208 & 320 & 400 & 894 \\
+    \hline
+  \end{tabular}\\[0.35em]
+  {\footnotesize
+  In-domain: Fixmeapp-style seed utterances.
+  Templates: seeded in-domain paraphrases (fitness, wellness, colloquial dining).
+  LUCID, SNIPS, ATIS, HASD, and SGD: public corpora remapped as in Section~\ref{sec:method-data}.
+  Conf.: confusion-pair supplement used in the v4 extractor retrain.
+  Dashes mark unused sources for that class.}
+\end{table}
+
+Local intention tracking comprises structured extraction, belief updating, optional aggregate memory, and dialogue control, matching Figure~\ref{fig:method-architecture}.
+The production extractor is a lightweight pipeline with a six-class intent head and rule-assisted soft slots for temporal preference and location; each task turn yields category, confidence, and slots, and underspecification is left for multi-turn belief rather than closed by an automatic \texttt{ambiguous} rewrite.
+Belief is maintained as a posterior over a discrete hypothesis space whose factors include service category, temporal preference, location zone, and price tier, sized as in Table~\ref{tab:construction-config}.
+Each task turn updates this posterior from the previous belief using soft category likelihoods from the extractor, with only weak contribution from slot agreement; dialogue policy is then resolved from posterior entropy, top-1 mass, and category convergence, so that high residual uncertainty favours clarification and a sufficiently peaked, converged category favours suggestion.
+Hard topic change opens a dual-track window in which the active belief may decay while a candidate track accumulates evidence, with observational surface policy until promotion, abort, or fallback clarification; chitchat bypasses the stack.
+When aggregate memory is enabled, decayed and smoothed counts over category and soft preferences are blended as a prior before the belief update, and session-end writeback refreshes those counts from the top hypothesis.
+The language model never updates belief: after policy resolution it receives only an allow-listed intention summary from which user-visible text is realised.
+
+That summary is also where the privacy boundary is enforced.
+Local state may hold a memory key, aggregate preference counts, full STV histories, and the full belief vector, but the generative path is restricted to the fields in Table~\ref{tab:construction-privacy}: the current utterance, a compact STV summary, the top three weighted hypotheses, a short belief summary, the dialogue policy, the turn index, and at most a brief recent-chat window.
+Enabling Memory-augmented operation therefore changes the local prior and the compact posterior summary rather than the raw profile payload exposed to the model.
+A prompt privacy audit in the evaluation apparatus checks the assembled summary against this allow-list, as defined in Section~\ref{sec:method-evaluation}.
+
+\begin{table}[!ht]
+  \centering
+  \small
+  \caption{Privacy boundary between local state and the generative prompt.}
+  \label{tab:construction-privacy}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}p{0.42\textwidth}p{0.48\textwidth}@{}}
+    \hline
+    \textbf{Remains local} & \textbf{May enter the generative prompt} \\
+    \hline
+    User identifiers / memory keys & Current user utterance \\
+    Aggregate profile counts and tiers & STV summary (category, confidence, soft slots) \\
+    Full raw STV history & Top-3 hypotheses with weights \\
+    Full belief vector & Compact belief summary; dialogue policy; turn index \\
+    & Optional short recent-chat window \\
+    \hline
+  \end{tabular}
+\end{table}
+
+The offline evaluation apparatus realises the evidence levels of Section~\ref{sec:method-experimental}.
+Component checks score category predictions on held-out and hard-case slices; scenario replay runs the scripted sessions under the nested thesis conditions and records category match to session gold, entropy trajectories, turns to resolution, and clarify-versus-suggest rates on the structured belief and dialogue-policy path, together with the privacy audit.
+An interactive interface supports qualitative inspection of belief trajectories and of admitted versus withheld prompt content.
+Versioned outputs of this apparatus feed Chapter~\ref{ch:resultsAndAnalysis}.
+
+\cleardoublepage

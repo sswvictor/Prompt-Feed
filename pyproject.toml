@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethical-intention-booking"
+version = "1.0.0"
+description = "Modular task-oriented booking assistant: NLU, belief tracking, privacy-preserving memory, and LLM replies from structured intention."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Shuwei Song" },
+]
+keywords = [
+  "dialogue-systems",
+  "intention-inference",
+  "belief-tracking",
+  "privacy",
+  "task-oriented",
+]
+dependencies = [
+  "openai>=1.0.0",
+  "python-dotenv>=1.0.0",
+  "streamlit>=1.32.0",
+  "pyyaml>=6.0.0",
+  "vaderSentiment>=3.3.2",
+]
+
+[project.urls]
+Repository = "https://github.com/sswvictor/Prompt-Feed"
+Issues = "https://github.com/sswvictor/Prompt-Feed/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

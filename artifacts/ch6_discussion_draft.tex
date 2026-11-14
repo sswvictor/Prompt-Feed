@@ -1,0 +1,58 @@
+% Paste into Overleaf: Discussion chapter.
+% Cross-refs assume Ch5 labels sec:results-rq1, sec:results-rq2, sec:results-errors, tab:results-b1.
+
+\chapter{Discussion}
+\label{ch:discussion}
+
+The scenario contrasts in Chapter~\ref{ch:resultsAndAnalysis} show a split between final category match and intermediate control of belief and clarification.
+This chapter interprets that split for RQ1 and RQ2, then turns to validity threats and concrete improvement directions.
+
+\section{Intention conditioning}
+\label{sec:discussion-intention}
+
+Under RQ1, enabling the multi-turn intention path does not raise category task match relative to LLM-only operation (Section~\ref{sec:results-rq1}).
+The useful signal sits in the process measures: posterior entropy falls more sharply, and clarification is triggered more often when the session remains underspecified.
+In a booking setting where wrong early commitment is costly, that pattern is not empty: the sidecar makes uncertainty visible and gives the dialogue policy a reason to ask before suggesting.
+At the same time, the higher clarify rate does not convert into better finals on the reported package.
+Several mismatched sessions still contain clarify acts, which suggests that asking alone cannot repair thin or cross-class lexical evidence.
+Intention conditioning should therefore be read as a control and inspectability layer rather than as an automatic accuracy upgrade over a language-model-only decision path.
+
+The boundary errors summarised in Section~\ref{sec:results-errors} reinforce the same reading.
+Wellness--fitness, beauty--medical, and dining or travel openings that share lifestyle vocabulary are exactly the places where a bag-of-words front-end and a category-dominant belief update are brittle.
+A modular stack can expose those failures; it does not, by itself, remove the underlying class overlap.
+
+\section{Memory and privacy}
+\label{sec:discussion-memory}
+
+Under RQ2, adding an aggregate-memory prior on the same intention path yields a modest match gain and a lower clarify rate, while the prompt privacy audit remains perfect (Section~\ref{sec:results-rq2}).
+That combination matches the intended privacy claim more closely than it matches a strong personalisation claim.
+Profiles and identifiers stay outside the generative prompt; memory influences generation only through the compact posterior summarised in the intention block.
+The behavioural lift, however, depends on a mild gold-aligned category prior used for fair ablation.
+It shows that a local prior can stabilise borderline sessions, not that long-horizon preference learning from real bookings has been demonstrated.
+
+Nested reading remains important here.
+Memory-augmented operation is Intention-conditioned operation plus a prior, not a separate stack whose score can be added on top of Intention-conditioned match.
+The right comparison for RQ2 is therefore the presence or absence of that prior under an otherwise shared path, together with the privacy audit.
+
+\section{Validity and reliability}
+\label{sec:discussion-validity}
+
+Several threats limit how far the reported contrasts should be generalised.
+The dialogue package is scripted: openings, revisions, and topic changes are designed to probe vagueness, but they are not a sample of live Fixmeapp traffic.
+Category task match is a surrogate for goal attainment in the absence of a booking API or database ground truth; Inform/Success-style completion scores are out of scope by construction.
+The primary quantities describe the belief and dialogue-policy path; they are not scores of surface wording quality when a generative model is attached.
+
+The Memory-augmented contrast is sensitive to how the prior is seeded.
+A gold-aligned mild prior is appropriate for an ablation that asks whether memory can matter under privacy constraints, but it overstates what would be available from a cold start or from noisy historical aggregates.
+Extractor errors on class boundaries propagate into belief and policy; scenario-level gains cannot outrun that front-end frontier indefinitely.
+Reliability is supported by fixed scripts, frozen extractor artefacts, and deterministic offline replay; decoding variability would re-enter if generative replies were scored as a primary outcome, which they are not in the reported tables.
+
+\section{Improvement directions}
+\label{sec:discussion-improvements}
+
+The results point to a small set of high-leverage improvements rather than to a general call for larger models.
+Stronger separation among wellness, fitness, beauty, and medical cues would attack the dominant residual families more directly than further raising clarify frequency.
+Clarification content could be tied more tightly to competing high-mass categories, so that ask acts collect the evidence the belief update actually needs.
+Memory should move from gold-aligned seeds toward priors estimated from held-out interaction histories or from aggregate stores that are wrong as often as real profiles are, while keeping the same prompt allow-list.
+Finally, any later study that scores user-visible replies should keep the sidecar metrics and the generative metrics separate, so that gains in fluency are not mistaken for gains in intention tracking.
+

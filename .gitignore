@@ -1,0 +1,46 @@
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Local memory / databases
+data/memory/*.db
+data/memory/*.sqlite
+*.db
+*.sqlite
+
+data/external/
+
+artifacts/_*
+artifacts/thesis_eval/**/_diagnose*.py
+docs/session_log*
+docs/overleaf*
+docs/plan_*
+scripts/push_thesis_overleaf.ps1
+
+src/m4_recommendation/
+src/m5_output/
+tests/m4_recommendation/
+tests/m5_output/
+api/
+configs/
+experiments/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

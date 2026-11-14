@@ -1,0 +1,7 @@
+# Python >=3.10 (verified on 3.13)
+pytest>=8.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+streamlit>=1.32.0
+pyyaml>=6.0.0
+vaderSentiment>=3.3.2

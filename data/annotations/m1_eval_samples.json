@@ -1,0 +1,47 @@
+[
+  {
+    "text": "I need a relaxing spa nearby this weekend",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": ["relaxing"],
+    "user_id": "persona_wellness_weekend"
+  },
+  {
+    "text": "I want a workout and fitness class",
+    "service_category": "fitness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [],
+    "user_id": "persona_fitness_heavy"
+  },
+  {
+    "text": "Find me beauty care for skin",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [],
+    "user_id": "persona_beauty_budget"
+  },
+  {
+    "text": "I need a doctor appointment urgently",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [],
+    "user_id": "persona_medical_cautious"
+  },
+  {
+    "text": "I need something but not sure what",
+    "service_category": "ambiguous",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [],
+    "user_id": "persona_mixed_explorer"
+  }
+]

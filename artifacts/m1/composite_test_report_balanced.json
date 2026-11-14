@@ -1,0 +1,177 @@
+{
+  "composite_test": {
+    "dataset": "artifacts\\m1\\_composite_test_eval_balanced.json",
+    "mode": "pipeline",
+    "intent_accuracy": 0.3463,
+    "schema_valid_rate": 1.0,
+    "ambiguous_ratio": 0.0,
+    "slot_f1_temporal": 0.0973,
+    "slot_f1_urgency": 0.0545,
+    "slot_f1_location": 0.0856,
+    "slot_f1_macro": 0.0791,
+    "confusion_matrix": {
+      "beauty": {
+        "wellness": 18,
+        "beauty": 41
+      },
+      "dining": {
+        "wellness": 43,
+        "fitness": 16,
+        "beauty": 1
+      },
+      "travel": {
+        "wellness": 20,
+        "beauty": 23,
+        "fitness": 9,
+        "medical": 9
+      },
+      "wellness": {
+        "wellness": 16,
+        "medical": 2
+      },
+      "medical": {
+        "wellness": 15,
+        "medical": 29,
+        "fitness": 9,
+        "beauty": 3
+      },
+      "fitness": {
+        "fitness": 3
+      }
+    },
+    "error_cases": [
+      {
+        "text": "I like a salon in San Jose.",
+        "gold_service_category": "beauty",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "I need to reserve two seats to eat at in Salina, Alabama.",
+        "gold_service_category": "dining",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "i 'm interested in round trip flights from boston to washington",
+        "gold_service_category": "travel",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "could you show me all weekday flights from phoenix to denver",
+        "gold_service_category": "travel",
+        "pred_service_category": "beauty"
+      },
+      {
+        "text": "Taylor's availability for a internship interview this week.",
+        "gold_service_category": "medical",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "I want to go to the popular pub at ten PM",
+        "gold_service_category": "dining",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "Lets take me, cherry and tracie to a Noyack bar",
+        "gold_service_category": "dining",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "I need a reservation for Red Square on aug. the 9th",
+        "gold_service_category": "dining",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "book a spot for six at Bear Hotel in 5 seconds",
+        "gold_service_category": "dining",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "I need help finding a salon please.",
+        "gold_service_category": "beauty",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "I want to book a restaurant for nine with wifi",
+        "gold_service_category": "dining",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "are there any flights from denver to pittsburgh with stops in atlanta",
+        "gold_service_category": "travel",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "what do you have from philadelphia to dallas on saturday morning",
+        "gold_service_category": "travel",
+        "pred_service_category": "medical"
+      },
+      {
+        "text": "Make reservations for me at a taverna in Hong Kong",
+        "gold_service_category": "dining",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "okay i want a flight originating in denver going to pittsburgh",
+        "gold_service_category": "travel",
+        "pred_service_category": "wellness"
+      },
+      {
+        "text": "Book a table for 4 in California",
+        "gold_service_category": "dining",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "tell me about flights on american airlines from dallas to san francisco on june twenty ninth",
+        "gold_service_category": "travel",
+        "pred_service_category": "beauty"
+      },
+      {
+        "text": "what are the cheapest flights from denver to pittsburgh that stop in atlanta",
+        "gold_service_category": "travel",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "book a spot at the top-rated pub in Garner",
+        "gold_service_category": "dining",
+        "pred_service_category": "fitness"
+      },
+      {
+        "text": "each lab session with Morgan , booking #081504 , needs to be cancelled.",
+        "gold_service_category": "medical",
+        "pred_service_category": "fitness"
+      }
+    ]
+  },
+  "per_class_recall_test": {
+    "beauty": {
+      "count": 59,
+      "recall": 0.6949
+    },
+    "dining": {
+      "count": 60,
+      "recall": 0.0
+    },
+    "travel": {
+      "count": 61,
+      "recall": 0.0
+    },
+    "wellness": {
+      "count": 18,
+      "recall": 0.8889
+    },
+    "medical": {
+      "count": 56,
+      "recall": 0.5179
+    },
+    "fitness": {
+      "count": 3,
+      "recall": 1.0
+    }
+  },
+  "build_summary": {
+    "total_train_composite": 1704,
+    "test_holdout": 257,
+    "per_class_cap": 400,
+    "balance_strategy": "cap"
+  }
+}

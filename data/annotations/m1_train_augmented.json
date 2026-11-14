@@ -1,0 +1,6035 @@
+[
+  {
+    "text": "Workout first; keep it fitness focused not massage",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need exercise today, not relaxation spa",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for HIIT or gym, not wellness treatments",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need strength training, please no spa packages",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Fitness class nearby, intense workout please",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Personal training at the gym this evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Cardio class tomorrow, not a wellness retreat",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gym slot for training, not spa therapy",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Actually I want a proper workout, not a massage",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Gym session this weekend, skip the spa",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "contrast_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want spa recovery, not intense fitness",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need relaxation treatment, not HIIT",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Wellness massage tonight, nothing medical",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Calm massage nearby, skip the workout options",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a relaxing massage, not a clinic checkup",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Hot stone massage please, not personal training",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Decompress with massage, not exercise class",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Spa afternoon to unwind, not a gym workout",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Soothing spa package this weekend, not gym",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Wellness appointment to unwind, not medical",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "contrast_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Maybe workout this weekend downtown not sure",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Gym or yoga I can't decide asap",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Want a proper training session, not a spa",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need exercise now and also later this weekend near office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for an affordable workout tomorrow evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need quick training near office not sure which",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need gym slot now or tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need to move my body, gym preferred tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for exercise nearby whenever works",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for HIIT or strength training nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Quick fitness session near the office please",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book gym time this weekend for a real workout",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I don't know gym or class maybe tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Not sure yoga or HIIT but need it soon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "vague_fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Feeling wiped out, need a calming spa nearby soon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Unwind and recover somewhere close tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Body care and mood relief this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Something calming for body tonight maybe not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Something relaxing after work would really help",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need help recovering this weekend somehow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Not sure what I need but want to relax nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I don't know maybe something for body and mood tonight maybe",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Quick wellness session tonight to relax, not food",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Feeling drained, spa or gentle massage please",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for relaxation nearby not sure what exactly",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "A calm unwind session this weekend sounds perfect",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need to decompress with a spa visit, not dinner",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Prefer a calm spot this weekend, not too far away",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Something to unwind not sure what near me whenever",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to unwind tonight, massage if possible",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need mood relief and recovery near me soon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Maybe downtown spa this afternoon if affordable",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Maybe massage or spa weekend downtown",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Exhausted need wellness recovery asap near me",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "vague_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book intense workout evening in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Find affordable fitness training weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Find city-center gym tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule quick fat-burn training evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick",
+      "intense"
+    ]
+  },
+  {
+    "text": "I need an intense HIIT class evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Schedule strength class afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Find nearby gym with quick sessions evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Any group workout in city center tomorrow evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book high-intensity session weekend morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Find city center workout afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need urgent cardio guidance ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gym session for tomorrow evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book fast workout option for tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Any group workout in city center evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find strength training nearby afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Need a gym class tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a quick fat-burn workout ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick",
+      "intense"
+    ]
+  },
+  {
+    "text": "Need nearby quick training slot ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Find city-center gym morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for intense training weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Book cardio class weekend morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book personal training morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book personal training tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find near-me strength session tomorrow afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Schedule a gym session for evening",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book budget gym class for tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Need a gym class morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule evening gym class near office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need affordable cardio class tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book urgent workout in city center ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Schedule tomorrow evening gym class near office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need urgent fitness slot ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need affordable spa ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Find premium massage tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "premium"
+    ]
+  },
+  {
+    "text": "I need relaxing spa weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Need a calming wellness session tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Any affordable spa package tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Find nearby relaxation therapy evening",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Need premium wellness service evening city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "premium"
+    ]
+  },
+  {
+    "text": "Can I get a quick wellness session ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Book wellness therapy for tomorrow afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule spa appointment weekend morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book after-lunch wellness treatment tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book soothing massage for tomorrow afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Book a quick massage evening nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "quick",
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Find quick stress therapy ASAP city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Any wellness therapy in city center weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book quick body therapy afternoon city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Find premium massage morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "premium"
+    ]
+  },
+  {
+    "text": "Find wellness package weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need post-work relaxation evening",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Need a calming wellness session morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Need wellness care weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find me a quiet spa tomorrow evening",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "I feel burned out, need fast massage ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick",
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Book budget spa treatment afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Need post-work relaxation tomorrow evening",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Find me a quiet spa evening",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "I need stress relief ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "relaxing",
+      "quick"
+    ]
+  },
+  {
+    "text": "Find gentle massage nearby afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "gentle"
+    ]
+  },
+  {
+    "text": "Need relaxing body care afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "seed_paraphrase",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Find HIIT class this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a interval training ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a pilates session this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any exercise class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a spin class tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a crossfit session ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a fitness coaching this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a pilates session tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a strength training tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any exercise class ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gym session tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a running group tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a yoga class this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any boxing class this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a gym session tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find spin class ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a exercise class this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find fitness coaching ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find cardio class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a personal training this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a interval training this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a workout class tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need workout class tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any strength training tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find running group this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a weight training this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a exercise class tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a training session this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a training session ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need fitness coaching this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any gym session tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need bootcamp ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a exercise class tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need interval training this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a fitness coaching this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any yoga class this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a fitness coaching tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a boxing class tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a fitness coaching tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any strength training this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a spin class ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a pilates session tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need crossfit session tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a workout class tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a interval training tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gym session tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need exercise class tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find strength training tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find pilates session tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a gym workout this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a gym session this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a bootcamp ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a training session this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a cardio class this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a training session this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any pilates session tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a fitness coaching ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need personal training this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need weight training ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find bootcamp ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a interval training ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a workout class ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a exercise class tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a workout class tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a personal training tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a workout class tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a boxing class this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any fitness coaching tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a running group tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a personal training this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a group exercise ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a fitness coaching this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a pilates session ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a interval training this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a interval training tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need HIIT class this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a fitness coaching tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a boxing class this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a yoga class this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a training session this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a gym session tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any running group tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a gym workout this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a interval training this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a group exercise ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a strength training tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find bootcamp this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a exercise class ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gym session ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find exercise class this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any training session ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a yoga class tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a yoga class this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a boxing class this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a pilates session tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find gym workout this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a personal training ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a interval training tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a boxing class tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a exercise class tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a training session ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find fitness coaching tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a bootcamp this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a training session tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a spin class this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a strength training tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need pilates session this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a weight training tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a boxing class this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a pilates session tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need gym workout tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a yoga class ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need weight training tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a interval training ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a yoga class ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a spin class tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a group exercise tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any running group tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a pilates session this afternoon not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find workout class this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a yoga class this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a yoga class tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a crossfit session ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a boxing class tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a weight training tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gym session ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find fitness coaching tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a HIIT class tomorrow morning nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find cardio class ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a weight training tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a HIIT class tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a interval training this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a personal training ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a HIIT class ASAP",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find weight training tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a pilates session ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a gym workout tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a cardio class tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a bootcamp this afternoon",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a boxing class this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find gym workout ASAP not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any gym session tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a fitness coaching this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a bootcamp tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a HIIT class tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a strength training this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a exercise class ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a group exercise this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any pilates session tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a group exercise tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a workout class tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a strength training ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need group exercise tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a gym workout tomorrow nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any personal training ASAP nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a spin class this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need gym session tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a HIIT class tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any personal training ASAP near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any running group this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need spin class this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need spin class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gym session this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a fitness coaching tonight near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need workout class ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a pilates session tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find boxing class this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need interval training this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a group exercise this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a training session this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a HIIT class tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find strength training tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find personal training this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a yoga class tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any exercise class tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a pilates session tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a strength training tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a spin class tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find training session tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find yoga class this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a cardio class tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a HIIT class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any boxing class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a boxing class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a training session tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find personal training ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a spin class tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a spin class tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a bootcamp tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a exercise class this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need crossfit session tomorrow near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a workout class tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a HIIT class this weekend not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a crossfit session tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a fitness coaching tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need fitness coaching this afternoon near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a HIIT class ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any spin class tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a group exercise this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find yoga class tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a weight training tomorrow morning in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any exercise class tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a workout class tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a strength training tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find HIIT class ASAP in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a spin class tonight nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find strength training this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a gym session tomorrow morning not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gym workout this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gym session tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any workout class tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a bootcamp this weekend in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need boxing class tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a cardio class tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find spin class tonight in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a exercise class this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a personal training tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a yoga class tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a cardio class this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find workout class this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find group exercise tonight",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a group exercise tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a interval training tonight not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find yoga class this weekend nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a strength training tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a cardio class tomorrow morning near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a spin class tomorrow",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any yoga class this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a crossfit session this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a pilates session this weekend near the office",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a bootcamp this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any crossfit session tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any workout class tomorrow morning",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find boxing class tomorrow in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a exercise class tomorrow not too far",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gym session this afternoon in city center",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a gym session this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find boxing class this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a interval training this weekend",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a exercise class this afternoon nearby",
+    "service_category": "fitness",
+    "source": "augment",
+    "source_intent": "template_fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a spa package this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a wellness recovery this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find gentle massage tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a spa session tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need stress relief treatment this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a gentle massage tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find body care tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a aromatherapy massage this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a stress relief treatment tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a decompress session tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a sauna session this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness recovery tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a calm spa visit tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a hot stone massage this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a recovery massage ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a aromatherapy massage tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need massage this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a massage this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a decompress session this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a stress relief treatment tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a wellness therapy ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a wellness recovery this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a massage tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a wellness recovery ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a calm spa visit tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gentle massage tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a wellness therapy this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a recovery massage this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a wellness therapy tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a body care this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a spa package this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need gentle massage ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a stress relief treatment this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a body care this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness recovery ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need calm spa visit ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a wellness appointment tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a relaxation spa tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a relaxation spa tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness appointment tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a aromatherapy massage this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need soothing massage this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a gentle massage this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any relaxation spa tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a soothing massage tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find stress relief treatment tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a calm spa visit tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness therapy tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness recovery this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need aromatherapy massage tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any massage ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a stress relief treatment tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a wellness therapy tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a wellness appointment tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find wellness therapy this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a aromatherapy massage tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a hot stone massage this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a stress relief treatment tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a wellness therapy tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a body care tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a spa package this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a body care ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a soothing massage tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a soothing massage this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a body care tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a relaxation spa tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any stress relief treatment tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a stress relief treatment this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a sauna session tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a soothing massage this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a aromatherapy massage this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a spa session this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a body care ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a relaxation treatment tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a stress relief treatment tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a relaxation treatment tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness recovery this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a wellness recovery this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a gentle massage tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a spa package this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a soothing massage this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a sauna session this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find gentle massage this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a recovery massage tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a stress relief treatment ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a sauna session tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a aromatherapy massage tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a decompress session ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a soothing massage this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gentle massage tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find relaxation spa tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any relaxation spa tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find stress relief treatment tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any recovery massage this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any aromatherapy massage ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a decompress session tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a relaxation spa this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a relaxation spa tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a aromatherapy massage this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a hot stone massage ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a calm spa visit this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a calm spa visit ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a spa session this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a wellness therapy this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a hot stone massage this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find wellness recovery tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a massage tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a hot stone massage tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a gentle massage this afternoon near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a sauna session tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a decompress session tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a gentle massage this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a spa session tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a calm spa visit this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find calm spa visit ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a massage this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a calm spa visit this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gentle massage tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a soothing massage this weekend in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a gentle massage ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a relaxation treatment this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any gentle massage tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any spa session this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a recovery massage tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a spa session tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a relaxation spa tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a recovery massage this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a sauna session tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a relaxation treatment this weekend nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a sauna session tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a sauna session tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a massage this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a spa package ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a body care tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a aromatherapy massage ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need stress relief treatment tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find massage this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a wellness therapy tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness appointment this afternoon in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a hot stone massage ASAP nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find sauna session tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a sauna session this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a soothing massage tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need massage tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a wellness recovery tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find calm spa visit tomorrow morning in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a hot stone massage tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a decompress session tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a spa session tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness appointment tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a recovery massage tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a recovery massage this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness appointment this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a soothing massage this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a aromatherapy massage this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a spa package tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a decompress session ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a hot stone massage ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a relaxation spa this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a body care tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a stress relief treatment this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a calm spa visit ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a recovery massage tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a recovery massage ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a soothing massage tomorrow not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need wellness therapy ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need relaxation spa tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a soothing massage tomorrow morning",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find aromatherapy massage ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a sauna session tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gentle massage tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a decompress session tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a relaxation treatment tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need recovery massage this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a aromatherapy massage this weekend not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a recovery massage tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any recovery massage tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any sauna session this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a body care ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a spa package tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need relaxation spa tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find gentle massage this afternoon nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a stress relief treatment tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find wellness appointment tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness appointment this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any calm spa visit tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any decompress session tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a hot stone massage tomorrow morning nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a relaxation treatment tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any sauna session ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a sauna session tonight in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a hot stone massage tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a relaxation spa tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a wellness appointment tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need spa session ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need relaxation treatment tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find sauna session this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness recovery this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a decompress session tonight",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a relaxation treatment ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a gentle massage tomorrow nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any decompress session this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a spa session tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a massage this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find hot stone massage tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a relaxation spa tomorrow near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a sauna session tomorrow in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness therapy tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a aromatherapy massage tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a sauna session this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a spa package ASAP near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a recovery massage ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a soothing massage ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a aromatherapy massage tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any calm spa visit this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a spa session this afternoon not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a body care tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a massage this weekend",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any recovery massage tomorrow morning not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a relaxation spa tomorrow morning near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a relaxation spa ASAP",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find wellness therapy ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a decompress session tonight near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a calm spa visit ASAP not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need hot stone massage ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a relaxation treatment tonight nearby",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any aromatherapy massage tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a wellness therapy this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any spa package this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a wellness appointment this weekend near the office",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "near_office",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a massage tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a relaxation treatment ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Help me find a gentle massage ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find relaxation treatment this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Looking for a calm spa visit tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get a stress relief treatment ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a sauna session tonight not too far",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "not_far",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a gentle massage this afternoon",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need decompress session tomorrow",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule a hot stone massage ASAP in city center",
+    "service_category": "wellness",
+    "source": "augment",
+    "source_intent": "template_wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  }
+]

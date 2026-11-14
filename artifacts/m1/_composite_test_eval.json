@@ -1,0 +1,2698 @@
+[
+  {
+    "text": "Book a table at Top Pot Doughnuts in Greensburg, AMerican Samoa",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a popular food truck in Kentucky",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "me and edith want to eat in Coventry Lake",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation in 1 second in Atlas with a party of nine",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a table for 6 at a restaurant in Denmark at 22",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a pub for helen and miriam in nine years from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a brasserie",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any wellness therapy in city center this weekend",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a reservation in Deweese for my sister and I",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find urgent healthcare appointment near office",
+    "service_category": "medical",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for 5 at a brasserie that has a reuben sandwich",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to get a restaurant reserved in SD.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book The Fry Bread House for seven in Olive",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a northeastern brazilian restaurant for 10 am",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "list airports near baltimore",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make me a reservation within walking distance in WY for 6 pm",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please make reservations for me and my roommate somewhere in Bouvet Island",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book reservations at Phase 1 in La Jara",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for 8 at The Kitchin on october the 13th, 2039",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get urgent spa booking in city center",
+    "service_category": "wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a reservation for The Brazen Head in Hecker",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for eight in Graf far away",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "pizzeria restaurant in Kellnersville HI that is outdoor for ten",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book an outdoor restaurant.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "casey chavez, lucinda and karina want to eat at a diner on december the 7th",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a irish serving brasserie in AZ",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for 3 in AK.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for wilma, gay and I At The Gowanus Yacht Club in Montenegro",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a latin cuisine pub for 2 on September the 13th, 2037 in Kazakhstan",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book an indoor brasserie within walking distance in ME.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to go to a halal restaurant in twenty minutes around the District Of Columbia and book seats for four",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a restaurant near Wyoming for 5 people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant for six in MP",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in the Marshall Islands for two people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "in 1 second I need a restaurant in San Marino for 9",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a pho restaurant in VT",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find afternoon fitness bootcamp nearby",
+    "service_category": "fitness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "intense"
+    ]
+  },
+  {
+    "text": "Find me a table at a delicatessen in Urbanette that serves rabbit pie",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for nine at an outdoor restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to book a restaurant that has wifi far from TX for me and my parents",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Medical test booking tomorrow nearby",
+    "service_category": "medical",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book reservation at a restaurant in Rocky Fork for 2 people",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for ten at a restaurant with a spa in U.S. Minor Outlying Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need relaxing body care this afternoon",
+    "service_category": "wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "I need a table for 7 people at a bar that specialises in being a protein bar.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat around ID on august the 16th with a party of 8",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Any affordable medical screening downtown",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book urgent workout in downtown now",
+    "service_category": "fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "at 4 am book a bar in the spa in Shamrock for eight",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book cornelia and bettie a table at a brasserie restaurant in Colombia",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant reservation for my gf and I within walking distance of sondra's university",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table at a brasserie type restaurant that serves jain for a party of 8",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a Theme restaurant in Cameroon for 6 people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to book a restaurant in Poncha Springs for 8 at 00:32 am",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for me and sonja at a popular pizzeria",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to book a brasserie in Virginia City, GA.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for four in Orchard Grass Hills, NV",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a table at a restaurant that serves corn relish in Venezuela",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for 10 at the best gastropub",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is flight number for delta from boston to denver",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for four at a restaurant in 1 hour and 1 second",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for now for 4 for an oyster bar",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table at Jacob Wirth Restaurant for 8",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a reservation at a burger joint close-by Choate on july 16th, 2022",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "please book a restaurant with parking facility at taverna",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find me a table for four somewhere",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a brasserie for me and my team at four am",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a reservation for a party of six in Tuvalu",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "table for 6 at a bar",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant with internet in NY for four people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant for three people in Jenkins.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need quick nail service tonight",
+    "service_category": "beauty",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "book a table for 2 guests at a restaurant in Lazy Mountain NY",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a reservation far from my work location in eight hours for 8 people at Union Auto Company",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find affordable strength class downtown",
+    "service_category": "fitness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book the Labworth Café in Ethiopia for six people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for six in Beech Creek",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book the Clarke Cooke House in Uzbekistan",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in Almyra in 10 years",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a table at a top-rated tea house in Suriname",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find nearby clinic appointment ASAP",
+    "service_category": "medical",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a restaurant for six members on Jul. 13, 2036",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a reservation at a brasserie restaurant nearby SC for a party of ten",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to book a food truck for my friend and I",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a gibassier serving tavern in Vermont for nine",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to take my parents and I to eat some romagna at a brasserie in North Dakota",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book The Kegs Drive-In in 37 weeks  in Saudi Arabia",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for a party of 7",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book city-center salon after work",
+    "service_category": "beauty",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table at Atlantic Grill in Lofgreen",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want reservations at a restaurant in Robert Lee for 21:05:17.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a table for 10 at a faraway top-rated brasserie in Malaysia on Oct. the thirteenth.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book the nearby Meriton Grand Hotel Tallinn in Missouri.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for 2 at a restaurant in Mayotte at 06:13 AM",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a bar with mediterranean food for three people",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to find a restaurant to eat at in Westernport.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a table for 2 at a Portugal restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a table for two at a close by bar in Kuwait.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make me a reservation in NE at a distant resturant that is a pizzeria",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a highly rated restaurant with northeastern for 10 in Satanta",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table at a restaurant for 10/24/2028 for me and lauren",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need a low-cost wellness option downtown",
+    "service_category": "wellness",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "book a food court in supper time distant from Northern Mariana Islands for me, winnie and courtney",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need affordable cardio class tomorrow",
+    "service_category": "fitness",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Restaurant in Brokaw for a cuisine russian far restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "how much does first class cost on flight aa 100",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book Bridge Round House for one at meal time in Democratic Republic of the Congo close",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant in Anguilla for one at National Coney Island",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for 9 people for four pm in Johnson.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for a coffeehouse with nine people within the same area as Midland Park",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a table for three at Black Rapids Roadhouse on February 24th, 2039",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant for 2 at top-rated Hoonah TN",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "please book highly rated restaurant  with food truck tuscan for me and adela in Hallam Indiana",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "table at Nankin Cafe fr one",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for 4 at a restaurant in Shambaugh MD",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book the Ballylickey House for 7/16/2027.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you get me a table at a tavern in Slovakia",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book San Francisco Brewing Company for two located at AL",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for three at a top-rated sicilian restaurant in Portugal",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a pub with a pool in White Heath South Carolina.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for six in a Togo restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot in town in the same area as me",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make me a reservation at Illinois Central Railroad Freight Depot in Singapore with vickie rodriguez, lila reyes and ruby",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a bar for 2 in Hayden Row on friday",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a cafe for one in the Cocos Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a cafe table for one that has internet access",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like seats for one at a restaurant in 1 hour at a place in La Madera that has parking",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a bar that serves corn relish with a party of five",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need quick cardio session ASAP",
+    "service_category": "fitness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Book me a table for a party of eight in Germany.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in Belgium for ten in 24 weeks.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book me a restaurant in Freshwater Bay for ava and I in Alaska",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book at table at a brasserie which serves padangnese food.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for ten people",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a restaurant in Henlopen Acres for a party of two.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for ten in Pollock PA",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Let me get reservations at a place neighboring Indonesia on August the nineteenth.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot in the same area as Yankee Doodle Coffee Shop in Madagascar",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table in Fort Loudon at a restaurant for 5",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book reservation at a restaurant in South Mills MT for one at 07:07",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a food truck for greek food for 7",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Would like a table right now for leonor mendoza, imogene and lisa sanchez",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a reservation for an outdoor restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "bar restaurant for November the twelfth, 2030 that is popular and for a party of ten",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a reservation at a place in Iran for neva, alice and maggie parker.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find wellness package this weekend near me",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a close restaurant in SC for seven",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a restaurant in Iowa for 0 o'clock",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table in Cottondale not far for in two hundred sixty nine days",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a cafeteria with wifi",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a highly rated bar in Burkina for georgia and I",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for 10 at The Dome, Edinburgh",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for iris, ina and heidi around 9 pm.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to eat supper at a Lesotho plaCE",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book personal training tomorrow morning",
+    "service_category": "fitness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find nearby evening training with coach",
+    "service_category": "fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a place for me to eat in Connecticut for 9 and a half months from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to eat ice cream at a brasserie with me and my mother in law",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need book a restaurant for this Autumn in Illinois",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a bar for four that serves argentinian in D'Iberville, WY for twelve PM",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for my teens and I six months from now in Tennessee",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "me and katharine would like to go eat at Jan. 22nd in IA",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "show me airports in denver",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot at a tsipouro restaurant in Connecticut",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant table at the food court in the spa sixteen hours from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need weekend salon slot nearby",
+    "service_category": "beauty",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a popular brasserie in Chile with a party of 5",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to book at Clinton Street Baking Company & Restaurant in Brookneal.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need to book a restaurnt for a party of nine on Thomas Jefferson's Birthday",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table in East Timor for a party of nine at 5 North St",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for 1 somewhere in Andorra",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need gentle beauty care for sensitive skin",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": [
+      "gentle"
+    ]
+  },
+  {
+    "text": "Book a tyrolean restaurant in Crocker Indiana now for 3 people.",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "what is the capacity of flight aa 320",
+    "service_category": "travel",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table at a brasserie in Belgium",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book me and my grandparents a restaurant in Saint Helens South Dakota",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for one",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant far from Kokomo this fall.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a table for seven people at a bar with a pool.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for eight at The Original Soup Man in Northern Mariana Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book an osteria for 9 in Gabon that serves donuts",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table at T-Rex for nine in Brunei",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for 10 in the same area  of Inwood - 207th St",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a reservation for mar. 20th in Winnie at any restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for 4 in Illinois",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for ten in Wisconsin",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book reservation for 2 people tomorrow in Whitewater",
+    "service_category": "dining",
+    "temporal_preference": "tomorrow",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for a restaurant in Stonewood, GU",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book an australian restaurant in Moldova",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a highly rated place for 8 at a restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a spot for ten in Morris Ranch SD on nov. the twenty-second, 2023",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a doughnut bar in AMerican Samoa",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make a reservation at a tavern which serves clam cake for a party of 8 in Western Sahara.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book weekend spa for affordable recovery",
+    "service_category": "wellness",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable",
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Book a reservation for five people at a restaurant with pool in Benkelman, MI in Apr.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book reservations at the Laurelhurst Theater for a party of 7",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant for ten people.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for nine people at a brasserie on Jan. 16, 2034",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please make reservations for a bar close-by in Lake Alfred.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a pizza serving tavern for me and my brother",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for 8 during midday in Montana",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for my step father and I",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant on martin luther king jr. day with parking",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find affordable beauty treatment tomorrow afternoon",
+    "service_category": "beauty",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book a highly rated fast food restaurant in Falmouth.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book Nuts on Clark in Irvington for 8 people in one hour.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need affordable medical test near me",
+    "service_category": "medical",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book soothing massage for tomorrow afternoon",
+    "service_category": "wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "I need quick medical advice now",
+    "service_category": "medical",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Book me a table for five at the top-rated Morocco restaurant.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book reservation at The Big Chill Cafe in AR for 10 people",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need city-center medical check this weekend",
+    "service_category": "medical",
+    "temporal_preference": "weekend",
+    "urgency_level": "low",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a table for a party of 4 at a taverna next spring.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Schedule tomorrow evening gym class near office",
+    "service_category": "fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a restaurant in Keeling Islands for a party of ten",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find affordable beauty care near me",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "affordable"
+    ]
+  },
+  {
+    "text": "Book a table for three at a restaurant in Louisiana",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a restaurant far from Grantsburg",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Table for five at a restaurant in Lavina",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to book a puglia food court in KY",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need post-work relaxation tomorrow evening",
+    "service_category": "wellness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "I feel burned out, need fast massage now",
+    "service_category": "wellness",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": [
+      "quick",
+      "relaxing"
+    ]
+  },
+  {
+    "text": "stacy watson and adriana want to go to the best osteria in Hallowell Minnesota this afternoon",
+    "service_category": "dining",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Set me up with a table at a bar with salade for 5",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need beauty treatment nearby",
+    "service_category": "beauty",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need reservations for a party of 3 on all souls' day in Temperance, North Dakota",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want eat at the best spanish restaurant in the Georgia area that is within walking distance for me and my nephew at noon",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book osteria restaurant for 1 person in MI.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for a party of twelve in Lewisville AMerican Samoa for a party of 7 at the Ballachulish House",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "my father in law and I would like to go to a highly rated bar",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book me a restaurant that serves green bean casserole for five people",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant for november 19",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant that serves bouchée for midnight.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I would like to book a donut serving delicatessen in Cuba for 5 on april eleventh",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to book a restaurant in Burkettsville in 2 years  for rhoda adams, roxanne and I",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a dinner reservation in three months for a restaurant in Hills and Dales.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find nearby gym with quick sessions tonight",
+    "service_category": "fitness",
+    "temporal_preference": "evening",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "Need medical follow-up tomorrow afternoon",
+    "service_category": "medical",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for a churrascaria in Oneonta Wyoming for a party of 4",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for Can Fabes nearby Namibia",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you get me a table at a chicken and waffles joint in New Mexico",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table in a Haines Borough restaurant for nine that is within walking distance.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for ten at a pub that has umbrian in NV on feb. the fourth",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant faraway from Albertson now.",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a top-rated pub in Friona",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need a calm spa break after lunch",
+    "service_category": "wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Book me a table for seven in neighboring France.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book the Last Exit on Brooklyn 5 hours from now for one person.",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find a table for 2 at a restaurant in Saint Vincent and the Grenadines",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for Thomas Hynes House on jan. the third in Netherlands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book weekend quick workout nearby",
+    "service_category": "fitness",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "quick"
+    ]
+  },
+  {
+    "text": "I need a reservation at sunrise for melva and heidi at a local restaurant.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Reserve me seating midday at Bear Hotel",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for nona gray, myrtle and alison at a top-rated brasserie that is distant from Wilson Av on Nov. the 4th, 2030 that serves ouzeri",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for 1 at PM Park, Clear Lake, Iowa in Mongolia in 1 hour",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot far from Åland",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for nine near Togo",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to go to a restaurant in French Polynesia",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for 2 at Fashion Cafe in Diwali",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for Orthodox Good Friday",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for 4 at Fish Express",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for 1 at a highly rated restaurant next autumn in Emmons, RI",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book me a bar that's highly rated for georgia and I in Burkina",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table at a churrascaria for august 5 that has parking",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in Papua New Guinea for me and my daughters",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for my great grandfather and I at a place in Booker, AK.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table at Dillard House in Exell, IA",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for a restaurant in Wadsworth with parking",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for selma and molly at a steakhouse with saucisse that is close-by McSherrystown",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "BOok a table for me and georgina at a pub in a spa",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to book a cafeteria in El Reno that serves javanese",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table in Hallwood for one for supper",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book me a table for 6 people at Top of the Mark in Raleigh Hills, Kentucky",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for four at a bar",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for 7 people at a bar in Chile that serves bio.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for ten people at a restaurant which serves snack.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need to find a restaurant for ten people at twelve am in Liechtenstein.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need a calming wellness session tomorrow morning",
+    "service_category": "wellness",
+    "temporal_preference": "morning",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": [
+      "relaxing"
+    ]
+  },
+  {
+    "text": "Find gentle massage nearby this afternoon",
+    "service_category": "wellness",
+    "temporal_preference": "afternoon",
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": [
+      "gentle"
+    ]
+  },
+  {
+    "text": "Need a resevation for a cafeteria stle restaraunt in the country of Liberia for a party of 10",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to go to Antigua and Barbuda and eat at a table for 4.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "courtney and ruby want to eat at a restaurant three years from now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table on 6/14/2035 at a bakery within walking distance of Equatorial Guinea that serves paella",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make me a reservation for a party of eight in Ledoux",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a diner",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book in town for 3 at a restaurant outdoor that is not far",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book close-by for 1 in South Dakota",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for me, edna and alyson at the steakhouse called smoking room",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can I get some russian cuisine at a restaurant with shari and I?",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Please book a restaurant room which serves hangtown fry dish in Jagual",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a bar for six on July eighth, 2023  in the same area in Equatorial Guinea which serves rillettes.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like a table for my teenager and I at the Washington, D.C. Jewish Community Center",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want a table for me and my kids in Turkey at a neighboring restaurant",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book Helianthushof in Hurffville, NJ",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat a restaurant in or nearby Pelahatchie at 12 o'clock",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "nearby",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Find me a bar in Eagle Pass, Vermont that serves noodle dishes, that will take reservations for 2/21/2021.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for National Coney Island with a party of 8 in NV",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a reservation for an indoor restaurant in China",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for 4 people at a restaurant within the same area as my step daughter's position",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for two at Sale Creek at eight AM",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant in Lake Fenton for four",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a reservation for a trentino restaurant in Kansas",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a diner place or me and my best friend on Holy Saturday, capital of United Arab Emirates, where they serve pepperoni dishes",
+    "service_category": "dining",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a brasserie type restaurant that serves pizzas in AMerican Samoa",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "make a reservation at a bakery that has acquacotta in Central African Republic for five",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a table for 4 at a place not far from Palau.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "low",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you get a table at The Triple Door in District Of Columbia for me and deborah vasquez",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant that serves vezione verro one second from now.",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need weekend facial in city center",
+    "service_category": "beauty",
+    "temporal_preference": "weekend",
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for nine at Canteen Lunch in the Alley at Midnight",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a restaurant this year in Manning",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a taverna that serves chili con carne for a party of 10",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a table for five at a restaurant with the best rating",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Can you get seating for 1 person at a cafeteria in Pauls Crossroads",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for mamie and maria at a south tyrolean restaurant within walking distance from Fisk Av-69th St.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book urgent healthcare check near office",
+    "service_category": "medical",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a bar with a pool in Mountain Iron.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for two at a churrascaria that sells cupcake in Lumpkin Indiana now",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in San Juan Capistrano for 6 people at ten am",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Make a reservation for 8 at a diner that serves haystack",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a restaurant in Pinecliffe Missouri this month.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Book a table for ten people in Eucalyptus Hills.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to go to the popular pub at ten PM",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot at the top-rated pub in Garner",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I want to bring antoinette, christine and caitlin to get bread at a restaurant in faraway Connecticut",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I'd like to eat at a top-rated restaurant in Turks and Caicos Islands",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "book a spot for six on October fifth in Mineola",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "Need to book a table downtown within walking distance of me at J.G. Melon",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": "city_center",
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need a restaurant now for a party of ten",
+    "service_category": "dining",
+    "temporal_preference": "ASAP",
+    "urgency_level": "high",
+    "location_context": null,
+    "sentiment_tags": []
+  },
+  {
+    "text": "I need reservations for a party of 8 within the same area at 01:48:35 at a restaurant in Armenia that serves tuscan cuisine.",
+    "service_category": "dining",
+    "temporal_preference": null,
+    "urgency_level": "medium",
+    "location_context": null,
+    "sentiment_tags": []
+  }
+]

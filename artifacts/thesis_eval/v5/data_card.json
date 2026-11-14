@@ -1,0 +1,24 @@
+{
+  "composite_eq_n": 2950,
+  "by_cat": {
+    "beauty": 500,
+    "dining": 548,
+    "fitness": 390,
+    "medical": 560,
+    "travel": 526,
+    "wellness": 426
+  },
+  "by_source": {
+    "in_domain": 200,
+    "sgd": 454,
+    "augment": 462,
+    "snips": 420,
+    "lucid": 275,
+    "hasd": 450,
+    "atis": 500,
+    "confusion_seed": 49,
+    "confusion_augment": 140
+  },
+  "aug_targets": "fitness=200,wellness=200 (recovered from 400 flood)",
+  "eval_leaks": 0
+}

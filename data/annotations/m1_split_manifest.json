@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "train_size": 140,
+  "val_size": 30,
+  "test_size": 30,
+  "train_distribution": {
+    "medical": 36,
+    "wellness": 35,
+    "fitness": 36,
+    "beauty": 33
+  },
+  "val_distribution": {
+    "beauty": 7,
+    "wellness": 10,
+    "medical": 7,
+    "fitness": 6
+  },
+  "test_distribution": {
+    "fitness": 8,
+    "beauty": 10,
+    "wellness": 5,
+    "medical": 7
+  }
+}

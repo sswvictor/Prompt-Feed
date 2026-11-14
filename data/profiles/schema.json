@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AggregatedUserProfile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id",
+    "category_counts",
+    "temporal_counts",
+    "price_tier_counts",
+    "last_updated",
+    "total_sessions"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Anonymous user identifier (not linked to real identity)"
+    },
+    "category_counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "temporal_counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "price_tier_counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "last_updated": {
+      "type": "number",
+      "description": "Unix timestamp for temporal decay"
+    },
+    "total_sessions": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "not": {
+    "anyOf": [
+      { "required": ["raw_input"] },
+      { "required": ["email"] },
+      { "required": ["phone"] },
+      { "required": ["name"] },
+      { "required": ["dialogue"] }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Ethical Intention Booking Assistant
+message: If you use this software, please cite it as below.
+type: software
+authors:
+  - family-names: Song
+    given-names: Shuwei
+    affiliation: KTH Royal Institute of Technology
+license: MIT
+version: 1.0.0
+date-released: "2026-11-14"
+url: "https://github.com/sswvictor/Prompt-Feed"
+repository-code: "https://github.com/sswvictor/Prompt-Feed"
+abstract: >-
+  Thesis prototype for task-oriented booking: NLU, belief tracking,
+  aggregate memory, and LLM replies from a structured intention summary.
+keywords:
+  - task-oriented dialogue
+  - intention inference
+  - belief tracking
+  - data minimisation
+  - large language models
